@@ -54,9 +54,13 @@ Copiar código
 
 👥 Equipo de Trabajo
 Scrum Master: Cordoba Priscila (https://github.com/priscila441)
+
 Desarrollador Frontend y Diseñadora: Nieto Ayelén (https://github.com/Nietoaye)
+
 Desarrollador Backend: Córdoba Gabriel (https://github.com/Gabicba)
+
 Diseñador de Base de Datos: Medrán Rocío (https://github.com/Rocio-Medran)
+
 🤝 Contribuciones
 Las contribuciones se manejan entre los miembros del equipo a través de pull requests y discusiones en el tablero de Jira.
 
