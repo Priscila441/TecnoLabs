@@ -34,20 +34,6 @@ Este proyecto es un **Trabajo Integrador** para la materia **Programación 2**. 
    git clone https://github.com/usuario/proyecto-tecnolabsSA.git
 Abrir el proyecto:
 
-Abre Visual Studio y selecciona el archivo de solución (.sln) para cargar el proyecto.
-Configurar la base de datos:
-
-Asegúrate de tener SQL Server instalado.
-En el directorio /Database, encontrarás un archivo database.sql que contiene el script necesario para crear las tablas y la estructura de la base de datos. Ejecuta este script en SQL Server.
-Inserta algunos datos de prueba si es necesario o sigue las instrucciones proporcionadas en el script.
-Configurar la cadena de conexión:
-
-Ve al archivo app.config y actualiza la cadena de conexión a tu instancia local de SQL Server.
-Asegúrate de que el nombre de la base de datos y las credenciales sean correctas.
-Ejecutar la aplicación:
-
-En Visual Studio, selecciona el proyecto principal y ejecuta la aplicación (Ctrl + F5).
-El sistema te permitirá ingresar con un usuario administrador para acceder a las funcionalidades de gestión de productos.
 📂 Estructura del Proyecto
 plaintext
 Copiar código
@@ -65,11 +51,12 @@ Copiar código
 │   ├── database.sql       # Script SQL para crear tablas y procedimientos
 │
 └── README.md              # Archivo de documentación
+
 👥 Equipo de Trabajo
 Scrum Master: Cordoba Priscila (https://github.com/priscila441)
-Desarrollador Frontend: Nieto Ayelén (https://github.com/Nietoaye)
-Desarrollador Backend: Coórdoba Gabriel (https://github.com/Gabicba)
-Diseñador de Base de Datos: Medrán Rocío (https://github.com/usuario3)
+Desarrollador Frontend y Diseñadora: Nieto Ayelén (https://github.com/Nietoaye)
+Desarrollador Backend: Córdoba Gabriel (https://github.com/Gabicba)
+Diseñador de Base de Datos: Medrán Rocío (https://github.com/Rocio-Medran)
 🤝 Contribuciones
 Las contribuciones se manejan entre los miembros del equipo a través de pull requests y discusiones en el tablero de Jira.
 
@@ -77,10 +64,8 @@ Las contribuciones se manejan entre los miembros del equipo a través de pull re
 El sistema de validación y pruebas es manual. Se realizan pruebas para asegurar que cada funcionalidad CRUD (Crear, Leer, Actualizar, Eliminar) funcione correctamente y que los datos ingresados sean válidos.
 
 📄 Documentación Adicional
-Diagrama de Clases: Disponible en el archivo /Diagrams/diagrama_clases.pdf y diseñado en Lucidchart.
-Tablero Scrum: Gestionado en Jira para el seguimiento de las tareas y el progreso del proyecto.
-markdown
-Copiar código
+Diagrama de Clases: Disponible en el archivo (https://lucid.app/lucidchart/66df3fa4-b9e6-4786-9f08-568e474f5f0b/edit?viewport_loc=-523%2C-2206%2C4160%2C2027%2C0_0&invitationId=inv_0f4399ea-b7af-4b4e-8a1d-8382db596844) y diseñado en Lucidchart.
+Tablero Scrum: Gestionado en Jira para el seguimiento de las tareas y el progreso del proyecto. https://pricordoba441.atlassian.net/jira/software/projects/TLP1/boards/4
 
 ### Instrucciones de Instalación Explicadas:
 - **Clonar el repositorio**: Este paso permite a los desarrolladores descargar el código fuente del proyecto.
