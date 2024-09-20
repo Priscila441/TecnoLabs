@@ -53,6 +53,7 @@ Copiar código
 └── README.md              # Archivo de documentación
 
 👥 Equipo de Trabajo
+
 Scrum Master: Cordoba Priscila (https://github.com/priscila441)
 
 Desarrollador Frontend y Diseñadora: Nieto Ayelén (https://github.com/Nietoaye)
