@@ -71,6 +71,7 @@ El sistema de validación y pruebas es manual. Se realizan pruebas para asegurar
 📄 Documentación Adicional
 Diagrama de Clases: Disponible en el archivo (https://lucid.app/lucidchart/66df3fa4-b9e6-4786-9f08-568e474f5f0b/edit?viewport_loc=-523%2C-2206%2C4160%2C2027%2C0_0&invitationId=inv_0f4399ea-b7af-4b4e-8a1d-8382db596844) y diseñado en Lucidchart.
 Tablero Scrum: Gestionado en Jira para el seguimiento de las tareas y el progreso del proyecto. https://pricordoba441.atlassian.net/jira/software/projects/TLP1/boards/4
+Tablero de Figma: Usamos esta herramienta para diseñar los frames del diseño general y particular: https://www.figma.com/design/piFTSWETHGP3onRe5oUkdf/TecnoLabs?node-id=0-1&node-type=canvas&t=XmEXNtxAwIX0evWu-0
 
 ### Instrucciones de Instalación Explicadas:
 - **Clonar el repositorio**: Este paso permite a los desarrolladores descargar el código fuente del proyecto.
