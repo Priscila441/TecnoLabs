@@ -31,7 +31,7 @@ Este proyecto es un **Trabajo Integrador** para la materia **Programación 2**. 
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/usuario/proyecto-tecnolabsSA.git
+   git clone https://github.com/Priscila441/TecnoLabs.git
 Abrir el proyecto:
 
 📂 Estructura del Proyecto
