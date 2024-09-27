@@ -44,5 +44,15 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\C3-DAL\C3-DAL.csproj">
+      <Project>{16d5f057-06ef-45bb-82be-7608e0ce885f}</Project>
+      <Name>C3-DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4-ENTIDADES\C4-ENTIDAD.csproj">
+      <Project>{52e0dea0-9ce2-4ffc-9e9b-4021b0331b9f}</Project>
+      <Name>C4-ENTIDAD</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

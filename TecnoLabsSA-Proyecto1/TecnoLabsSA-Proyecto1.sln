@@ -7,6 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C1-UI", "TecnoLabsSA-Proyec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C2-BLL", "C2-BLL\C2-BLL.csproj", "{99967145-E32B-4CDE-A79C-98A112EFE0F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C3-DAL", "C3-DAL\C3-DAL.csproj", "{16D5F057-06EF-45BB-82BE-7608E0CE885F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4-ENTIDAD", "C4-ENTIDADES\C4-ENTIDAD.csproj", "{52E0DEA0-9CE2-4FFC-9E9B-4021B0331B9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{F507C913-A421-480C-8F56-5E67A8E3CC6F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +30,14 @@ Global
 		{99967145-E32B-4CDE-A79C-98A112EFE0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99967145-E32B-4CDE-A79C-98A112EFE0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99967145-E32B-4CDE-A79C-98A112EFE0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D5F057-06EF-45BB-82BE-7608E0CE885F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D5F057-06EF-45BB-82BE-7608E0CE885F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D5F057-06EF-45BB-82BE-7608E0CE885F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D5F057-06EF-45BB-82BE-7608E0CE885F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E0DEA0-9CE2-4FFC-9E9B-4021B0331B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E0DEA0-9CE2-4FFC-9E9B-4021B0331B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E0DEA0-9CE2-4FFC-9E9B-4021B0331B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E0DEA0-9CE2-4FFC-9E9B-4021B0331B9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

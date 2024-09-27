@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using C2_BLL;
+using C4_ENTIDADES;
 
 namespace TecnoLabsSA_Proyecto1
 {
