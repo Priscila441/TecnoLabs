@@ -34,9 +34,6 @@ namespace C4_ENTIDADES
                 else throw new ArgumentException("El email debe ser valido");
             } 
         }
-
-
-
         public Persona(int Id, int edad, int dni, string nombre, string apellido, string direccion, string email)
         {
             this.ID = Id;
@@ -47,6 +44,13 @@ namespace C4_ENTIDADES
             this.Direccion = direccion;
             this.Email = email;
         
+        }
+
+        public abstract void InfoPersona();
+
+        public virtual void ListarProducto()
+        {
+            Console.WriteLine("lista de productos base.");
         }
 
     }
