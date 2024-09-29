@@ -14,7 +14,7 @@ namespace C3_DAL
         SqlCommand comando;
         SqlDataReader lector;
 
-        private string connectionString = "Data Source =PHOENIX\\MSSQLSERVER01; Intitial Catalog =PracticoGrupal; Integrated Security =sspi";
+        private string connectionString = "Data Source =PHOENIX\\MSSQLSERVER01; Initial Catalog =PracticoGrupal; Integrated Security =sspi";
 
         public Conexion()
         {
