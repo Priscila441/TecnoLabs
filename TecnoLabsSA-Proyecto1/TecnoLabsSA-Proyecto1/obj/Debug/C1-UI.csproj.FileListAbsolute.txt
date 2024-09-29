@@ -1,0 +1,9 @@
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\bin\Debug\TecnoLabsSA-Proyecto1.exe.config
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\bin\Debug\TecnoLabsSA-Proyecto1.exe
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\bin\Debug\TecnoLabsSA-Proyecto1.pdb
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\obj\Debug\C1-UI.csproj.AssemblyReference.cache
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\obj\Debug\TecnoLabsSA_Proyecto1.Properties.Resources.resources
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\obj\Debug\C1-UI.csproj.GenerateResource.cache
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\obj\Debug\C1-UI.csproj.CoreCompileInputs.cache
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\obj\Debug\TecnoLabsSA-Proyecto1.exe
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\obj\Debug\TecnoLabsSA-Proyecto1.pdb
