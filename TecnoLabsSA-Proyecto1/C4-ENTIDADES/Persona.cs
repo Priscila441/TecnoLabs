@@ -46,12 +46,13 @@ namespace C4_ENTIDADES
         
         }
 
-        public abstract void InfoPersona();
+        public abstract void InfoPersona() ;
 
         public virtual void ListarProducto()
         {
             Console.WriteLine("lista de productos base.");
         }
+        public void LeerPersona() { Console.WriteLine($"datos de la persona : nombre : {Nombre}, apellido:{apellido} ,edad : {Edad} dni:{Dni}, direccion: {Direccion} , email:{Email}"); }
 
     }
 }

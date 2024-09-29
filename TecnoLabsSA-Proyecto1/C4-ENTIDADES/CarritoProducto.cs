@@ -8,15 +8,16 @@ namespace C4_ENTIDADES
 {
     public class CarritoProducto
     {
-        private int idCarritoProducto, idCarrito, idProducto, cantidad, precio;
+        private int idCarritoProducto, idCarrito, idProducto, cantidad;
+        private decimal precio;
 
         public int IdCarritoProducto { get => idCarritoProducto; set => idCarritoProducto = value; }
         public int IdCarrito { get => idCarrito; set => idCarrito = value; }
         public int IdProducto { get => idProducto; set => idProducto = value; }
         public int Cantidad { get => cantidad; set => cantidad = value; }
-        public int Precio { get => precio; set => precio = value; }
+        public decimal Precio { get => precio; set => precio = value; }
 
-        public CarritoProducto(int idCarritoProducto, int idCarrito, int idProducto, int cantidad, int precio)
+        public CarritoProducto(int idCarritoProducto, int idCarrito, int idProducto, int cantidad, decimal precio)
         {
             this.IdCarritoProducto = idCarritoProducto;
             this.IdCarrito = idCarrito;

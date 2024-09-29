@@ -19,7 +19,7 @@ namespace C4_ENTIDADES
         public decimal Impuestos { get => impuestos; set => impuestos = value; }
         public decimal Envio { get => envio; set => envio = value; }
 
-        private Clientes _clientes;
+        public Clientes _clientes;
         public List<CarritoProducto> ProductosEnCarrito { get; set; }
         public Clientes Clientes { get => _clientes; set => _clientes = value; }
 
