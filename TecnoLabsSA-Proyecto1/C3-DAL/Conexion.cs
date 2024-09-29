@@ -46,6 +46,7 @@ namespace C3_DAL
             conexion.Close();
             return listProductos;
         }
+        // METODOS PARA MOSTRAR PRODUCTOS
         public List<ProductoDTO> FiltrarPorMarca(string marca, string orden)
         {
             List<ProductoDTO> listProductos = new List<ProductoDTO>();
@@ -79,6 +80,49 @@ namespace C3_DAL
             }
             conexion.Close();
             return listProductos;
+        }
+
+        // METODO PARA AGREGAR PRODUCTOS
+        public void AgregarProducto(Productos producto)
+        {
+            conexion.Open();
+            comando.CommandText = "INSERT INTO Productos VALUES (@Marca,@Modelo,@Precio,@Stock,@IdCategoria)";
+
+            comando.Parameters.Clear();
+            comando.Parameters.AddWithValue("@Marca", producto.Marca);
+            comando.Parameters.AddWithValue("@Modelo", producto.Modelo);
+            comando.Parameters.AddWithValue("@Precio", producto.Precio);
+            comando.Parameters.AddWithValue("@Stock", producto.Stock);
+            comando.Parameters.AddWithValue("@IdCategoria", producto.IdCategoria);
+
+            comando.ExecuteNonQuery();
+            conexion.Close();
+        }
+
+        // METODO PARA ACTUALIZAR PRECIO Y STOCK DE UN PRODUCTO
+        public void ActualizarPrecioStock(ActualizarProductoDTO producto)
+        {
+            conexion.Open();
+            comando.CommandText = "UPDATE Productos SET Precio = @Precio, Stock = @Stock WHERE IdProducto = @IdProducto";
+
+            comando.Parameters.Clear();
+            comando.Parameters.AddWithValue("@IdProducto", producto.IdProducto);
+            comando.Parameters.AddWithValue("@Precio", producto.Precio);
+            comando.Parameters.AddWithValue("@Stock", producto.Stock);
+
+            comando.ExecuteNonQuery();
+            conexion.Close();
+        }
+
+        // METODO PARA ELIMINAR UN PRODUCTO
+        public void EliminarProducto(Productos producto)
+        {
+            conexion.Open();
+            comando.Parameters.AddWithValue("@IdProducto", producto.IdProducto);
+            comando.CommandText = "DELETE FROM Productos WHERE IdProducto = @IdProducto";
+
+            comando.ExecuteNonQuery();
+            comando.Clone();
         }
     }
 }
