@@ -8,8 +8,8 @@ namespace C4_ENTIDADES
 {
     public abstract class Persona
     {
-        int id, edad, dni;
-        string nombre, apellido, direccion, email;
+        private int id, edad, dni;
+         private string nombre, apellido, direccion, email;
 
         public int ID { get => id; set => id = value; }
         public int Edad

@@ -42,8 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Administradores.cs" />
+    <Compile Include="Carrito.cs" />
+    <Compile Include="CarritoProducto.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Clientes.cs" />
     <Compile Include="Persona.cs" />
+    <Compile Include="Productos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
