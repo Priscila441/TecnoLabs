@@ -1,0 +1,6 @@
+C:\Users\Rocio\Documents\PC 2D\Practico\TecnoLabsSA-Proyecto1\C4-ENTIDADES\bin\Debug\C4-ENTIDADES.dll
+C:\Users\Rocio\Documents\PC 2D\Practico\TecnoLabsSA-Proyecto1\C4-ENTIDADES\bin\Debug\C4-ENTIDADES.pdb
+C:\Users\Rocio\Documents\PC 2D\Practico\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDAD.csproj.AssemblyReference.cache
+C:\Users\Rocio\Documents\PC 2D\Practico\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDAD.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\Documents\PC 2D\Practico\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDADES.dll
+C:\Users\Rocio\Documents\PC 2D\Practico\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDADES.pdb

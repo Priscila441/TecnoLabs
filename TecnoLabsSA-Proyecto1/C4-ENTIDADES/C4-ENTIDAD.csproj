@@ -45,7 +45,7 @@
     <Compile Include="Carrito.cs" />
     <Compile Include="CarritoProducto.cs" />
     <Compile Include="CategoriasProductos.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="ActualizarProductoDTO.cs" />
     <Compile Include="Clientes.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="ProductoDto.cs" />

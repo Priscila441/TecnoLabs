@@ -57,15 +57,15 @@ namespace C3_DAL
             comando.Parameters.AddWithValue("@Marca", marca);
             if (orden == "Menor")
             {
-                comando.CommandText = "SELECT * FROM ViewProductos WHERE Marca = @Marca ORDER BY Precio ASC";
+                comando.CommandText = "SELECT * FROM VistaProductos WHERE Marca = @Marca ORDER BY Precio ASC";
             }
             else if (orden == "Mayor")
             {
-                comando.CommandText = "SELECT * FROM ViewProductos WHERE Marca = @Marca ORDER BY Precio DESC";
+                comando.CommandText = "SELECT * FROM VistaProductos WHERE Marca = @Marca ORDER BY Precio DESC";
             }
             else
             {
-                comando.CommandText = "SELECT * FROM ViewProductos WHERE Marca = @Marca";
+                comando.CommandText = "SELECT * FROM VistaProductos WHERE Marca = @Marca";
             }
             lector = comando.ExecuteReader();
             while (lector.Read())
