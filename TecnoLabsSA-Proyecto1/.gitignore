@@ -4,6 +4,8 @@
 # Ignorar binarios compilados
 bin/
 obj/
+/obj/
+
 
 # Archivos de publicación
 publish/
