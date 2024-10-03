@@ -15,6 +15,17 @@ namespace TecnoLabsSA_Proyecto1
         public FormCarrito()
         {
             InitializeComponent();
+            this.Dock = DockStyle.Fill; // Asegúrate de que el formulario llene el contenedor
+        }
+
+        //Se realiza click en el boton para volver a la pantalla principal
+        private void BtnVolverCarrito_Click(object sender, EventArgs e)
+        {
+            FormInicio main = new FormInicio();
+            // panelPrincipal.Visible = false;
+            //PanelContenedor.Visible = true;
+            main.Show();
+            this.Close();
         }
     }
 }

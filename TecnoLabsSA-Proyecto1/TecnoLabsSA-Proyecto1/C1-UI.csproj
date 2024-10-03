@@ -353,5 +353,26 @@
   <ItemGroup>
     <None Include="Resources\redomm.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formulario inicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formulario inicio1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo App.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo App1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final app.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\APP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\APPP.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

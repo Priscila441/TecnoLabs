@@ -16,5 +16,14 @@ namespace TecnoLabsSA_Proyecto1
         {
             InitializeComponent();
         }
+        
+        //Se realiza click en el boton para volver a la pantalla principal
+        private void BtnVolverCelu_Click(object sender, EventArgs e)
+        {
+            FormInicio main = new FormInicio();
+            //panelPrincipal.Visible = true;
+            main.Show();
+            this.Close();
+        }
     }
 }

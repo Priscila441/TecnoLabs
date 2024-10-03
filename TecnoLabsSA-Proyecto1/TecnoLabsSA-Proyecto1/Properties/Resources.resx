@@ -127,6 +127,9 @@
   <data name="Nueva-ISO-27002" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nueva-ISO-27002.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="APP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lenovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lenovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,6 +171,9 @@
   </data>
   <data name="asus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\asus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="formulario inicio1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formulario inicio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,6 +223,9 @@
   <data name="carrito1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\carrito1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fondo App1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo App1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="download3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -265,6 +274,9 @@
   <data name="Sale 30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sale 30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="final app" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\final app.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cupones circular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cupones circular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -292,6 +304,12 @@
   <data name="download1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="redomm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redomm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fondo App" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo App.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="carrito" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\carrito.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -313,7 +331,10 @@
   <data name="iphonee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iphonee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="redomm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\redomm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="formulario inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formulario inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

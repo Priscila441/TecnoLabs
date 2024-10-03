@@ -103,6 +103,26 @@ namespace TecnoLabsSA_Proyecto1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap APP {
+            get {
+                object obj = ResourceManager.GetObject("APP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap APPP {
+            get {
+                object obj = ResourceManager.GetObject("APPP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap asus {
             get {
                 object obj = ResourceManager.GetObject("asus", resourceCulture);
@@ -366,6 +386,56 @@ namespace TecnoLabsSA_Proyecto1.Properties {
         internal static System.Drawing.Bitmap exitt {
             get {
                 object obj = ResourceManager.GetObject("exitt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap final_app {
+            get {
+                object obj = ResourceManager.GetObject("final app", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fondo_App {
+            get {
+                object obj = ResourceManager.GetObject("Fondo App", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fondo_App1 {
+            get {
+                object obj = ResourceManager.GetObject("Fondo App1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap formulario_inicio {
+            get {
+                object obj = ResourceManager.GetObject("formulario inicio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap formulario_inicio1 {
+            get {
+                object obj = ResourceManager.GetObject("formulario inicio1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

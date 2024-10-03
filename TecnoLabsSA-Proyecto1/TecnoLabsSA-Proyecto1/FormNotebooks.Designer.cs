@@ -28,24 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNotebooks));
-            this.panelSuperior = new System.Windows.Forms.Panel();
-            this.BtnCarrito = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.BtnContactanos = new Guna.UI2.WinForms.Guna2Button();
-            this.TextBoxBuscador = new Guna.UI2.WinForms.Guna2TextBox();
-            this.labelCarrito = new System.Windows.Forms.Label();
-            this.PictureBoxSale30 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.panelMenuCategorias = new System.Windows.Forms.Panel();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.PanelDesplegable = new Guna.UI2.WinForms.Guna2Panel();
-            this.BtnTablets = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.BtnCircular = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.BtnAdministrador = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.BtnNotebooks = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.pictureBoxOctaculochiquito = new System.Windows.Forms.PictureBox();
-            this.guna2PictureBoxSupersale = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.pictureBoxLogoTecnoLabs = new System.Windows.Forms.PictureBox();
-            this.pictureBoxOctagonal = new System.Windows.Forms.PictureBox();
             this.TextBoxNotebooks1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.labelPrecioAnteriorNotebooks1 = new System.Windows.Forms.Label();
             this.label10porciento = new System.Windows.Forms.Label();
@@ -107,15 +89,7 @@
             this.labelDescripcionNotebooks1 = new System.Windows.Forms.Label();
             this.PictureBoxNotebooks1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.labelPrecioActualNotebooks1 = new System.Windows.Forms.Label();
-            this.BntIconoNotebooks = new FontAwesome.Sharp.IconButton();
-            this.panelSuperior.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxSale30)).BeginInit();
-            this.panelMenuCategorias.SuspendLayout();
-            this.PanelDesplegable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctaculochiquito)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxSupersale)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoTecnoLabs)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctagonal)).BeginInit();
+            this.BtnVolverNotebooks = new Guna.UI2.WinForms.Guna2CircleButton();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePictureBoxCompartirNote1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePictureBoxCorazonNote3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePictureBoxCorazonNote2)).BeginInit();
@@ -137,257 +111,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxNotebooks1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panelSuperior
-            // 
-            this.panelSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
-            this.panelSuperior.Controls.Add(this.BtnCarrito);
-            this.panelSuperior.Controls.Add(this.BtnContactanos);
-            this.panelSuperior.Controls.Add(this.TextBoxBuscador);
-            this.panelSuperior.Controls.Add(this.labelCarrito);
-            this.panelSuperior.Controls.Add(this.PictureBoxSale30);
-            this.panelSuperior.Location = new System.Drawing.Point(95, 0);
-            this.panelSuperior.Name = "panelSuperior";
-            this.panelSuperior.Size = new System.Drawing.Size(932, 49);
-            this.panelSuperior.TabIndex = 4;
-            // 
-            // BtnCarrito
-            // 
-            this.BtnCarrito.BorderThickness = 90;
-            this.BtnCarrito.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnCarrito.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnCarrito.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnCarrito.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnCarrito.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
-            this.BtnCarrito.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnCarrito.ForeColor = System.Drawing.Color.White;
-            this.BtnCarrito.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.Carrito_circulo;
-            this.BtnCarrito.ImageSize = new System.Drawing.Size(90, 90);
-            this.BtnCarrito.Location = new System.Drawing.Point(721, 4);
-            this.BtnCarrito.Name = "BtnCarrito";
-            this.BtnCarrito.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.BtnCarrito.Size = new System.Drawing.Size(50, 41);
-            this.BtnCarrito.TabIndex = 3;
-            // 
-            // BtnContactanos
-            // 
-            this.BtnContactanos.BorderRadius = 15;
-            this.BtnContactanos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnContactanos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnContactanos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnContactanos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnContactanos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(88)))), ((int)(((byte)(137)))));
-            this.BtnContactanos.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnContactanos.ForeColor = System.Drawing.Color.White;
-            this.BtnContactanos.Location = new System.Drawing.Point(823, 8);
-            this.BtnContactanos.Name = "BtnContactanos";
-            this.BtnContactanos.Size = new System.Drawing.Size(99, 32);
-            this.BtnContactanos.TabIndex = 4;
-            this.BtnContactanos.Text = "Contactános";
-            // 
-            // TextBoxBuscador
-            // 
-            this.TextBoxBuscador.BorderColor = System.Drawing.Color.White;
-            this.TextBoxBuscador.BorderRadius = 10;
-            this.TextBoxBuscador.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
-            this.TextBoxBuscador.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TextBoxBuscador.DefaultText = "";
-            this.TextBoxBuscador.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TextBoxBuscador.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TextBoxBuscador.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxBuscador.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxBuscador.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
-            this.TextBoxBuscador.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxBuscador.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.TextBoxBuscador.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxBuscador.Location = new System.Drawing.Point(23, 13);
-            this.TextBoxBuscador.Name = "TextBoxBuscador";
-            this.TextBoxBuscador.PasswordChar = '\0';
-            this.TextBoxBuscador.PlaceholderText = "                                         Buscar Productos";
-            this.TextBoxBuscador.SelectedText = "";
-            this.TextBoxBuscador.Size = new System.Drawing.Size(356, 22);
-            this.TextBoxBuscador.TabIndex = 3;
-            // 
-            // labelCarrito
-            // 
-            this.labelCarrito.AutoSize = true;
-            this.labelCarrito.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCarrito.ForeColor = System.Drawing.Color.White;
-            this.labelCarrito.Location = new System.Drawing.Point(675, 17);
-            this.labelCarrito.Name = "labelCarrito";
-            this.labelCarrito.Size = new System.Drawing.Size(45, 15);
-            this.labelCarrito.TabIndex = 2;
-            this.labelCarrito.Text = "Carrito";
-            // 
-            // PictureBoxSale30
-            // 
-            this.PictureBoxSale30.BorderRadius = 20;
-            this.PictureBoxSale30.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.Sale_30;
-            this.PictureBoxSale30.ImageRotate = 0F;
-            this.PictureBoxSale30.Location = new System.Drawing.Point(437, 2);
-            this.PictureBoxSale30.Name = "PictureBoxSale30";
-            this.PictureBoxSale30.Size = new System.Drawing.Size(124, 46);
-            this.PictureBoxSale30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBoxSale30.TabIndex = 1;
-            this.PictureBoxSale30.TabStop = false;
-            // 
-            // panelMenuCategorias
-            // 
-            this.panelMenuCategorias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
-            this.panelMenuCategorias.Controls.Add(this.guna2CircleButton1);
-            this.panelMenuCategorias.Controls.Add(this.PanelDesplegable);
-            this.panelMenuCategorias.Controls.Add(this.guna2PictureBoxSupersale);
-            this.panelMenuCategorias.Controls.Add(this.pictureBoxLogoTecnoLabs);
-            this.panelMenuCategorias.Controls.Add(this.pictureBoxOctagonal);
-            this.panelMenuCategorias.Location = new System.Drawing.Point(-1, 1);
-            this.panelMenuCategorias.Name = "panelMenuCategorias";
-            this.panelMenuCategorias.Size = new System.Drawing.Size(96, 559);
-            this.panelMenuCategorias.TabIndex = 5;
-            // 
-            // guna2CircleButton1
-            // 
-            this.guna2CircleButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
-            this.guna2CircleButton1.BorderThickness = 25;
-            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.exit_redondeado;
-            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(220, 220);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(8, 499);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(80, 53);
-            this.guna2CircleButton1.TabIndex = 14;
-            // 
-            // PanelDesplegable
-            // 
-            this.PanelDesplegable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(73)))));
-            this.PanelDesplegable.BorderColor = System.Drawing.Color.DimGray;
-            this.PanelDesplegable.BorderRadius = 5;
-            this.PanelDesplegable.BorderThickness = 2;
-            this.PanelDesplegable.Controls.Add(this.BtnTablets);
-            this.PanelDesplegable.Controls.Add(this.BtnCircular);
-            this.PanelDesplegable.Controls.Add(this.BtnAdministrador);
-            this.PanelDesplegable.Controls.Add(this.BtnNotebooks);
-            this.PanelDesplegable.Controls.Add(this.pictureBoxOctaculochiquito);
-            this.PanelDesplegable.Location = new System.Drawing.Point(20, 70);
-            this.PanelDesplegable.Name = "PanelDesplegable";
-            this.PanelDesplegable.Size = new System.Drawing.Size(75, 243);
-            this.PanelDesplegable.TabIndex = 4;
-            // 
-            // BtnTablets
-            // 
-            this.BtnTablets.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnTablets.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnTablets.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnTablets.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnTablets.FillColor = System.Drawing.Color.Transparent;
-            this.BtnTablets.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnTablets.ForeColor = System.Drawing.Color.White;
-            this.BtnTablets.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.tablets_circular;
-            this.BtnTablets.ImageSize = new System.Drawing.Size(200, 200);
-            this.BtnTablets.Location = new System.Drawing.Point(8, 184);
-            this.BtnTablets.Name = "BtnTablets";
-            this.BtnTablets.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.BtnTablets.Size = new System.Drawing.Size(58, 47);
-            this.BtnTablets.TabIndex = 10;
-            // 
-            // BtnCircular
-            // 
-            this.BtnCircular.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnCircular.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnCircular.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnCircular.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnCircular.FillColor = System.Drawing.Color.Transparent;
-            this.BtnCircular.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnCircular.ForeColor = System.Drawing.Color.White;
-            this.BtnCircular.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.celular_circular;
-            this.BtnCircular.ImageSize = new System.Drawing.Size(90, 90);
-            this.BtnCircular.Location = new System.Drawing.Point(8, 128);
-            this.BtnCircular.Name = "BtnCircular";
-            this.BtnCircular.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.BtnCircular.Size = new System.Drawing.Size(58, 47);
-            this.BtnCircular.TabIndex = 9;
-            // 
-            // BtnAdministrador
-            // 
-            this.BtnAdministrador.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnAdministrador.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnAdministrador.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnAdministrador.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnAdministrador.FillColor = System.Drawing.Color.Transparent;
-            this.BtnAdministrador.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnAdministrador.ForeColor = System.Drawing.Color.White;
-            this.BtnAdministrador.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.Administrador_circulo;
-            this.BtnAdministrador.ImageSize = new System.Drawing.Size(350, 350);
-            this.BtnAdministrador.Location = new System.Drawing.Point(10, 8);
-            this.BtnAdministrador.Name = "BtnAdministrador";
-            this.BtnAdministrador.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.BtnAdministrador.Size = new System.Drawing.Size(58, 47);
-            this.BtnAdministrador.TabIndex = 3;
-            // 
-            // BtnNotebooks
-            // 
-            this.BtnNotebooks.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnNotebooks.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnNotebooks.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnNotebooks.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnNotebooks.FillColor = System.Drawing.Color.Transparent;
-            this.BtnNotebooks.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnNotebooks.ForeColor = System.Drawing.Color.White;
-            this.BtnNotebooks.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.Noteboks_circular;
-            this.BtnNotebooks.ImageSize = new System.Drawing.Size(250, 250);
-            this.BtnNotebooks.Location = new System.Drawing.Point(5, 70);
-            this.BtnNotebooks.Name = "BtnNotebooks";
-            this.BtnNotebooks.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.BtnNotebooks.Size = new System.Drawing.Size(63, 47);
-            this.BtnNotebooks.TabIndex = 4;
-            // 
-            // pictureBoxOctaculochiquito
-            // 
-            this.pictureBoxOctaculochiquito.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxOctaculochiquito.Image")));
-            this.pictureBoxOctaculochiquito.Location = new System.Drawing.Point(2, 8);
-            this.pictureBoxOctaculochiquito.Name = "pictureBoxOctaculochiquito";
-            this.pictureBoxOctaculochiquito.Size = new System.Drawing.Size(61, 47);
-            this.pictureBoxOctaculochiquito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxOctaculochiquito.TabIndex = 4;
-            this.pictureBoxOctaculochiquito.TabStop = false;
-            // 
-            // guna2PictureBoxSupersale
-            // 
-            this.guna2PictureBoxSupersale.BorderRadius = 25;
-            this.guna2PictureBoxSupersale.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBoxSupersale.Image")));
-            this.guna2PictureBoxSupersale.ImageRotate = 0F;
-            this.guna2PictureBoxSupersale.Location = new System.Drawing.Point(9, 421);
-            this.guna2PictureBoxSupersale.Name = "guna2PictureBoxSupersale";
-            this.guna2PictureBoxSupersale.Size = new System.Drawing.Size(78, 68);
-            this.guna2PictureBoxSupersale.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBoxSupersale.TabIndex = 2;
-            this.guna2PictureBoxSupersale.TabStop = false;
-            // 
-            // pictureBoxLogoTecnoLabs
-            // 
-            this.pictureBoxLogoTecnoLabs.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogoTecnoLabs.Image")));
-            this.pictureBoxLogoTecnoLabs.Location = new System.Drawing.Point(0, -2);
-            this.pictureBoxLogoTecnoLabs.Name = "pictureBoxLogoTecnoLabs";
-            this.pictureBoxLogoTecnoLabs.Size = new System.Drawing.Size(94, 63);
-            this.pictureBoxLogoTecnoLabs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxLogoTecnoLabs.TabIndex = 0;
-            this.pictureBoxLogoTecnoLabs.TabStop = false;
-            // 
-            // pictureBoxOctagonal
-            // 
-            this.pictureBoxOctagonal.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxOctagonal.Image")));
-            this.pictureBoxOctagonal.Location = new System.Drawing.Point(2, 161);
-            this.pictureBoxOctagonal.Name = "pictureBoxOctagonal";
-            this.pictureBoxOctagonal.Size = new System.Drawing.Size(92, 47);
-            this.pictureBoxOctagonal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxOctagonal.TabIndex = 1;
-            this.pictureBoxOctagonal.TabStop = false;
-            // 
             // TextBoxNotebooks1
             // 
             this.TextBoxNotebooks1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
@@ -404,7 +127,7 @@
             this.TextBoxNotebooks1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TextBoxNotebooks1.ForeColor = System.Drawing.Color.Black;
             this.TextBoxNotebooks1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxNotebooks1.Location = new System.Drawing.Point(158, 211);
+            this.TextBoxNotebooks1.Location = new System.Drawing.Point(63, 161);
             this.TextBoxNotebooks1.Name = "TextBoxNotebooks1";
             this.TextBoxNotebooks1.PasswordChar = '\0';
             this.TextBoxNotebooks1.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -419,7 +142,7 @@
             this.labelPrecioAnteriorNotebooks1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioAnteriorNotebooks1.Font = new System.Drawing.Font("Segoe UI Black", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPrecioAnteriorNotebooks1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(82)))), ((int)(((byte)(77)))));
-            this.labelPrecioAnteriorNotebooks1.Location = new System.Drawing.Point(163, 232);
+            this.labelPrecioAnteriorNotebooks1.Location = new System.Drawing.Point(68, 182);
             this.labelPrecioAnteriorNotebooks1.Name = "labelPrecioAnteriorNotebooks1";
             this.labelPrecioAnteriorNotebooks1.Size = new System.Drawing.Size(50, 12);
             this.labelPrecioAnteriorNotebooks1.TabIndex = 14;
@@ -431,7 +154,7 @@
             this.label10porciento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label10porciento.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10porciento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label10porciento.Location = new System.Drawing.Point(235, 245);
+            this.label10porciento.Location = new System.Drawing.Point(140, 195);
             this.label10porciento.Name = "label10porciento";
             this.label10porciento.Size = new System.Drawing.Size(70, 17);
             this.label10porciento.TabIndex = 16;
@@ -443,7 +166,7 @@
             this.label12cuotasNotebooks1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label12cuotasNotebooks1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12cuotasNotebooks1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label12cuotasNotebooks1.Location = new System.Drawing.Point(158, 262);
+            this.label12cuotasNotebooks1.Location = new System.Drawing.Point(63, 212);
             this.label12cuotasNotebooks1.Name = "label12cuotasNotebooks1";
             this.label12cuotasNotebooks1.Size = new System.Drawing.Size(218, 13);
             this.label12cuotasNotebooks1.TabIndex = 17;
@@ -455,7 +178,7 @@
             this.labelmediosdepago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelmediosdepago.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelmediosdepago.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelmediosdepago.Location = new System.Drawing.Point(157, 276);
+            this.labelmediosdepago.Location = new System.Drawing.Point(62, 226);
             this.labelmediosdepago.Name = "labelmediosdepago";
             this.labelmediosdepago.Size = new System.Drawing.Size(132, 13);
             this.labelmediosdepago.TabIndex = 18;
@@ -467,7 +190,7 @@
             this.labellegagratisNote1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labellegagratisNote1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labellegagratisNote1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.labellegagratisNote1.Location = new System.Drawing.Point(158, 290);
+            this.labellegagratisNote1.Location = new System.Drawing.Point(63, 240);
             this.labellegagratisNote1.Name = "labellegagratisNote1";
             this.labellegagratisNote1.Size = new System.Drawing.Size(71, 13);
             this.labellegagratisNote1.TabIndex = 19;
@@ -479,7 +202,7 @@
             this.labeljuevesNote1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labeljuevesNote1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeljuevesNote1.ForeColor = System.Drawing.Color.Black;
-            this.labeljuevesNote1.Location = new System.Drawing.Point(229, 290);
+            this.labeljuevesNote1.Location = new System.Drawing.Point(134, 240);
             this.labeljuevesNote1.Name = "labeljuevesNote1";
             this.labeljuevesNote1.Size = new System.Drawing.Size(52, 13);
             this.labeljuevesNote1.TabIndex = 20;
@@ -491,7 +214,7 @@
             this.labelentreganote1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelentreganote1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelentreganote1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelentreganote1.Location = new System.Drawing.Point(195, 315);
+            this.labelentreganote1.Location = new System.Drawing.Point(100, 265);
             this.labelentreganote1.Name = "labelentreganote1";
             this.labelentreganote1.Size = new System.Drawing.Size(134, 13);
             this.labelentreganote1.TabIndex = 21;
@@ -503,7 +226,7 @@
             this.labelstockNote1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelstockNote1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelstockNote1.ForeColor = System.Drawing.Color.Black;
-            this.labelstockNote1.Location = new System.Drawing.Point(159, 338);
+            this.labelstockNote1.Location = new System.Drawing.Point(64, 288);
             this.labelstockNote1.Name = "labelstockNote1";
             this.labelstockNote1.Size = new System.Drawing.Size(95, 13);
             this.labelstockNote1.TabIndex = 23;
@@ -525,7 +248,7 @@
             this.TextBoxstockNote1.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxstockNote1.ForeColor = System.Drawing.Color.Black;
             this.TextBoxstockNote1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxstockNote1.Location = new System.Drawing.Point(254, 335);
+            this.TextBoxstockNote1.Location = new System.Drawing.Point(159, 285);
             this.TextBoxstockNote1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TextBoxstockNote1.Name = "TextBoxstockNote1";
             this.TextBoxstockNote1.PasswordChar = '\0';
@@ -546,7 +269,7 @@
             this.BtnAgregaralCarritoNote1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.BtnAgregaralCarritoNote1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAgregaralCarritoNote1.ForeColor = System.Drawing.Color.Black;
-            this.BtnAgregaralCarritoNote1.Location = new System.Drawing.Point(176, 399);
+            this.BtnAgregaralCarritoNote1.Location = new System.Drawing.Point(81, 349);
             this.BtnAgregaralCarritoNote1.Name = "BtnAgregaralCarritoNote1";
             this.BtnAgregaralCarritoNote1.Size = new System.Drawing.Size(174, 32);
             this.BtnAgregaralCarritoNote1.TabIndex = 25;
@@ -563,7 +286,7 @@
             this.BtnComprarNotebooks1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarNotebooks1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarNotebooks1.ForeColor = System.Drawing.Color.White;
-            this.BtnComprarNotebooks1.Location = new System.Drawing.Point(176, 362);
+            this.BtnComprarNotebooks1.Location = new System.Drawing.Point(81, 312);
             this.BtnComprarNotebooks1.Name = "BtnComprarNotebooks1";
             this.BtnComprarNotebooks1.Size = new System.Drawing.Size(174, 32);
             this.BtnComprarNotebooks1.TabIndex = 26;
@@ -575,7 +298,7 @@
             this.labelDescripcionNotebooks2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelDescripcionNotebooks2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescripcionNotebooks2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.labelDescripcionNotebooks2.Location = new System.Drawing.Point(458, 62);
+            this.labelDescripcionNotebooks2.Location = new System.Drawing.Point(366, 11);
             this.labelDescripcionNotebooks2.Name = "labelDescripcionNotebooks2";
             this.labelDescripcionNotebooks2.Size = new System.Drawing.Size(221, 26);
             this.labelDescripcionNotebooks2.TabIndex = 29;
@@ -597,7 +320,7 @@
             this.TextBoxNotebooks2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TextBoxNotebooks2.ForeColor = System.Drawing.Color.Black;
             this.TextBoxNotebooks2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxNotebooks2.Location = new System.Drawing.Point(454, 214);
+            this.TextBoxNotebooks2.Location = new System.Drawing.Point(362, 163);
             this.TextBoxNotebooks2.Name = "TextBoxNotebooks2";
             this.TextBoxNotebooks2.PasswordChar = '\0';
             this.TextBoxNotebooks2.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -612,7 +335,7 @@
             this.labelPrecioAnteriorNotebooks2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioAnteriorNotebooks2.Font = new System.Drawing.Font("Segoe UI Black", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPrecioAnteriorNotebooks2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(82)))), ((int)(((byte)(77)))));
-            this.labelPrecioAnteriorNotebooks2.Location = new System.Drawing.Point(458, 236);
+            this.labelPrecioAnteriorNotebooks2.Location = new System.Drawing.Point(366, 185);
             this.labelPrecioAnteriorNotebooks2.Name = "labelPrecioAnteriorNotebooks2";
             this.labelPrecioAnteriorNotebooks2.Size = new System.Drawing.Size(49, 12);
             this.labelPrecioAnteriorNotebooks2.TabIndex = 33;
@@ -623,7 +346,7 @@
             this.labelPrecioActualNotebooks2.AutoSize = true;
             this.labelPrecioActualNotebooks2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioActualNotebooks2.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrecioActualNotebooks2.Location = new System.Drawing.Point(457, 248);
+            this.labelPrecioActualNotebooks2.Location = new System.Drawing.Point(365, 197);
             this.labelPrecioActualNotebooks2.Name = "labelPrecioActualNotebooks2";
             this.labelPrecioActualNotebooks2.Size = new System.Drawing.Size(74, 17);
             this.labelPrecioActualNotebooks2.TabIndex = 34;
@@ -635,7 +358,7 @@
             this.label14porciento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label14porciento.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14porciento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label14porciento.Location = new System.Drawing.Point(528, 248);
+            this.label14porciento.Location = new System.Drawing.Point(436, 197);
             this.label14porciento.Name = "label14porciento";
             this.label14porciento.Size = new System.Drawing.Size(70, 17);
             this.label14porciento.TabIndex = 35;
@@ -647,7 +370,7 @@
             this.label12cuotasNotebooks2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label12cuotasNotebooks2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12cuotasNotebooks2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label12cuotasNotebooks2.Location = new System.Drawing.Point(457, 264);
+            this.label12cuotasNotebooks2.Location = new System.Drawing.Point(365, 213);
             this.label12cuotasNotebooks2.Name = "label12cuotasNotebooks2";
             this.label12cuotasNotebooks2.Size = new System.Drawing.Size(213, 13);
             this.label12cuotasNotebooks2.TabIndex = 36;
@@ -659,7 +382,7 @@
             this.labelmediosdepago2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelmediosdepago2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelmediosdepago2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelmediosdepago2.Location = new System.Drawing.Point(456, 277);
+            this.labelmediosdepago2.Location = new System.Drawing.Point(364, 226);
             this.labelmediosdepago2.Name = "labelmediosdepago2";
             this.labelmediosdepago2.Size = new System.Drawing.Size(132, 13);
             this.labelmediosdepago2.TabIndex = 37;
@@ -671,7 +394,7 @@
             this.labellegagratisNote2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labellegagratisNote2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labellegagratisNote2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.labellegagratisNote2.Location = new System.Drawing.Point(457, 288);
+            this.labellegagratisNote2.Location = new System.Drawing.Point(365, 237);
             this.labellegagratisNote2.Name = "labellegagratisNote2";
             this.labellegagratisNote2.Size = new System.Drawing.Size(71, 13);
             this.labellegagratisNote2.TabIndex = 38;
@@ -683,7 +406,7 @@
             this.labelviernesNote2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelviernesNote2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelviernesNote2.ForeColor = System.Drawing.Color.Black;
-            this.labelviernesNote2.Location = new System.Drawing.Point(527, 288);
+            this.labelviernesNote2.Location = new System.Drawing.Point(435, 237);
             this.labelviernesNote2.Name = "labelviernesNote2";
             this.labelviernesNote2.Size = new System.Drawing.Size(57, 13);
             this.labelviernesNote2.TabIndex = 39;
@@ -695,7 +418,7 @@
             this.labelentreganote2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelentreganote2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelentreganote2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelentreganote2.Location = new System.Drawing.Point(490, 310);
+            this.labelentreganote2.Location = new System.Drawing.Point(398, 259);
             this.labelentreganote2.Name = "labelentreganote2";
             this.labelentreganote2.Size = new System.Drawing.Size(134, 13);
             this.labelentreganote2.TabIndex = 41;
@@ -707,7 +430,7 @@
             this.labelstockNote2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelstockNote2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelstockNote2.ForeColor = System.Drawing.Color.Black;
-            this.labelstockNote2.Location = new System.Drawing.Point(455, 334);
+            this.labelstockNote2.Location = new System.Drawing.Point(363, 283);
             this.labelstockNote2.Name = "labelstockNote2";
             this.labelstockNote2.Size = new System.Drawing.Size(95, 13);
             this.labelstockNote2.TabIndex = 42;
@@ -729,7 +452,7 @@
             this.TextBoxstockNote2.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxstockNote2.ForeColor = System.Drawing.Color.Black;
             this.TextBoxstockNote2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxstockNote2.Location = new System.Drawing.Point(552, 332);
+            this.TextBoxstockNote2.Location = new System.Drawing.Point(460, 281);
             this.TextBoxstockNote2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TextBoxstockNote2.Name = "TextBoxstockNote2";
             this.TextBoxstockNote2.PasswordChar = '\0';
@@ -750,7 +473,7 @@
             this.BtnComprarNotebooks2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarNotebooks2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarNotebooks2.ForeColor = System.Drawing.Color.White;
-            this.BtnComprarNotebooks2.Location = new System.Drawing.Point(479, 360);
+            this.BtnComprarNotebooks2.Location = new System.Drawing.Point(387, 309);
             this.BtnComprarNotebooks2.Name = "BtnComprarNotebooks2";
             this.BtnComprarNotebooks2.Size = new System.Drawing.Size(174, 32);
             this.BtnComprarNotebooks2.TabIndex = 44;
@@ -767,7 +490,7 @@
             this.BtnAgregaralCarritoNote2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.BtnAgregaralCarritoNote2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAgregaralCarritoNote2.ForeColor = System.Drawing.Color.Black;
-            this.BtnAgregaralCarritoNote2.Location = new System.Drawing.Point(480, 398);
+            this.BtnAgregaralCarritoNote2.Location = new System.Drawing.Point(388, 347);
             this.BtnAgregaralCarritoNote2.Name = "BtnAgregaralCarritoNote2";
             this.BtnAgregaralCarritoNote2.Size = new System.Drawing.Size(174, 32);
             this.BtnAgregaralCarritoNote2.TabIndex = 45;
@@ -779,7 +502,7 @@
             this.labelDescripcionNotebooks3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelDescripcionNotebooks3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescripcionNotebooks3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.labelDescripcionNotebooks3.Location = new System.Drawing.Point(754, 64);
+            this.labelDescripcionNotebooks3.Location = new System.Drawing.Point(660, 13);
             this.labelDescripcionNotebooks3.Name = "labelDescripcionNotebooks3";
             this.labelDescripcionNotebooks3.Size = new System.Drawing.Size(221, 26);
             this.labelDescripcionNotebooks3.TabIndex = 46;
@@ -801,7 +524,7 @@
             this.TextBoxNotebooks3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TextBoxNotebooks3.ForeColor = System.Drawing.Color.Black;
             this.TextBoxNotebooks3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxNotebooks3.Location = new System.Drawing.Point(753, 218);
+            this.TextBoxNotebooks3.Location = new System.Drawing.Point(659, 167);
             this.TextBoxNotebooks3.Name = "TextBoxNotebooks3";
             this.TextBoxNotebooks3.PasswordChar = '\0';
             this.TextBoxNotebooks3.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -816,7 +539,7 @@
             this.labelPrecioAnteriorNotebooks3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioAnteriorNotebooks3.Font = new System.Drawing.Font("Segoe UI Black", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPrecioAnteriorNotebooks3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(82)))), ((int)(((byte)(77)))));
-            this.labelPrecioAnteriorNotebooks3.Location = new System.Drawing.Point(762, 239);
+            this.labelPrecioAnteriorNotebooks3.Location = new System.Drawing.Point(668, 188);
             this.labelPrecioAnteriorNotebooks3.Name = "labelPrecioAnteriorNotebooks3";
             this.labelPrecioAnteriorNotebooks3.Size = new System.Drawing.Size(48, 12);
             this.labelPrecioAnteriorNotebooks3.TabIndex = 50;
@@ -827,7 +550,7 @@
             this.labelPrecioActualNotebooks3.AutoSize = true;
             this.labelPrecioActualNotebooks3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioActualNotebooks3.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrecioActualNotebooks3.Location = new System.Drawing.Point(761, 251);
+            this.labelPrecioActualNotebooks3.Location = new System.Drawing.Point(667, 200);
             this.labelPrecioActualNotebooks3.Name = "labelPrecioActualNotebooks3";
             this.labelPrecioActualNotebooks3.Size = new System.Drawing.Size(87, 17);
             this.labelPrecioActualNotebooks3.TabIndex = 51;
@@ -839,7 +562,7 @@
             this.label23porciento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label23porciento.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23porciento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label23porciento.Location = new System.Drawing.Point(825, 251);
+            this.label23porciento.Location = new System.Drawing.Point(731, 200);
             this.label23porciento.Name = "label23porciento";
             this.label23porciento.Size = new System.Drawing.Size(70, 17);
             this.label23porciento.TabIndex = 52;
@@ -851,7 +574,7 @@
             this.label12cuotasNotebooks3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label12cuotasNotebooks3.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12cuotasNotebooks3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label12cuotasNotebooks3.Location = new System.Drawing.Point(759, 268);
+            this.label12cuotasNotebooks3.Location = new System.Drawing.Point(665, 217);
             this.label12cuotasNotebooks3.Name = "label12cuotasNotebooks3";
             this.label12cuotasNotebooks3.Size = new System.Drawing.Size(212, 13);
             this.label12cuotasNotebooks3.TabIndex = 53;
@@ -863,7 +586,7 @@
             this.labelmediosdepago3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelmediosdepago3.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelmediosdepago3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelmediosdepago3.Location = new System.Drawing.Point(759, 280);
+            this.labelmediosdepago3.Location = new System.Drawing.Point(665, 229);
             this.labelmediosdepago3.Name = "labelmediosdepago3";
             this.labelmediosdepago3.Size = new System.Drawing.Size(132, 13);
             this.labelmediosdepago3.TabIndex = 54;
@@ -875,7 +598,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label1.Location = new System.Drawing.Point(761, 292);
+            this.label1.Location = new System.Drawing.Point(667, 241);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 13);
             this.label1.TabIndex = 55;
@@ -887,7 +610,7 @@
             this.labellunesnote3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labellunesnote3.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labellunesnote3.ForeColor = System.Drawing.Color.Black;
-            this.labellunesnote3.Location = new System.Drawing.Point(831, 292);
+            this.labellunesnote3.Location = new System.Drawing.Point(737, 241);
             this.labellunesnote3.Name = "labellunesnote3";
             this.labellunesnote3.Size = new System.Drawing.Size(47, 13);
             this.labellunesnote3.TabIndex = 56;
@@ -899,7 +622,7 @@
             this.labelentreganote3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelentreganote3.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelentreganote3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelentreganote3.Location = new System.Drawing.Point(798, 316);
+            this.labelentreganote3.Location = new System.Drawing.Point(704, 265);
             this.labelentreganote3.Name = "labelentreganote3";
             this.labelentreganote3.Size = new System.Drawing.Size(134, 13);
             this.labelentreganote3.TabIndex = 58;
@@ -911,7 +634,7 @@
             this.labelstockNote3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelstockNote3.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelstockNote3.ForeColor = System.Drawing.Color.Black;
-            this.labelstockNote3.Location = new System.Drawing.Point(758, 337);
+            this.labelstockNote3.Location = new System.Drawing.Point(664, 286);
             this.labelstockNote3.Name = "labelstockNote3";
             this.labelstockNote3.Size = new System.Drawing.Size(95, 13);
             this.labelstockNote3.TabIndex = 59;
@@ -933,7 +656,7 @@
             this.TextBoxstockNote3.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxstockNote3.ForeColor = System.Drawing.Color.Black;
             this.TextBoxstockNote3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxstockNote3.Location = new System.Drawing.Point(853, 335);
+            this.TextBoxstockNote3.Location = new System.Drawing.Point(759, 284);
             this.TextBoxstockNote3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TextBoxstockNote3.Name = "TextBoxstockNote3";
             this.TextBoxstockNote3.PasswordChar = '\0';
@@ -954,7 +677,7 @@
             this.BtnComprarNotebooks3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarNotebooks3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarNotebooks3.ForeColor = System.Drawing.Color.White;
-            this.BtnComprarNotebooks3.Location = new System.Drawing.Point(779, 361);
+            this.BtnComprarNotebooks3.Location = new System.Drawing.Point(685, 310);
             this.BtnComprarNotebooks3.Name = "BtnComprarNotebooks3";
             this.BtnComprarNotebooks3.Size = new System.Drawing.Size(174, 32);
             this.BtnComprarNotebooks3.TabIndex = 61;
@@ -971,7 +694,7 @@
             this.BtnAgregaralCarritoNote3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.BtnAgregaralCarritoNote3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAgregaralCarritoNote3.ForeColor = System.Drawing.Color.Black;
-            this.BtnAgregaralCarritoNote3.Location = new System.Drawing.Point(780, 397);
+            this.BtnAgregaralCarritoNote3.Location = new System.Drawing.Point(686, 346);
             this.BtnAgregaralCarritoNote3.Name = "BtnAgregaralCarritoNote3";
             this.BtnAgregaralCarritoNote3.Size = new System.Drawing.Size(174, 32);
             this.BtnAgregaralCarritoNote3.TabIndex = 62;
@@ -982,7 +705,7 @@
             this.CirclePictureBoxCompartirNote1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCompartirNote1.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.compartir;
             this.CirclePictureBoxCompartirNote1.ImageRotate = 0F;
-            this.CirclePictureBoxCompartirNote1.Location = new System.Drawing.Point(359, 167);
+            this.CirclePictureBoxCompartirNote1.Location = new System.Drawing.Point(264, 117);
             this.CirclePictureBoxCompartirNote1.Name = "CirclePictureBoxCompartirNote1";
             this.CirclePictureBoxCompartirNote1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.CirclePictureBoxCompartirNote1.Size = new System.Drawing.Size(38, 32);
@@ -995,7 +718,7 @@
             this.CirclePictureBoxCorazonNote3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCorazonNote3.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.corazon;
             this.CirclePictureBoxCorazonNote3.ImageRotate = 0F;
-            this.CirclePictureBoxCorazonNote3.Location = new System.Drawing.Point(959, 89);
+            this.CirclePictureBoxCorazonNote3.Location = new System.Drawing.Point(865, 38);
             this.CirclePictureBoxCorazonNote3.Name = "CirclePictureBoxCorazonNote3";
             this.CirclePictureBoxCorazonNote3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.CirclePictureBoxCorazonNote3.Size = new System.Drawing.Size(38, 32);
@@ -1008,7 +731,7 @@
             this.CirclePictureBoxCorazonNote2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCorazonNote2.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.corazon;
             this.CirclePictureBoxCorazonNote2.ImageRotate = 0F;
-            this.CirclePictureBoxCorazonNote2.Location = new System.Drawing.Point(661, 89);
+            this.CirclePictureBoxCorazonNote2.Location = new System.Drawing.Point(569, 38);
             this.CirclePictureBoxCorazonNote2.Name = "CirclePictureBoxCorazonNote2";
             this.CirclePictureBoxCorazonNote2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.CirclePictureBoxCorazonNote2.Size = new System.Drawing.Size(38, 32);
@@ -1021,7 +744,7 @@
             this.CirclePictureBoxCorazonNote1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCorazonNote1.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.corazon;
             this.CirclePictureBoxCorazonNote1.ImageRotate = 0F;
-            this.CirclePictureBoxCorazonNote1.Location = new System.Drawing.Point(359, 89);
+            this.CirclePictureBoxCorazonNote1.Location = new System.Drawing.Point(264, 39);
             this.CirclePictureBoxCorazonNote1.Name = "CirclePictureBoxCorazonNote1";
             this.CirclePictureBoxCorazonNote1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.CirclePictureBoxCorazonNote1.Size = new System.Drawing.Size(38, 32);
@@ -1035,7 +758,7 @@
             this.PictureBoxmapanote3.BorderRadius = 20;
             this.PictureBoxmapanote3.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.mapa1;
             this.PictureBoxmapanote3.ImageRotate = 0F;
-            this.PictureBoxmapanote3.Location = new System.Drawing.Point(761, 307);
+            this.PictureBoxmapanote3.Location = new System.Drawing.Point(667, 256);
             this.PictureBoxmapanote3.Name = "PictureBoxmapanote3";
             this.PictureBoxmapanote3.Size = new System.Drawing.Size(31, 30);
             this.PictureBoxmapanote3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1047,7 +770,7 @@
             this.PictureBoxEstrellas3.BackColor = System.Drawing.Color.White;
             this.PictureBoxEstrellas3.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.hoteles_4_estrellas_napoles;
             this.PictureBoxEstrellas3.ImageRotate = 0F;
-            this.PictureBoxEstrellas3.Location = new System.Drawing.Point(780, 194);
+            this.PictureBoxEstrellas3.Location = new System.Drawing.Point(686, 143);
             this.PictureBoxEstrellas3.Name = "PictureBoxEstrellas3";
             this.PictureBoxEstrellas3.Size = new System.Drawing.Size(166, 22);
             this.PictureBoxEstrellas3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1061,7 +784,7 @@
             this.PictureBoxCompu3.BorderRadius = 55;
             this.PictureBoxCompu3.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.lenovo;
             this.PictureBoxCompu3.ImageRotate = 0F;
-            this.PictureBoxCompu3.Location = new System.Drawing.Point(742, 91);
+            this.PictureBoxCompu3.Location = new System.Drawing.Point(648, 40);
             this.PictureBoxCompu3.Name = "PictureBoxCompu3";
             this.PictureBoxCompu3.Size = new System.Drawing.Size(243, 113);
             this.PictureBoxCompu3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1074,7 +797,7 @@
             this.PictureBoxmapanote2.BorderRadius = 20;
             this.PictureBoxmapanote2.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.mapa1;
             this.PictureBoxmapanote2.ImageRotate = 0F;
-            this.PictureBoxmapanote2.Location = new System.Drawing.Point(457, 301);
+            this.PictureBoxmapanote2.Location = new System.Drawing.Point(365, 250);
             this.PictureBoxmapanote2.Name = "PictureBoxmapanote2";
             this.PictureBoxmapanote2.Size = new System.Drawing.Size(31, 30);
             this.PictureBoxmapanote2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1086,7 +809,7 @@
             this.PictureBoxEstrellas2.BackColor = System.Drawing.Color.White;
             this.PictureBoxEstrellas2.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.hoteles_4_estrellas_napoles;
             this.PictureBoxEstrellas2.ImageRotate = 0F;
-            this.PictureBoxEstrellas2.Location = new System.Drawing.Point(482, 191);
+            this.PictureBoxEstrellas2.Location = new System.Drawing.Point(390, 140);
             this.PictureBoxEstrellas2.Name = "PictureBoxEstrellas2";
             this.PictureBoxEstrellas2.Size = new System.Drawing.Size(166, 22);
             this.PictureBoxEstrellas2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1100,7 +823,7 @@
             this.PictureBoxCompu2.BorderRadius = 55;
             this.PictureBoxCompu2.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.asus;
             this.PictureBoxCompu2.ImageRotate = 0F;
-            this.PictureBoxCompu2.Location = new System.Drawing.Point(443, 91);
+            this.PictureBoxCompu2.Location = new System.Drawing.Point(351, 40);
             this.PictureBoxCompu2.Name = "PictureBoxCompu2";
             this.PictureBoxCompu2.Size = new System.Drawing.Size(243, 113);
             this.PictureBoxCompu2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1112,7 +835,7 @@
             this.PictureBoxNotebooks3.BorderRadius = 25;
             this.PictureBoxNotebooks3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.PictureBoxNotebooks3.ImageRotate = 0F;
-            this.PictureBoxNotebooks3.Location = new System.Drawing.Point(730, 57);
+            this.PictureBoxNotebooks3.Location = new System.Drawing.Point(636, 6);
             this.PictureBoxNotebooks3.Name = "PictureBoxNotebooks3";
             this.PictureBoxNotebooks3.Size = new System.Drawing.Size(267, 383);
             this.PictureBoxNotebooks3.TabIndex = 28;
@@ -1123,7 +846,7 @@
             this.PictureBoxNotebooks2.BorderRadius = 25;
             this.PictureBoxNotebooks2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.PictureBoxNotebooks2.ImageRotate = 0F;
-            this.PictureBoxNotebooks2.Location = new System.Drawing.Point(432, 57);
+            this.PictureBoxNotebooks2.Location = new System.Drawing.Point(340, 6);
             this.PictureBoxNotebooks2.Name = "PictureBoxNotebooks2";
             this.PictureBoxNotebooks2.Size = new System.Drawing.Size(267, 383);
             this.PictureBoxNotebooks2.TabIndex = 27;
@@ -1135,7 +858,7 @@
             this.PictureBoxMapa1.BorderRadius = 20;
             this.PictureBoxMapa1.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.mapa1;
             this.PictureBoxMapa1.ImageRotate = 0F;
-            this.PictureBoxMapa1.Location = new System.Drawing.Point(158, 306);
+            this.PictureBoxMapa1.Location = new System.Drawing.Point(63, 256);
             this.PictureBoxMapa1.Name = "PictureBoxMapa1";
             this.PictureBoxMapa1.Size = new System.Drawing.Size(31, 30);
             this.PictureBoxMapa1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1147,7 +870,7 @@
             this.PictureBoxEstrellas.BackColor = System.Drawing.Color.White;
             this.PictureBoxEstrellas.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.hoteles_4_estrellas_napoles;
             this.PictureBoxEstrellas.ImageRotate = 0F;
-            this.PictureBoxEstrellas.Location = new System.Drawing.Point(184, 188);
+            this.PictureBoxEstrellas.Location = new System.Drawing.Point(89, 138);
             this.PictureBoxEstrellas.Name = "PictureBoxEstrellas";
             this.PictureBoxEstrellas.Size = new System.Drawing.Size(166, 22);
             this.PictureBoxEstrellas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1161,7 +884,7 @@
             this.PictureBoxCompu1.BorderRadius = 55;
             this.PictureBoxCompu1.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.iphone_notebook;
             this.PictureBoxCompu1.ImageRotate = 0F;
-            this.PictureBoxCompu1.Location = new System.Drawing.Point(146, 89);
+            this.PictureBoxCompu1.Location = new System.Drawing.Point(51, 39);
             this.PictureBoxCompu1.Name = "PictureBoxCompu1";
             this.PictureBoxCompu1.Size = new System.Drawing.Size(243, 113);
             this.PictureBoxCompu1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1173,7 +896,7 @@
             this.PictureBoxNotebooksInferior.BorderRadius = 25;
             this.PictureBoxNotebooksInferior.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.COMPUS;
             this.PictureBoxNotebooksInferior.ImageRotate = 0F;
-            this.PictureBoxNotebooksInferior.Location = new System.Drawing.Point(101, 445);
+            this.PictureBoxNotebooksInferior.Location = new System.Drawing.Point(5, 394);
             this.PictureBoxNotebooksInferior.Name = "PictureBoxNotebooksInferior";
             this.PictureBoxNotebooksInferior.Size = new System.Drawing.Size(918, 110);
             this.PictureBoxNotebooksInferior.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1185,7 +908,7 @@
             this.CirclePictureBoxCompartirNote2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCompartirNote2.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.compartir;
             this.CirclePictureBoxCompartirNote2.ImageRotate = 0F;
-            this.CirclePictureBoxCompartirNote2.Location = new System.Drawing.Point(660, 167);
+            this.CirclePictureBoxCompartirNote2.Location = new System.Drawing.Point(568, 116);
             this.CirclePictureBoxCompartirNote2.Name = "CirclePictureBoxCompartirNote2";
             this.CirclePictureBoxCompartirNote2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.CirclePictureBoxCompartirNote2.Size = new System.Drawing.Size(38, 32);
@@ -1198,7 +921,7 @@
             this.CirclePictureBoxCompartirNote3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCompartirNote3.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.compartir;
             this.CirclePictureBoxCompartirNote3.ImageRotate = 0F;
-            this.CirclePictureBoxCompartirNote3.Location = new System.Drawing.Point(959, 169);
+            this.CirclePictureBoxCompartirNote3.Location = new System.Drawing.Point(865, 118);
             this.CirclePictureBoxCompartirNote3.Name = "CirclePictureBoxCompartirNote3";
             this.CirclePictureBoxCompartirNote3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.CirclePictureBoxCompartirNote3.Size = new System.Drawing.Size(38, 32);
@@ -1212,7 +935,7 @@
             this.labelDescripcionNotebooks1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelDescripcionNotebooks1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescripcionNotebooks1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.labelDescripcionNotebooks1.Location = new System.Drawing.Point(145, 61);
+            this.labelDescripcionNotebooks1.Location = new System.Drawing.Point(48, 14);
             this.labelDescripcionNotebooks1.Name = "labelDescripcionNotebooks1";
             this.labelDescripcionNotebooks1.Size = new System.Drawing.Size(247, 26);
             this.labelDescripcionNotebooks1.TabIndex = 10;
@@ -1224,7 +947,7 @@
             this.PictureBoxNotebooks1.BorderRadius = 25;
             this.PictureBoxNotebooks1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.PictureBoxNotebooks1.ImageRotate = 0F;
-            this.PictureBoxNotebooks1.Location = new System.Drawing.Point(133, 56);
+            this.PictureBoxNotebooks1.Location = new System.Drawing.Point(38, 6);
             this.PictureBoxNotebooks1.Name = "PictureBoxNotebooks1";
             this.PictureBoxNotebooks1.Size = new System.Drawing.Size(267, 383);
             this.PictureBoxNotebooks1.TabIndex = 7;
@@ -1235,37 +958,36 @@
             this.labelPrecioActualNotebooks1.AutoSize = true;
             this.labelPrecioActualNotebooks1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioActualNotebooks1.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrecioActualNotebooks1.Location = new System.Drawing.Point(160, 245);
+            this.labelPrecioActualNotebooks1.Location = new System.Drawing.Point(65, 195);
             this.labelPrecioActualNotebooks1.Name = "labelPrecioActualNotebooks1";
             this.labelPrecioActualNotebooks1.Size = new System.Drawing.Size(77, 17);
             this.labelPrecioActualNotebooks1.TabIndex = 15;
             this.labelPrecioActualNotebooks1.Text = "$1.799.999";
             // 
-            // BntIconoNotebooks
+            // BtnVolverNotebooks
             // 
-            this.BntIconoNotebooks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
-            this.BntIconoNotebooks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BntIconoNotebooks.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BntIconoNotebooks.ForeColor = System.Drawing.Color.White;
-            this.BntIconoNotebooks.IconChar = FontAwesome.Sharp.IconChar.Computer;
-            this.BntIconoNotebooks.IconColor = System.Drawing.Color.Gray;
-            this.BntIconoNotebooks.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BntIconoNotebooks.IconSize = 25;
-            this.BntIconoNotebooks.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BntIconoNotebooks.Location = new System.Drawing.Point(94, 151);
-            this.BntIconoNotebooks.Name = "BntIconoNotebooks";
-            this.BntIconoNotebooks.Size = new System.Drawing.Size(125, 28);
-            this.BntIconoNotebooks.TabIndex = 69;
-            this.BntIconoNotebooks.Text = "       Notebooks";
-            this.BntIconoNotebooks.UseVisualStyleBackColor = false;
+            this.BtnVolverNotebooks.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnVolverNotebooks.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnVolverNotebooks.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnVolverNotebooks.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnVolverNotebooks.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnVolverNotebooks.ForeColor = System.Drawing.Color.White;
+            this.BtnVolverNotebooks.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.salirrr;
+            this.BtnVolverNotebooks.ImageSize = new System.Drawing.Size(70, 70);
+            this.BtnVolverNotebooks.Location = new System.Drawing.Point(853, 427);
+            this.BtnVolverNotebooks.Name = "BtnVolverNotebooks";
+            this.BtnVolverNotebooks.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.BtnVolverNotebooks.Size = new System.Drawing.Size(40, 40);
+            this.BtnVolverNotebooks.TabIndex = 110;
+            this.BtnVolverNotebooks.Click += new System.EventHandler(this.BtnVolverNotebooks_Click);
             // 
             // FormNotebooks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.ClientSize = new System.Drawing.Size(1025, 560);
-            this.Controls.Add(this.BntIconoNotebooks);
+            this.ClientSize = new System.Drawing.Size(929, 511);
+            this.Controls.Add(this.BtnVolverNotebooks);
             this.Controls.Add(this.CirclePictureBoxCompartirNote3);
             this.Controls.Add(this.CirclePictureBoxCompartirNote2);
             this.Controls.Add(this.CirclePictureBoxCompartirNote1);
@@ -1327,20 +1049,10 @@
             this.Controls.Add(this.labelDescripcionNotebooks1);
             this.Controls.Add(this.PictureBoxNotebooks1);
             this.Controls.Add(this.PictureBoxNotebooksInferior);
-            this.Controls.Add(this.panelMenuCategorias);
-            this.Controls.Add(this.panelSuperior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormNotebooks";
             this.Text = "FormNotebooks";
-            this.panelSuperior.ResumeLayout(false);
-            this.panelSuperior.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxSale30)).EndInit();
-            this.panelMenuCategorias.ResumeLayout(false);
-            this.PanelDesplegable.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctaculochiquito)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxSupersale)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoTecnoLabs)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctagonal)).EndInit();
+            this.Load += new System.EventHandler(this.FormNotebooks_Load);
             ((System.ComponentModel.ISupportInitialize)(this.CirclePictureBoxCompartirNote1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePictureBoxCorazonNote3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePictureBoxCorazonNote2)).EndInit();
@@ -1366,24 +1078,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panelSuperior;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnCarrito;
-        private Guna.UI2.WinForms.Guna2Button BtnContactanos;
-        private Guna.UI2.WinForms.Guna2TextBox TextBoxBuscador;
-        private System.Windows.Forms.Label labelCarrito;
-        private Guna.UI2.WinForms.Guna2PictureBox PictureBoxSale30;
-        private System.Windows.Forms.Panel panelMenuCategorias;
-        private Guna.UI2.WinForms.Guna2Panel PanelDesplegable;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnTablets;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnCircular;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnAdministrador;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnNotebooks;
-        private System.Windows.Forms.PictureBox pictureBoxOctaculochiquito;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBoxSupersale;
-        private System.Windows.Forms.PictureBox pictureBoxLogoTecnoLabs;
-        private System.Windows.Forms.PictureBox pictureBoxOctagonal;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private Guna.UI2.WinForms.Guna2PictureBox PictureBoxNotebooksInferior;
         private Guna.UI2.WinForms.Guna2PictureBox PictureBoxCompu1;
         private Guna.UI2.WinForms.Guna2PictureBox PictureBoxEstrellas;
@@ -1445,6 +1139,6 @@
         private System.Windows.Forms.Label labelDescripcionNotebooks1;
         private Guna.UI2.WinForms.Guna2PictureBox PictureBoxNotebooks1;
         private System.Windows.Forms.Label labelPrecioActualNotebooks1;
-        private FontAwesome.Sharp.IconButton BntIconoNotebooks;
+        private Guna.UI2.WinForms.Guna2CircleButton BtnVolverNotebooks;
     }
 }

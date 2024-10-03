@@ -29,231 +29,79 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInicio));
-            this.panelSuperior = new System.Windows.Forms.Panel();
-            this.BtnContactanos = new Guna.UI2.WinForms.Guna2Button();
-            this.TextBoxBuscador = new Guna.UI2.WinForms.Guna2TextBox();
-            this.labelCarrito = new System.Windows.Forms.Label();
             this.panelMenuCategorias = new System.Windows.Forms.Panel();
-            this.PanelDesplegable = new Guna.UI2.WinForms.Guna2Panel();
-            this.labelOfertas = new System.Windows.Forms.Label();
             this.labelCupones = new System.Windows.Forms.Label();
-            this.SubPanelAdministrador = new Guna.UI2.WinForms.Guna2Panel();
-            this.BntIconoAdministrador = new FontAwesome.Sharp.IconButton();
-            this.PictureBoxPropaganda3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.PictureBoxPropaganda2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.PictureBoxPropaganda1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.BtnCupones = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.BtnOfertas = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.PictureBoxEnvioGratis = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.PictureBox12Cuotas = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.PictureBox2DiadelPadre = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.labelOfertas = new System.Windows.Forms.Label();
+            this.BtnCerrarApp = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2PictureBoxSupersale = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.PanelDesplegable = new Guna.UI2.WinForms.Guna2Panel();
             this.BtnTablets = new Guna.UI2.WinForms.Guna2CircleButton();
             this.BtnCircular = new Guna.UI2.WinForms.Guna2CircleButton();
             this.BtnAdministrador = new Guna.UI2.WinForms.Guna2CircleButton();
             this.BtnNotebooks = new Guna.UI2.WinForms.Guna2CircleButton();
             this.pictureBoxOctaculochiquito = new System.Windows.Forms.PictureBox();
-            this.BtnCerrarApp = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2PictureBoxSupersale = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.pictureBoxLogoTecnoLabs = new System.Windows.Forms.PictureBox();
             this.pictureBoxOctagonal = new System.Windows.Forms.PictureBox();
+            this.panelPrincipal = new System.Windows.Forms.Panel();
+            this.SubPanelAdministrador = new Guna.UI2.WinForms.Guna2Panel();
+            this.BntIconoAcceder = new FontAwesome.Sharp.IconButton();
+            this.PanelCarrito = new Guna.UI2.WinForms.Guna2Panel();
+            this.BntIconoCarrito = new FontAwesome.Sharp.IconButton();
+            this.panelCelular = new System.Windows.Forms.Panel();
+            this.BntIconoCelular = new FontAwesome.Sharp.IconButton();
+            this.panelTablets = new System.Windows.Forms.Panel();
+            this.BntIconoTablets = new FontAwesome.Sharp.IconButton();
+            this.panelNotebooks = new System.Windows.Forms.Panel();
+            this.BntIconoNotebooks = new FontAwesome.Sharp.IconButton();
+            this.labelCarrito = new System.Windows.Forms.Label();
+            this.TextBoxBuscador = new Guna.UI2.WinForms.Guna2TextBox();
+            this.BtnContactanos = new Guna.UI2.WinForms.Guna2Button();
+            this.panelSuperior = new System.Windows.Forms.Panel();
             this.BtnCarrito = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.BtnOfertas = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.pictureBoxLogoTecnoLabs = new System.Windows.Forms.PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.panelSuperior.SuspendLayout();
             this.panelMenuCategorias.SuspendLayout();
-            this.PanelDesplegable.SuspendLayout();
-            this.SubPanelAdministrador.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxPropaganda3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxPropaganda2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxPropaganda1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxEnvioGratis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox12Cuotas)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2DiadelPadre)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctaculochiquito)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxSupersale)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoTecnoLabs)).BeginInit();
+            this.PanelDesplegable.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctaculochiquito)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctagonal)).BeginInit();
+            this.SubPanelAdministrador.SuspendLayout();
+            this.PanelCarrito.SuspendLayout();
+            this.panelCelular.SuspendLayout();
+            this.panelTablets.SuspendLayout();
+            this.panelNotebooks.SuspendLayout();
+            this.panelSuperior.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoTecnoLabs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panelSuperior
-            // 
-            this.panelSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
-            this.panelSuperior.Controls.Add(this.BtnCarrito);
-            this.panelSuperior.Controls.Add(this.BtnContactanos);
-            this.panelSuperior.Controls.Add(this.TextBoxBuscador);
-            this.panelSuperior.Controls.Add(this.labelCarrito);
-            this.panelSuperior.Controls.Add(this.guna2PictureBox1);
-            this.panelSuperior.Location = new System.Drawing.Point(93, 0);
-            this.panelSuperior.Name = "panelSuperior";
-            this.panelSuperior.Size = new System.Drawing.Size(932, 49);
-            this.panelSuperior.TabIndex = 0;
-            // 
-            // BtnContactanos
-            // 
-            this.BtnContactanos.BorderRadius = 15;
-            this.BtnContactanos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnContactanos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnContactanos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnContactanos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnContactanos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(88)))), ((int)(((byte)(137)))));
-            this.BtnContactanos.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnContactanos.ForeColor = System.Drawing.Color.White;
-            this.BtnContactanos.Location = new System.Drawing.Point(823, 8);
-            this.BtnContactanos.Name = "BtnContactanos";
-            this.BtnContactanos.Size = new System.Drawing.Size(99, 32);
-            this.BtnContactanos.TabIndex = 4;
-            this.BtnContactanos.Text = "Contactános";
-            // 
-            // TextBoxBuscador
-            // 
-            this.TextBoxBuscador.BorderColor = System.Drawing.Color.White;
-            this.TextBoxBuscador.BorderRadius = 10;
-            this.TextBoxBuscador.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
-            this.TextBoxBuscador.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TextBoxBuscador.DefaultText = "";
-            this.TextBoxBuscador.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TextBoxBuscador.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TextBoxBuscador.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxBuscador.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxBuscador.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
-            this.TextBoxBuscador.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxBuscador.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.TextBoxBuscador.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxBuscador.Location = new System.Drawing.Point(23, 13);
-            this.TextBoxBuscador.Name = "TextBoxBuscador";
-            this.TextBoxBuscador.PasswordChar = '\0';
-            this.TextBoxBuscador.PlaceholderText = "                                         Buscar Productos";
-            this.TextBoxBuscador.SelectedText = "";
-            this.TextBoxBuscador.Size = new System.Drawing.Size(356, 22);
-            this.TextBoxBuscador.TabIndex = 3;
-            // 
-            // labelCarrito
-            // 
-            this.labelCarrito.AutoSize = true;
-            this.labelCarrito.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCarrito.ForeColor = System.Drawing.Color.White;
-            this.labelCarrito.Location = new System.Drawing.Point(675, 17);
-            this.labelCarrito.Name = "labelCarrito";
-            this.labelCarrito.Size = new System.Drawing.Size(45, 15);
-            this.labelCarrito.TabIndex = 2;
-            this.labelCarrito.Text = "Carrito";
             // 
             // panelMenuCategorias
             // 
             this.panelMenuCategorias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
-            this.panelMenuCategorias.Controls.Add(this.guna2CircleButton2);
+            this.panelMenuCategorias.Controls.Add(this.labelCupones);
+            this.panelMenuCategorias.Controls.Add(this.BtnCupones);
+            this.panelMenuCategorias.Controls.Add(this.labelOfertas);
             this.panelMenuCategorias.Controls.Add(this.BtnCerrarApp);
-            this.panelMenuCategorias.Controls.Add(this.guna2CircleButton1);
             this.panelMenuCategorias.Controls.Add(this.guna2PictureBoxSupersale);
-            this.panelMenuCategorias.Controls.Add(this.pictureBoxLogoTecnoLabs);
+            this.panelMenuCategorias.Controls.Add(this.PanelDesplegable);
             this.panelMenuCategorias.Controls.Add(this.pictureBoxOctagonal);
-            this.panelMenuCategorias.Location = new System.Drawing.Point(0, 2);
+            this.panelMenuCategorias.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenuCategorias.Location = new System.Drawing.Point(0, 49);
             this.panelMenuCategorias.Name = "panelMenuCategorias";
-            this.panelMenuCategorias.Size = new System.Drawing.Size(96, 559);
+            this.panelMenuCategorias.Size = new System.Drawing.Size(96, 511);
             this.panelMenuCategorias.TabIndex = 1;
-            // 
-            // PanelDesplegable
-            // 
-            this.PanelDesplegable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(73)))));
-            this.PanelDesplegable.BorderColor = System.Drawing.Color.DimGray;
-            this.PanelDesplegable.BorderRadius = 5;
-            this.PanelDesplegable.BorderThickness = 2;
-            this.PanelDesplegable.Controls.Add(this.BtnTablets);
-            this.PanelDesplegable.Controls.Add(this.BtnCircular);
-            this.PanelDesplegable.Controls.Add(this.BtnAdministrador);
-            this.PanelDesplegable.Controls.Add(this.BtnNotebooks);
-            this.PanelDesplegable.Controls.Add(this.pictureBoxOctaculochiquito);
-            this.PanelDesplegable.Location = new System.Drawing.Point(19, 73);
-            this.PanelDesplegable.Name = "PanelDesplegable";
-            this.PanelDesplegable.Size = new System.Drawing.Size(75, 243);
-            this.PanelDesplegable.TabIndex = 2;
-            // 
-            // labelOfertas
-            // 
-            this.labelOfertas.AutoSize = true;
-            this.labelOfertas.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelOfertas.ForeColor = System.Drawing.Color.White;
-            this.labelOfertas.Location = new System.Drawing.Point(116, 285);
-            this.labelOfertas.Name = "labelOfertas";
-            this.labelOfertas.Size = new System.Drawing.Size(49, 15);
-            this.labelOfertas.TabIndex = 8;
-            this.labelOfertas.Text = "Ofertas";
             // 
             // labelCupones
             // 
             this.labelCupones.AutoSize = true;
             this.labelCupones.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCupones.ForeColor = System.Drawing.Color.White;
-            this.labelCupones.Location = new System.Drawing.Point(197, 286);
+            this.labelCupones.Location = new System.Drawing.Point(6, 339);
             this.labelCupones.Name = "labelCupones";
             this.labelCupones.Size = new System.Drawing.Size(54, 15);
             this.labelCupones.TabIndex = 9;
             this.labelCupones.Text = "Cupones";
-            // 
-            // SubPanelAdministrador
-            // 
-            this.SubPanelAdministrador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
-            this.SubPanelAdministrador.Controls.Add(this.BntIconoAdministrador);
-            this.SubPanelAdministrador.Location = new System.Drawing.Point(92, 90);
-            this.SubPanelAdministrador.Name = "SubPanelAdministrador";
-            this.SubPanelAdministrador.Size = new System.Drawing.Size(130, 33);
-            this.SubPanelAdministrador.TabIndex = 14;
-            // 
-            // BntIconoAdministrador
-            // 
-            this.BntIconoAdministrador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
-            this.BntIconoAdministrador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BntIconoAdministrador.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BntIconoAdministrador.ForeColor = System.Drawing.Color.White;
-            this.BntIconoAdministrador.IconChar = FontAwesome.Sharp.IconChar.UserTie;
-            this.BntIconoAdministrador.IconColor = System.Drawing.Color.Gray;
-            this.BntIconoAdministrador.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BntIconoAdministrador.IconSize = 25;
-            this.BntIconoAdministrador.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BntIconoAdministrador.Location = new System.Drawing.Point(2, 2);
-            this.BntIconoAdministrador.Name = "BntIconoAdministrador";
-            this.BntIconoAdministrador.Size = new System.Drawing.Size(125, 28);
-            this.BntIconoAdministrador.TabIndex = 0;
-            this.BntIconoAdministrador.Text = "       Administrador";
-            this.BntIconoAdministrador.UseVisualStyleBackColor = false;
-            // 
-            // PictureBoxPropaganda3
-            // 
-            this.PictureBoxPropaganda3.BorderRadius = 25;
-            this.PictureBoxPropaganda3.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.download1;
-            this.PictureBoxPropaganda3.ImageRotate = 0F;
-            this.PictureBoxPropaganda3.Location = new System.Drawing.Point(715, 338);
-            this.PictureBoxPropaganda3.Name = "PictureBoxPropaganda3";
-            this.PictureBoxPropaganda3.Size = new System.Drawing.Size(301, 217);
-            this.PictureBoxPropaganda3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBoxPropaganda3.TabIndex = 12;
-            this.PictureBoxPropaganda3.TabStop = false;
-            // 
-            // PictureBoxPropaganda2
-            // 
-            this.PictureBoxPropaganda2.BorderRadius = 25;
-            this.PictureBoxPropaganda2.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.iphonee;
-            this.PictureBoxPropaganda2.ImageRotate = 0F;
-            this.PictureBoxPropaganda2.Location = new System.Drawing.Point(410, 338);
-            this.PictureBoxPropaganda2.Name = "PictureBoxPropaganda2";
-            this.PictureBoxPropaganda2.Size = new System.Drawing.Size(296, 217);
-            this.PictureBoxPropaganda2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBoxPropaganda2.TabIndex = 11;
-            this.PictureBoxPropaganda2.TabStop = false;
-            // 
-            // PictureBoxPropaganda1
-            // 
-            this.PictureBoxPropaganda1.BorderRadius = 25;
-            this.PictureBoxPropaganda1.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.png;
-            this.PictureBoxPropaganda1.ImageRotate = 0F;
-            this.PictureBoxPropaganda1.Location = new System.Drawing.Point(103, 337);
-            this.PictureBoxPropaganda1.Name = "PictureBoxPropaganda1";
-            this.PictureBoxPropaganda1.Size = new System.Drawing.Size(297, 217);
-            this.PictureBoxPropaganda1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBoxPropaganda1.TabIndex = 10;
-            this.PictureBoxPropaganda1.TabStop = false;
             // 
             // BtnCupones
             // 
@@ -266,64 +114,70 @@
             this.BtnCupones.ForeColor = System.Drawing.Color.White;
             this.BtnCupones.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.cupones_circular;
             this.BtnCupones.ImageSize = new System.Drawing.Size(150, 150);
-            this.BtnCupones.Location = new System.Drawing.Point(198, 244);
+            this.BtnCupones.Location = new System.Drawing.Point(9, 296);
             this.BtnCupones.Name = "BtnCupones";
             this.BtnCupones.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.BtnCupones.Size = new System.Drawing.Size(48, 40);
             this.BtnCupones.TabIndex = 7;
             // 
-            // BtnOfertas
+            // labelOfertas
             // 
-            this.BtnOfertas.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnOfertas.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnOfertas.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnOfertas.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnOfertas.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.BtnOfertas.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnOfertas.ForeColor = System.Drawing.Color.White;
-            this.BtnOfertas.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.Ofertas_circular;
-            this.BtnOfertas.ImageSize = new System.Drawing.Size(250, 250);
-            this.BtnOfertas.Location = new System.Drawing.Point(122, 242);
-            this.BtnOfertas.Name = "BtnOfertas";
-            this.BtnOfertas.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.BtnOfertas.Size = new System.Drawing.Size(48, 40);
-            this.BtnOfertas.TabIndex = 6;
+            this.labelOfertas.AutoSize = true;
+            this.labelOfertas.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelOfertas.ForeColor = System.Drawing.Color.White;
+            this.labelOfertas.Location = new System.Drawing.Point(18, 423);
+            this.labelOfertas.Name = "labelOfertas";
+            this.labelOfertas.Size = new System.Drawing.Size(49, 15);
+            this.labelOfertas.TabIndex = 8;
+            this.labelOfertas.Text = "Ofertas";
             // 
-            // PictureBoxEnvioGratis
+            // BtnCerrarApp
             // 
-            this.PictureBoxEnvioGratis.BorderRadius = 25;
-            this.PictureBoxEnvioGratis.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.envio_gratis;
-            this.PictureBoxEnvioGratis.ImageRotate = 0F;
-            this.PictureBoxEnvioGratis.Location = new System.Drawing.Point(660, 216);
-            this.PictureBoxEnvioGratis.Name = "PictureBoxEnvioGratis";
-            this.PictureBoxEnvioGratis.Size = new System.Drawing.Size(357, 116);
-            this.PictureBoxEnvioGratis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBoxEnvioGratis.TabIndex = 5;
-            this.PictureBoxEnvioGratis.TabStop = false;
+            this.BtnCerrarApp.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
+            this.BtnCerrarApp.BorderThickness = 25;
+            this.BtnCerrarApp.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnCerrarApp.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnCerrarApp.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnCerrarApp.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnCerrarApp.FillColor = System.Drawing.Color.Transparent;
+            this.BtnCerrarApp.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnCerrarApp.ForeColor = System.Drawing.Color.White;
+            this.BtnCerrarApp.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.exit_redondeado;
+            this.BtnCerrarApp.ImageSize = new System.Drawing.Size(220, 220);
+            this.BtnCerrarApp.Location = new System.Drawing.Point(7, 448);
+            this.BtnCerrarApp.Name = "BtnCerrarApp";
+            this.BtnCerrarApp.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.BtnCerrarApp.Size = new System.Drawing.Size(80, 53);
+            this.BtnCerrarApp.TabIndex = 11;
+            this.BtnCerrarApp.Click += new System.EventHandler(this.BtnCerrarApp_Click);
             // 
-            // PictureBox12Cuotas
+            // guna2PictureBoxSupersale
             // 
-            this.PictureBox12Cuotas.BorderRadius = 25;
-            this.PictureBox12Cuotas.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.cuotas_motorola;
-            this.PictureBox12Cuotas.ImageRotate = 0F;
-            this.PictureBox12Cuotas.Location = new System.Drawing.Point(300, 215);
-            this.PictureBox12Cuotas.Name = "PictureBox12Cuotas";
-            this.PictureBox12Cuotas.Size = new System.Drawing.Size(354, 116);
-            this.PictureBox12Cuotas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBox12Cuotas.TabIndex = 4;
-            this.PictureBox12Cuotas.TabStop = false;
+            this.guna2PictureBoxSupersale.BorderRadius = 25;
+            this.guna2PictureBoxSupersale.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBoxSupersale.Image")));
+            this.guna2PictureBoxSupersale.ImageRotate = 0F;
+            this.guna2PictureBoxSupersale.Location = new System.Drawing.Point(9, 352);
+            this.guna2PictureBoxSupersale.Name = "guna2PictureBoxSupersale";
+            this.guna2PictureBoxSupersale.Size = new System.Drawing.Size(78, 68);
+            this.guna2PictureBoxSupersale.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBoxSupersale.TabIndex = 2;
+            this.guna2PictureBoxSupersale.TabStop = false;
             // 
-            // PictureBox2DiadelPadre
+            // PanelDesplegable
             // 
-            this.PictureBox2DiadelPadre.BorderRadius = 25;
-            this.PictureBox2DiadelPadre.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.adelantate;
-            this.PictureBox2DiadelPadre.ImageRotate = 0F;
-            this.PictureBox2DiadelPadre.Location = new System.Drawing.Point(103, 54);
-            this.PictureBox2DiadelPadre.Name = "PictureBox2DiadelPadre";
-            this.PictureBox2DiadelPadre.Size = new System.Drawing.Size(915, 156);
-            this.PictureBox2DiadelPadre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBox2DiadelPadre.TabIndex = 3;
-            this.PictureBox2DiadelPadre.TabStop = false;
+            this.PanelDesplegable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(73)))));
+            this.PanelDesplegable.BorderColor = System.Drawing.Color.DimGray;
+            this.PanelDesplegable.BorderRadius = 5;
+            this.PanelDesplegable.BorderThickness = 2;
+            this.PanelDesplegable.Controls.Add(this.BtnTablets);
+            this.PanelDesplegable.Controls.Add(this.BtnCircular);
+            this.PanelDesplegable.Controls.Add(this.BtnAdministrador);
+            this.PanelDesplegable.Controls.Add(this.BtnNotebooks);
+            this.PanelDesplegable.Controls.Add(this.pictureBoxOctaculochiquito);
+            this.PanelDesplegable.Location = new System.Drawing.Point(21, 26);
+            this.PanelDesplegable.Name = "PanelDesplegable";
+            this.PanelDesplegable.Size = new System.Drawing.Size(75, 243);
+            this.PanelDesplegable.TabIndex = 2;
             // 
             // BtnTablets
             // 
@@ -341,6 +195,7 @@
             this.BtnTablets.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.BtnTablets.Size = new System.Drawing.Size(58, 47);
             this.BtnTablets.TabIndex = 10;
+            this.BtnTablets.Click += new System.EventHandler(this.BtnTablets_Click);
             // 
             // BtnCircular
             // 
@@ -358,6 +213,7 @@
             this.BtnCircular.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.BtnCircular.Size = new System.Drawing.Size(58, 47);
             this.BtnCircular.TabIndex = 9;
+            this.BtnCircular.Click += new System.EventHandler(this.BtnCircular_Click);
             // 
             // BtnAdministrador
             // 
@@ -375,6 +231,7 @@
             this.BtnAdministrador.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.BtnAdministrador.Size = new System.Drawing.Size(58, 47);
             this.BtnAdministrador.TabIndex = 3;
+            this.BtnAdministrador.Click += new System.EventHandler(this.BtnAdministrador_Click);
             // 
             // BtnNotebooks
             // 
@@ -392,6 +249,7 @@
             this.BtnNotebooks.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.BtnNotebooks.Size = new System.Drawing.Size(63, 47);
             this.BtnNotebooks.TabIndex = 4;
+            this.BtnNotebooks.Click += new System.EventHandler(this.BtnNotebooks_Click);
             // 
             // pictureBoxOctaculochiquito
             // 
@@ -403,64 +261,6 @@
             this.pictureBoxOctaculochiquito.TabIndex = 4;
             this.pictureBoxOctaculochiquito.TabStop = false;
             // 
-            // BtnCerrarApp
-            // 
-            this.BtnCerrarApp.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
-            this.BtnCerrarApp.BorderThickness = 25;
-            this.BtnCerrarApp.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnCerrarApp.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnCerrarApp.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnCerrarApp.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnCerrarApp.FillColor = System.Drawing.Color.Transparent;
-            this.BtnCerrarApp.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnCerrarApp.ForeColor = System.Drawing.Color.White;
-            this.BtnCerrarApp.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.exit_redondeado;
-            this.BtnCerrarApp.ImageSize = new System.Drawing.Size(220, 220);
-            this.BtnCerrarApp.Location = new System.Drawing.Point(7, 498);
-            this.BtnCerrarApp.Name = "BtnCerrarApp";
-            this.BtnCerrarApp.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.BtnCerrarApp.Size = new System.Drawing.Size(80, 53);
-            this.BtnCerrarApp.TabIndex = 11;
-            // 
-            // guna2CircleButton1
-            // 
-            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.Noteboks_circular;
-            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(250, 250);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(19, 213);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(58, 47);
-            this.guna2CircleButton1.TabIndex = 5;
-            // 
-            // guna2PictureBoxSupersale
-            // 
-            this.guna2PictureBoxSupersale.BorderRadius = 25;
-            this.guna2PictureBoxSupersale.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBoxSupersale.Image")));
-            this.guna2PictureBoxSupersale.ImageRotate = 0F;
-            this.guna2PictureBoxSupersale.Location = new System.Drawing.Point(9, 421);
-            this.guna2PictureBoxSupersale.Name = "guna2PictureBoxSupersale";
-            this.guna2PictureBoxSupersale.Size = new System.Drawing.Size(78, 68);
-            this.guna2PictureBoxSupersale.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBoxSupersale.TabIndex = 2;
-            this.guna2PictureBoxSupersale.TabStop = false;
-            // 
-            // pictureBoxLogoTecnoLabs
-            // 
-            this.pictureBoxLogoTecnoLabs.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogoTecnoLabs.Image")));
-            this.pictureBoxLogoTecnoLabs.Location = new System.Drawing.Point(0, -2);
-            this.pictureBoxLogoTecnoLabs.Name = "pictureBoxLogoTecnoLabs";
-            this.pictureBoxLogoTecnoLabs.Size = new System.Drawing.Size(94, 63);
-            this.pictureBoxLogoTecnoLabs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxLogoTecnoLabs.TabIndex = 0;
-            this.pictureBoxLogoTecnoLabs.TabStop = false;
-            // 
             // pictureBoxOctagonal
             // 
             this.pictureBoxOctagonal.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxOctagonal.Image")));
@@ -470,6 +270,228 @@
             this.pictureBoxOctagonal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxOctagonal.TabIndex = 1;
             this.pictureBoxOctagonal.TabStop = false;
+            // 
+            // panelPrincipal
+            // 
+            this.panelPrincipal.BackgroundImage = global::TecnoLabsSA_Proyecto1.Properties.Resources.APPP;
+            this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.panelPrincipal.Name = "panelPrincipal";
+            this.panelPrincipal.Size = new System.Drawing.Size(1025, 560);
+            this.panelPrincipal.TabIndex = 0;
+            this.panelPrincipal.Visible = false;
+            // 
+            // SubPanelAdministrador
+            // 
+            this.SubPanelAdministrador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.SubPanelAdministrador.Controls.Add(this.BntIconoAcceder);
+            this.SubPanelAdministrador.Location = new System.Drawing.Point(97, 82);
+            this.SubPanelAdministrador.Name = "SubPanelAdministrador";
+            this.SubPanelAdministrador.Size = new System.Drawing.Size(155, 48);
+            this.SubPanelAdministrador.TabIndex = 14;
+            this.SubPanelAdministrador.Visible = false;
+            // 
+            // BntIconoAcceder
+            // 
+            this.BntIconoAcceder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.BntIconoAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BntIconoAcceder.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BntIconoAcceder.ForeColor = System.Drawing.Color.White;
+            this.BntIconoAcceder.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
+            this.BntIconoAcceder.IconColor = System.Drawing.Color.Gray;
+            this.BntIconoAcceder.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BntIconoAcceder.IconSize = 25;
+            this.BntIconoAcceder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BntIconoAcceder.Location = new System.Drawing.Point(2, 3);
+            this.BntIconoAcceder.Name = "BntIconoAcceder";
+            this.BntIconoAcceder.Size = new System.Drawing.Size(151, 42);
+            this.BntIconoAcceder.TabIndex = 0;
+            this.BntIconoAcceder.Text = "        Accede a tu cuenta";
+            this.BntIconoAcceder.UseVisualStyleBackColor = false;
+            this.BntIconoAcceder.Click += new System.EventHandler(this.BntIconoAcceder_Click);
+            // 
+            // PanelCarrito
+            // 
+            this.PanelCarrito.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.PanelCarrito.Controls.Add(this.BntIconoCarrito);
+            this.PanelCarrito.Location = new System.Drawing.Point(640, 49);
+            this.PanelCarrito.Name = "PanelCarrito";
+            this.PanelCarrito.Size = new System.Drawing.Size(130, 41);
+            this.PanelCarrito.TabIndex = 15;
+            this.PanelCarrito.Visible = false;
+            // 
+            // BntIconoCarrito
+            // 
+            this.BntIconoCarrito.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.BntIconoCarrito.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BntIconoCarrito.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BntIconoCarrito.ForeColor = System.Drawing.Color.White;
+            this.BntIconoCarrito.IconChar = FontAwesome.Sharp.IconChar.CartShopping;
+            this.BntIconoCarrito.IconColor = System.Drawing.Color.Gray;
+            this.BntIconoCarrito.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BntIconoCarrito.IconSize = 25;
+            this.BntIconoCarrito.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BntIconoCarrito.Location = new System.Drawing.Point(3, 4);
+            this.BntIconoCarrito.Name = "BntIconoCarrito";
+            this.BntIconoCarrito.Size = new System.Drawing.Size(125, 35);
+            this.BntIconoCarrito.TabIndex = 15;
+            this.BntIconoCarrito.Text = "       Carrito";
+            this.BntIconoCarrito.UseVisualStyleBackColor = false;
+            this.BntIconoCarrito.Click += new System.EventHandler(this.BntIconoCarrito_Click);
+            // 
+            // panelCelular
+            // 
+            this.panelCelular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.panelCelular.Controls.Add(this.BntIconoCelular);
+            this.panelCelular.Location = new System.Drawing.Point(97, 203);
+            this.panelCelular.Name = "panelCelular";
+            this.panelCelular.Size = new System.Drawing.Size(151, 49);
+            this.panelCelular.TabIndex = 113;
+            this.panelCelular.Visible = false;
+            // 
+            // BntIconoCelular
+            // 
+            this.BntIconoCelular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.BntIconoCelular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BntIconoCelular.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BntIconoCelular.ForeColor = System.Drawing.Color.White;
+            this.BntIconoCelular.IconChar = FontAwesome.Sharp.IconChar.Phone;
+            this.BntIconoCelular.IconColor = System.Drawing.Color.Gray;
+            this.BntIconoCelular.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BntIconoCelular.IconSize = 25;
+            this.BntIconoCelular.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BntIconoCelular.Location = new System.Drawing.Point(3, 3);
+            this.BntIconoCelular.Name = "BntIconoCelular";
+            this.BntIconoCelular.Size = new System.Drawing.Size(144, 43);
+            this.BntIconoCelular.TabIndex = 110;
+            this.BntIconoCelular.Text = "       Celular";
+            this.BntIconoCelular.UseVisualStyleBackColor = false;
+            this.BntIconoCelular.Click += new System.EventHandler(this.BntIconoCelular_Click);
+            // 
+            // panelTablets
+            // 
+            this.panelTablets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.panelTablets.Controls.Add(this.BntIconoTablets);
+            this.panelTablets.Location = new System.Drawing.Point(97, 265);
+            this.panelTablets.Name = "panelTablets";
+            this.panelTablets.Size = new System.Drawing.Size(154, 47);
+            this.panelTablets.TabIndex = 112;
+            this.panelTablets.Visible = false;
+            // 
+            // BntIconoTablets
+            // 
+            this.BntIconoTablets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.BntIconoTablets.BackgroundImage = global::TecnoLabsSA_Proyecto1.Properties.Resources.Fondo_App;
+            this.BntIconoTablets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BntIconoTablets.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BntIconoTablets.ForeColor = System.Drawing.Color.White;
+            this.BntIconoTablets.IconChar = FontAwesome.Sharp.IconChar.Tablet;
+            this.BntIconoTablets.IconColor = System.Drawing.Color.Gray;
+            this.BntIconoTablets.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BntIconoTablets.IconSize = 25;
+            this.BntIconoTablets.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BntIconoTablets.Location = new System.Drawing.Point(3, 2);
+            this.BntIconoTablets.Name = "BntIconoTablets";
+            this.BntIconoTablets.Size = new System.Drawing.Size(148, 44);
+            this.BntIconoTablets.TabIndex = 113;
+            this.BntIconoTablets.Text = "       Tablets";
+            this.BntIconoTablets.UseVisualStyleBackColor = false;
+            this.BntIconoTablets.Click += new System.EventHandler(this.BntIconoTablets_Click);
+            // 
+            // panelNotebooks
+            // 
+            this.panelNotebooks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.panelNotebooks.Controls.Add(this.BntIconoNotebooks);
+            this.panelNotebooks.Location = new System.Drawing.Point(97, 145);
+            this.panelNotebooks.Name = "panelNotebooks";
+            this.panelNotebooks.Size = new System.Drawing.Size(154, 48);
+            this.panelNotebooks.TabIndex = 17;
+            this.panelNotebooks.Visible = false;
+            // 
+            // BntIconoNotebooks
+            // 
+            this.BntIconoNotebooks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.BntIconoNotebooks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BntIconoNotebooks.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BntIconoNotebooks.ForeColor = System.Drawing.Color.White;
+            this.BntIconoNotebooks.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            this.BntIconoNotebooks.IconColor = System.Drawing.Color.Gray;
+            this.BntIconoNotebooks.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BntIconoNotebooks.IconSize = 25;
+            this.BntIconoNotebooks.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BntIconoNotebooks.Location = new System.Drawing.Point(4, 3);
+            this.BntIconoNotebooks.Name = "BntIconoNotebooks";
+            this.BntIconoNotebooks.Size = new System.Drawing.Size(148, 42);
+            this.BntIconoNotebooks.TabIndex = 70;
+            this.BntIconoNotebooks.Text = "       Notebooks";
+            this.BntIconoNotebooks.UseVisualStyleBackColor = false;
+            this.BntIconoNotebooks.Click += new System.EventHandler(this.BntIconoNotebooks_Click);
+            // 
+            // labelCarrito
+            // 
+            this.labelCarrito.AutoSize = true;
+            this.labelCarrito.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCarrito.ForeColor = System.Drawing.Color.White;
+            this.labelCarrito.Location = new System.Drawing.Point(661, 20);
+            this.labelCarrito.Name = "labelCarrito";
+            this.labelCarrito.Size = new System.Drawing.Size(45, 15);
+            this.labelCarrito.TabIndex = 2;
+            this.labelCarrito.Text = "Carrito";
+            // 
+            // TextBoxBuscador
+            // 
+            this.TextBoxBuscador.BorderColor = System.Drawing.Color.White;
+            this.TextBoxBuscador.BorderRadius = 10;
+            this.TextBoxBuscador.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
+            this.TextBoxBuscador.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TextBoxBuscador.DefaultText = "";
+            this.TextBoxBuscador.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TextBoxBuscador.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TextBoxBuscador.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBoxBuscador.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBoxBuscador.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
+            this.TextBoxBuscador.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBoxBuscador.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TextBoxBuscador.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBoxBuscador.Location = new System.Drawing.Point(127, 13);
+            this.TextBoxBuscador.Name = "TextBoxBuscador";
+            this.TextBoxBuscador.PasswordChar = '\0';
+            this.TextBoxBuscador.PlaceholderText = "                                         Buscar Productos";
+            this.TextBoxBuscador.SelectedText = "";
+            this.TextBoxBuscador.Size = new System.Drawing.Size(356, 22);
+            this.TextBoxBuscador.TabIndex = 3;
+            // 
+            // BtnContactanos
+            // 
+            this.BtnContactanos.BorderRadius = 15;
+            this.BtnContactanos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnContactanos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnContactanos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnContactanos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnContactanos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(88)))), ((int)(((byte)(137)))));
+            this.BtnContactanos.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnContactanos.ForeColor = System.Drawing.Color.White;
+            this.BtnContactanos.Location = new System.Drawing.Point(918, 8);
+            this.BtnContactanos.Name = "BtnContactanos";
+            this.BtnContactanos.Size = new System.Drawing.Size(99, 32);
+            this.BtnContactanos.TabIndex = 4;
+            this.BtnContactanos.Text = "Contactános";
+            // 
+            // panelSuperior
+            // 
+            this.panelSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
+            this.panelSuperior.Controls.Add(this.BtnCarrito);
+            this.panelSuperior.Controls.Add(this.BtnOfertas);
+            this.panelSuperior.Controls.Add(this.BtnContactanos);
+            this.panelSuperior.Controls.Add(this.TextBoxBuscador);
+            this.panelSuperior.Controls.Add(this.labelCarrito);
+            this.panelSuperior.Controls.Add(this.pictureBoxLogoTecnoLabs);
+            this.panelSuperior.Controls.Add(this.guna2PictureBox1);
+            this.panelSuperior.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSuperior.Location = new System.Drawing.Point(0, 0);
+            this.panelSuperior.Name = "panelSuperior";
+            this.panelSuperior.Size = new System.Drawing.Size(1025, 49);
+            this.panelSuperior.TabIndex = 0;
             // 
             // BtnCarrito
             // 
@@ -483,123 +505,125 @@
             this.BtnCarrito.ForeColor = System.Drawing.Color.White;
             this.BtnCarrito.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.Carrito_circulo;
             this.BtnCarrito.ImageSize = new System.Drawing.Size(90, 90);
-            this.BtnCarrito.Location = new System.Drawing.Point(721, 4);
+            this.BtnCarrito.Location = new System.Drawing.Point(712, 5);
             this.BtnCarrito.Name = "BtnCarrito";
             this.BtnCarrito.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.BtnCarrito.Size = new System.Drawing.Size(50, 41);
             this.BtnCarrito.TabIndex = 3;
+            this.BtnCarrito.Click += new System.EventHandler(this.BtnCarrito_Click);
+            // 
+            // BtnOfertas
+            // 
+            this.BtnOfertas.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnOfertas.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnOfertas.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnOfertas.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnOfertas.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
+            this.BtnOfertas.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnOfertas.ForeColor = System.Drawing.Color.White;
+            this.BtnOfertas.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.Ofertas_circular;
+            this.BtnOfertas.ImageSize = new System.Drawing.Size(250, 250);
+            this.BtnOfertas.Location = new System.Drawing.Point(785, 9);
+            this.BtnOfertas.Name = "BtnOfertas";
+            this.BtnOfertas.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.BtnOfertas.Size = new System.Drawing.Size(48, 40);
+            this.BtnOfertas.TabIndex = 6;
+            // 
+            // pictureBoxLogoTecnoLabs
+            // 
+            this.pictureBoxLogoTecnoLabs.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogoTecnoLabs.Image")));
+            this.pictureBoxLogoTecnoLabs.Location = new System.Drawing.Point(2, 0);
+            this.pictureBoxLogoTecnoLabs.Name = "pictureBoxLogoTecnoLabs";
+            this.pictureBoxLogoTecnoLabs.Size = new System.Drawing.Size(94, 49);
+            this.pictureBoxLogoTecnoLabs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLogoTecnoLabs.TabIndex = 0;
+            this.pictureBoxLogoTecnoLabs.TabStop = false;
             // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BorderRadius = 20;
             this.guna2PictureBox1.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.Sale_30;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(437, 2);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(506, 3);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(124, 46);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 1;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // guna2CircleButton2
-            // 
-            this.guna2CircleButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
-            this.guna2CircleButton2.BorderThickness = 25;
-            this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.exit_redondeado;
-            this.guna2CircleButton2.ImageSize = new System.Drawing.Size(220, 220);
-            this.guna2CircleButton2.Location = new System.Drawing.Point(8, 253);
-            this.guna2CircleButton2.Name = "guna2CircleButton2";
-            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(80, 53);
-            this.guna2CircleButton2.TabIndex = 14;
-            // 
             // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
+            this.BackgroundImage = global::TecnoLabsSA_Proyecto1.Properties.Resources.APPP;
             this.ClientSize = new System.Drawing.Size(1025, 560);
+            this.Controls.Add(this.panelTablets);
+            this.Controls.Add(this.PanelCarrito);
+            this.Controls.Add(this.panelCelular);
             this.Controls.Add(this.SubPanelAdministrador);
-            this.Controls.Add(this.PictureBoxPropaganda3);
-            this.Controls.Add(this.PictureBoxPropaganda2);
-            this.Controls.Add(this.PictureBoxPropaganda1);
-            this.Controls.Add(this.labelCupones);
-            this.Controls.Add(this.labelOfertas);
-            this.Controls.Add(this.BtnCupones);
-            this.Controls.Add(this.BtnOfertas);
-            this.Controls.Add(this.PictureBoxEnvioGratis);
-            this.Controls.Add(this.PictureBox12Cuotas);
-            this.Controls.Add(this.PictureBox2DiadelPadre);
-            this.Controls.Add(this.PanelDesplegable);
+            this.Controls.Add(this.panelNotebooks);
             this.Controls.Add(this.panelMenuCategorias);
             this.Controls.Add(this.panelSuperior);
+            this.Controls.Add(this.panelPrincipal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormInicio";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TecnoLabs";
+            this.Load += new System.EventHandler(this.FormInicio_Load);
+            this.panelMenuCategorias.ResumeLayout(false);
+            this.panelMenuCategorias.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxSupersale)).EndInit();
+            this.PanelDesplegable.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctaculochiquito)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctagonal)).EndInit();
+            this.SubPanelAdministrador.ResumeLayout(false);
+            this.PanelCarrito.ResumeLayout(false);
+            this.panelCelular.ResumeLayout(false);
+            this.panelTablets.ResumeLayout(false);
+            this.panelNotebooks.ResumeLayout(false);
             this.panelSuperior.ResumeLayout(false);
             this.panelSuperior.PerformLayout();
-            this.panelMenuCategorias.ResumeLayout(false);
-            this.PanelDesplegable.ResumeLayout(false);
-            this.SubPanelAdministrador.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxPropaganda3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxPropaganda2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxPropaganda1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxEnvioGratis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox12Cuotas)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2DiadelPadre)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctaculochiquito)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxSupersale)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoTecnoLabs)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctagonal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panelSuperior;
         private System.Windows.Forms.Panel panelMenuCategorias;
         private System.Windows.Forms.PictureBox pictureBoxLogoTecnoLabs;
         private System.Windows.Forms.PictureBox pictureBoxOctagonal;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBoxSupersale;
         private Guna.UI2.WinForms.Guna2Panel PanelDesplegable;
         private System.Windows.Forms.PictureBox pictureBoxOctaculochiquito;
+        private Guna.UI2.WinForms.Guna2CircleButton BtnAdministrador;
+        private Guna.UI2.WinForms.Guna2CircleButton BtnNotebooks;
+        private Guna.UI2.WinForms.Guna2CircleButton BtnCircular;
+        private Guna.UI2.WinForms.Guna2CircleButton BtnTablets;
+        private Guna.UI2.WinForms.Guna2Panel SubPanelAdministrador;
+        private FontAwesome.Sharp.IconButton BntIconoAcceder;
+        private Guna.UI2.WinForms.Guna2CircleButton BtnCerrarApp;
+        private FontAwesome.Sharp.IconButton BntIconoCarrito;
+        private Guna.UI2.WinForms.Guna2Panel PanelCarrito;
+        public System.Windows.Forms.Panel panelPrincipal;
+        private System.Windows.Forms.Label labelOfertas;
+        private Guna.UI2.WinForms.Guna2CircleButton BtnOfertas;
+        private Guna.UI2.WinForms.Guna2CircleButton BtnCupones;
+        private System.Windows.Forms.Label labelCupones;
+        private System.Windows.Forms.Panel panelTablets;
+        private FontAwesome.Sharp.IconButton BntIconoTablets;
+        private System.Windows.Forms.Panel panelCelular;
+        private FontAwesome.Sharp.IconButton BntIconoCelular;
+        private System.Windows.Forms.Panel panelNotebooks;
+        private FontAwesome.Sharp.IconButton BntIconoNotebooks;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label labelCarrito;
         private Guna.UI2.WinForms.Guna2TextBox TextBoxBuscador;
         private Guna.UI2.WinForms.Guna2Button BtnContactanos;
         private Guna.UI2.WinForms.Guna2CircleButton BtnCarrito;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnAdministrador;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnNotebooks;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnCircular;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnTablets;
-        private Guna.UI2.WinForms.Guna2PictureBox PictureBox2DiadelPadre;
-        private Guna.UI2.WinForms.Guna2PictureBox PictureBox12Cuotas;
-        private Guna.UI2.WinForms.Guna2PictureBox PictureBoxEnvioGratis;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnOfertas;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnCupones;
-        private System.Windows.Forms.Label labelOfertas;
-        private System.Windows.Forms.Label labelCupones;
-        private Guna.UI2.WinForms.Guna2PictureBox PictureBoxPropaganda1;
-        private Guna.UI2.WinForms.Guna2PictureBox PictureBoxPropaganda2;
-        private Guna.UI2.WinForms.Guna2PictureBox PictureBoxPropaganda3;
-        private Guna.UI2.WinForms.Guna2Panel SubPanelAdministrador;
-        private FontAwesome.Sharp.IconButton BntIconoAdministrador;
-        private Guna.UI2.WinForms.Guna2CircleButton BtnCerrarApp;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
+        private System.Windows.Forms.Panel panelSuperior;
     }
 }
 
