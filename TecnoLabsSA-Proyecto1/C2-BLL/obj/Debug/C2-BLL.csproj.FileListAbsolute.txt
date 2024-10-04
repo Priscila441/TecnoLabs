@@ -4,6 +4,7 @@ C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto
 C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.csproj.CoreCompileInputs.cache
 C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.dll
 C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.pdb
+<<<<<<< HEAD
 C:\Users\Rocio\Documents\PC 2D\Practico\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C2-BLL.dll
 C:\Users\Rocio\Documents\PC 2D\Practico\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C2-BLL.pdb
 C:\Users\Rocio\Documents\PC 2D\Practico\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C3-DAL.dll
@@ -26,3 +27,21 @@ C:\Users\Rocio\Pictures\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.
 C:\Users\Rocio\Pictures\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.csproj.Up2Date
 C:\Users\Rocio\Pictures\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.dll
 C:\Users\Rocio\Pictures\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.pdb
+=======
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C2-BLL.dll
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C2-BLL.pdb
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C3-DAL.dll
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C4-ENTIDADES.dll
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C3-DAL.pdb
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C4-ENTIDADES.pdb
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.csproj.AssemblyReference.cache
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.csproj.CoreCompileInputs.cache
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.csproj.Up2Date
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.dll
+C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.pdb
+>>>>>>> FrontAye
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C3-DAL.dll
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C4-ENTIDADES.dll
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C3-DAL.pdb
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\C2-BLL\bin\Debug\C4-ENTIDADES.pdb
+C:\Users\Priscila\OneDrive\Escritorio\TecnoLabsSA-Proyecto1\TecnoLabsSA-Proyecto1\C2-BLL\obj\Debug\C2-BLL.csproj.Up2Date
