@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TecnoLabsSA_Proyecto1</RootNamespace>
+    <AssemblyName>TecnoLabsSA-Proyecto1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAcceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAcceso.Designer.cs">
+      <DependentUpon>FormAcceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdministrador.Designer.cs">
+      <DependentUpon>FormAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCarrito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCarrito.Designer.cs">
+      <DependentUpon>FormCarrito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCelulares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCelulares.Designer.cs">
+      <DependentUpon>FormCelulares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInicio.Designer.cs">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNotebooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNotebooks.Designer.cs">
+      <DependentUpon>FormNotebooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTablets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTablets.Designer.cs">
+      <DependentUpon>FormTablets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAcceso.resx">
+      <DependentUpon>FormAcceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdministrador.resx">
+      <DependentUpon>FormAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCarrito.resx">
+      <DependentUpon>FormCarrito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCelulares.resx">
+      <DependentUpon>FormCelulares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInicio.resx">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNotebooks.resx">
+      <DependentUpon>FormNotebooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTablets.resx">
+      <DependentUpon>FormTablets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\C2-BLL\C2-BLL.csproj">
+      <Project>{99967145-e32b-4cde-a79c-98a112efe0f7}</Project>
+      <Name>C2-BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4-ENTIDADES\C4-ENTIDAD.csproj">
+      <Project>{52e0dea0-9ce2-4ffc-9e9b-4021b0331b9f}</Project>
+      <Name>C4-ENTIDAD</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\super sale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cell png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablets 2png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sale 30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cariito png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrito circulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Administrador circulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noteboks circular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\celular circular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablets circular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adelantate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuotas motorola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envio gratis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ofertas circular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cupones circular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oferta lenovoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphonee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compus asu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablets samsung.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\motorola1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrito.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nueva-ISO-27002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empresaria circular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hombre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empresaria circular1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salida.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salirrr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit redondeado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COMPUS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2222.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PARODI_PROMOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablets samsung1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone notebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoteles-4-estrellas-napoles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lenovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corazon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compartir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1679395777_569512_1679396067_noticia_normal_amp %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\od-ofertas-xiaomi-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablets samsung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus tables.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablets.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablest asus.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrito1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrito de compras.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bien icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tilde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redomm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\APPP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\APP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Propagandas.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
