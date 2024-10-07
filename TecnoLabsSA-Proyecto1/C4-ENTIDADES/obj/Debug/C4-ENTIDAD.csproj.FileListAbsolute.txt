@@ -10,3 +10,9 @@ C:\Users\Rocio\Pictures\TecnoLabs\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C
 C:\Users\Rocio\Pictures\TecnoLabs\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDAD.csproj.CoreCompileInputs.cache
 C:\Users\Rocio\Pictures\TecnoLabs\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDADES.dll
 C:\Users\Rocio\Pictures\TecnoLabs\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDADES.pdb
+C:\Users\Rocio\Music\TecnoLabs\TecnoLabsSA-Proyecto1\C4-ENTIDADES\bin\Debug\C4-ENTIDADES.dll
+C:\Users\Rocio\Music\TecnoLabs\TecnoLabsSA-Proyecto1\C4-ENTIDADES\bin\Debug\C4-ENTIDADES.pdb
+C:\Users\Rocio\Music\TecnoLabs\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDAD.csproj.AssemblyReference.cache
+C:\Users\Rocio\Music\TecnoLabs\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDAD.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\Music\TecnoLabs\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDADES.dll
+C:\Users\Rocio\Music\TecnoLabs\TecnoLabsSA-Proyecto1\C4-ENTIDADES\obj\Debug\C4-ENTIDADES.pdb
