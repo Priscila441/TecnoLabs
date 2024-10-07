@@ -1,1 +1,21 @@
+# Ignorar archivos temporales de Visual Studio
 .vs/
+
+# Ignorar binarios compilados
+bin/
+obj/
+
+# Archivos de publicación
+publish/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+
+# Archivos de logs
+*.log
+
+# Archivos temporales generados
+*.tmp
+
+.gitignore

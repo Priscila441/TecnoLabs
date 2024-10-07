@@ -1,9 +1,0 @@
-C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C3-DAL\bin\Debug\C3-DAL.dll
-C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C3-DAL\bin\Debug\C3-DAL.pdb
-C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C3-DAL\bin\Debug\C4-ENTIDADES.dll
-C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C3-DAL\bin\Debug\C4-ENTIDADES.pdb
-C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C3-DAL\obj\Debug\C3-DAL.csproj.AssemblyReference.cache
-C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C3-DAL\obj\Debug\C3-DAL.csproj.CoreCompileInputs.cache
-C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C3-DAL\obj\Debug\C3-DAL.csproj.Up2Date
-C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C3-DAL\obj\Debug\C3-DAL.dll
-C:\Users\NOTEBOOK\Desktop\TEC . SOFT\SEGUNDO AÑO\PROGRAMACION II\Practico Grupal TecnoLabs\TecnoLabs\TecnoLabsSA-Proyecto1\C3-DAL\obj\Debug\C3-DAL.pdb
