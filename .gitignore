@@ -18,4 +18,6 @@ publish/
 # Archivos temporales generados
 *.tmp
 
-.gitignore
+# Ignorar binarios y objetos compilados
+**/bin/
+**/obj/
