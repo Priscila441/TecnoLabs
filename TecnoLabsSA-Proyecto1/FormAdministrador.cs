@@ -98,19 +98,28 @@ namespace TecnoLabsSA_Proyecto1
                 MostrarPanelBuscar();
             }
         }
-        //Realizo click en el boton Eliminar para que me habra el contenedor de "Eliminar"
+        public void Cargar()
+        {
+            try
+            {
+                dgvProductos.DataSource = CnProductos.CargarProductos();
+
+                dgvProductos.Columns["IdProducto"].DisplayIndex = 0;
+                dgvProductos.Columns["Marca"].DisplayIndex = 1;
+                dgvProductos.Columns["Modelo"].DisplayIndex = 2;
+                dgvProductos.Columns["Precio"].DisplayIndex = 3;
+                dgvProductos.Columns["Stock"].DisplayIndex = 4;
+                dgvProductos.Columns["IdCategoria"].DisplayIndex = 5;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error de conexión con la base de datos", "ERROR");
+                MessageBox.Show(ex.Message);
+            }
+        }
         private void BtnEliminarAdministrador_Click(object sender, EventArgs e)
         {
-
-            if (GroupBoxEditarEliminar.Visible)
-            {
-                volverAVistaPrincipal();
-            }
-            else
-            {
-                MostrarPanelEditar();
-            }
-
+            Cargar();
         }
         public int ObtenerIdCategoria(string cmbText)
         {

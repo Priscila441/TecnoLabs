@@ -108,14 +108,16 @@ namespace TecnoLabsSA_Proyecto1
         private void BntIconoAcceder_Click_1(object sender, EventArgs e)
         {
             // Limpiar solo si hay controles de FormAcceso
-            if (panelPrincipal.Controls.Count > 0)
+            /*if (panelPrincipal.Controls.Count > 0)
                 panelPrincipal.Controls.Clear();
 
             FormAcceso formAcceso = new FormAcceso();
             formAcceso.TopLevel = false;
             formAcceso.Dock = DockStyle.Fill;
             panelPrincipal.Controls.Add(formAcceso);
-            formAcceso.Show();
+            formAcceso.Show();*/
+            SubPanelAdministrador.Visible = !SubPanelAdministrador.Visible;
+            AbrirFrmEnPanel(new FormAcceso());
 
         }
         //Realizamos Click en el Boton "Celular" y nos abre en el contenedor el form de "Celular"

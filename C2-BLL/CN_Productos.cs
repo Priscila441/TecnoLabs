@@ -22,5 +22,14 @@ namespace C2_BLL
                 conexion.AgregarProducto(producto);
             }
         }
+
+        public List<Productos> CargarProductos()
+        {
+            if (conexion.MostrarProductos().Count > 0)
+            {
+                return conexion.MostrarProductos();
+            }
+            else return null;
+        }
     }
 }

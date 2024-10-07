@@ -23,7 +23,29 @@ namespace C3_DAL
             comando.Connection = conexion;
             comando.CommandType = System.Data.CommandType.Text;
         }
+        public List<Productos> MostrarProductos()
+        {
+            List<Productos> listProductos = new List<Productos>();
 
+            conexion.Open();
+            comando.CommandText = "SELECT * FROM Productos";
+
+            lector = comando.ExecuteReader();
+            while (lector.Read())
+            {
+                Productos producto = new Productos();
+                producto.IdProducto = lector.GetInt32(0);
+                producto.Marca = lector.GetString(1);
+                producto.Modelo = lector.GetString(2);
+                producto.Precio = lector.GetDecimal(3);
+                producto.Stock = lector.GetInt32(4);
+                producto.IdCategoria = lector.GetInt32(5);
+
+                listProductos.Add(producto);
+            }
+            conexion.Close();
+            return listProductos;
+        }
         public List<ProductoDTO> LeerProductos()
         {
             List<ProductoDTO> listProductos = new List<ProductoDTO>();

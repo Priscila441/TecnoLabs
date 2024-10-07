@@ -52,7 +52,7 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panelPrincipal = new System.Windows.Forms.Panel();
             this.SubPanelAdministrador = new System.Windows.Forms.Panel();
-            this.BntIconoAcceder = new FontAwesome.Sharp.IconButton();
+            this.BntAccederCuenta = new FontAwesome.Sharp.IconButton();
             this.panelCelular = new System.Windows.Forms.Panel();
             this.BntIconoCelular = new FontAwesome.Sharp.IconButton();
             this.PanelCarrito = new System.Windows.Forms.Panel();
@@ -401,31 +401,31 @@
             // SubPanelAdministrador
             // 
             this.SubPanelAdministrador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
-            this.SubPanelAdministrador.Controls.Add(this.BntIconoAcceder);
+            this.SubPanelAdministrador.Controls.Add(this.BntAccederCuenta);
             this.SubPanelAdministrador.Location = new System.Drawing.Point(98, 103);
             this.SubPanelAdministrador.Name = "SubPanelAdministrador";
             this.SubPanelAdministrador.Size = new System.Drawing.Size(154, 48);
             this.SubPanelAdministrador.TabIndex = 71;
             this.SubPanelAdministrador.Visible = false;
             // 
-            // BntIconoAcceder
+            // BntAccederCuenta
             // 
-            this.BntIconoAcceder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
-            this.BntIconoAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BntIconoAcceder.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BntIconoAcceder.ForeColor = System.Drawing.Color.White;
-            this.BntIconoAcceder.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
-            this.BntIconoAcceder.IconColor = System.Drawing.Color.Gray;
-            this.BntIconoAcceder.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BntIconoAcceder.IconSize = 25;
-            this.BntIconoAcceder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BntIconoAcceder.Location = new System.Drawing.Point(3, 3);
-            this.BntIconoAcceder.Name = "BntIconoAcceder";
-            this.BntIconoAcceder.Size = new System.Drawing.Size(150, 43);
-            this.BntIconoAcceder.TabIndex = 1;
-            this.BntIconoAcceder.Text = "      Accede a tu cuenta";
-            this.BntIconoAcceder.UseVisualStyleBackColor = false;
-            this.BntIconoAcceder.Click += new System.EventHandler(this.BntIconoAcceder_Click_1);
+            this.BntAccederCuenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(20)))), ((int)(((byte)(27)))));
+            this.BntAccederCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BntAccederCuenta.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BntAccederCuenta.ForeColor = System.Drawing.Color.White;
+            this.BntAccederCuenta.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
+            this.BntAccederCuenta.IconColor = System.Drawing.Color.Gray;
+            this.BntAccederCuenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BntAccederCuenta.IconSize = 25;
+            this.BntAccederCuenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BntAccederCuenta.Location = new System.Drawing.Point(3, 3);
+            this.BntAccederCuenta.Name = "BntAccederCuenta";
+            this.BntAccederCuenta.Size = new System.Drawing.Size(150, 43);
+            this.BntAccederCuenta.TabIndex = 1;
+            this.BntAccederCuenta.Text = "      Accede a tu cuenta";
+            this.BntAccederCuenta.UseVisualStyleBackColor = false;
+            this.BntAccederCuenta.Click += new System.EventHandler(this.BntIconoAcceder_Click_1);
             // 
             // panelCelular
             // 
@@ -549,7 +549,7 @@
         private System.Windows.Forms.Panel panelCelular;
         private System.Windows.Forms.Panel PanelCarrito;
         private FontAwesome.Sharp.IconButton BtnCarritoo;
-        private FontAwesome.Sharp.IconButton BntIconoAcceder;
+        private FontAwesome.Sharp.IconButton BntAccederCuenta;
         private FontAwesome.Sharp.IconButton BntIconoCelular;
     }
 }
