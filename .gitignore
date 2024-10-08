@@ -21,3 +21,7 @@ publish/
 # Ignorar binarios y objetos compilados
 **/bin/
 **/obj/
+/.vs/TecnoLabsSA-Proyecto1/FileContentIndex/efb6ab62-ea7c-454c-9e63-2f8700a45245.vsidx
+/TecnoLabsSA-Proyecto1/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/TecnoLabsSA-Proyecto1/obj/Debug/C1-UI.csproj.AssemblyReference.cache
+/.vs/TecnoLabsSA-Proyecto1/v17/DocumentLayout.json
