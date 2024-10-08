@@ -211,11 +211,6 @@ namespace TecnoLabsSA_Proyecto1
             }
         }
 
-        private void FormAdministrador_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void dgvProductos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             texMarca.Text = dgvProductos.CurrentRow.Cells["Marca"].Value.ToString();

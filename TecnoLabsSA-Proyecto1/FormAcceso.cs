@@ -29,7 +29,7 @@ namespace TecnoLabsSA_Proyecto1
         private void volverAVistaPrincipal()
         {
             ContenedorAdministrador.Visible = false;
-            ContenedorCliente.Visible = false;
+            panelRegistroCliente.Visible = false;
         }
 
         //Realizamos click en el Boton "Administrador"
@@ -41,7 +41,7 @@ namespace TecnoLabsSA_Proyecto1
             }
             else
             {
-                ContenedorCliente.Visible = false;
+                panelRegistroCliente.Visible = false;
                 ContenedorAdministrador.Visible = true;
             }
 
@@ -50,15 +50,16 @@ namespace TecnoLabsSA_Proyecto1
         //Realizamos click en el Boton "Cliente"
         private void BtnCliente_Click(object sender, EventArgs e)
         {
-            if (ContenedorCliente.Visible)
+            if (panelRegistroCliente.Visible)
             {
                 volverAVistaPrincipal();
             }
             else
             {
                 ContenedorAdministrador.Visible = false;
-                ContenedorCliente.Visible = true;
+                panelRegistroCliente.Visible = true;
             }
+            
         }
 
         //Realizamos click en el Inicio de sesion admin para ir al formulario de Administrador
@@ -76,6 +77,16 @@ namespace TecnoLabsSA_Proyecto1
                 TextBoxContraseñaAdmin.Text = "";
                 MessageBox.Show("Usuario o contraseña incorrecta", "Error de acceso");
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            panelRegistroCliente.Visible = !panelRegistroCliente.Visible;
+        }
+
+        private void IngresaCliente_Click(object sender, EventArgs e)
+        {
+            panelSesionCliente.Visible = !panelSesionCliente.Visible;
         }
     }
 }
