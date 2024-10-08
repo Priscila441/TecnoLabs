@@ -117,9 +117,10 @@
             this.labelDescripcionTablets1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelDescripcionTablets1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescripcionTablets1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.labelDescripcionTablets1.Location = new System.Drawing.Point(80, 24);
+            this.labelDescripcionTablets1.Location = new System.Drawing.Point(107, 30);
+            this.labelDescripcionTablets1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDescripcionTablets1.Name = "labelDescripcionTablets1";
-            this.labelDescripcionTablets1.Size = new System.Drawing.Size(242, 26);
+            this.labelDescripcionTablets1.Size = new System.Drawing.Size(315, 38);
             this.labelDescripcionTablets1.TabIndex = 14;
             this.labelDescripcionTablets1.Text = "Apple iPad (9º generacion) 10.2” Wi-Fi 64GB  \nColor Plata";
             // 
@@ -129,9 +130,10 @@
             this.labelDescripcionTablets2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelDescripcionTablets2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescripcionTablets2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.labelDescripcionTablets2.Location = new System.Drawing.Point(434, 21);
+            this.labelDescripcionTablets2.Location = new System.Drawing.Point(579, 26);
+            this.labelDescripcionTablets2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDescripcionTablets2.Name = "labelDescripcionTablets2";
-            this.labelDescripcionTablets2.Size = new System.Drawing.Size(247, 26);
+            this.labelDescripcionTablets2.Size = new System.Drawing.Size(326, 38);
             this.labelDescripcionTablets2.TabIndex = 15;
             this.labelDescripcionTablets2.Text = "Tablet Lenovo Tab M10 Plus 3rd Gen TB125FU\n10.61”Gb Color Storm Gray y 4 GB de me" +
     "moria";
@@ -142,9 +144,10 @@
             this.labelDescripcionTablets3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelDescripcionTablets3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescripcionTablets3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.labelDescripcionTablets3.Location = new System.Drawing.Point(789, 17);
+            this.labelDescripcionTablets3.Location = new System.Drawing.Point(1052, 21);
+            this.labelDescripcionTablets3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDescripcionTablets3.Name = "labelDescripcionTablets3";
-            this.labelDescripcionTablets3.Size = new System.Drawing.Size(229, 26);
+            this.labelDescripcionTablets3.Size = new System.Drawing.Size(298, 38);
             this.labelDescripcionTablets3.TabIndex = 16;
             this.labelDescripcionTablets3.Text = "Tablet Samsung Galaxy Tab S S6(2022) Lite \nwith Book Cover SM-P613 10.4! 64GB";
             // 
@@ -164,13 +167,14 @@
             this.TextBoxTablets1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TextBoxTablets1.ForeColor = System.Drawing.Color.Black;
             this.TextBoxTablets1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxTablets1.Location = new System.Drawing.Point(93, 180);
+            this.TextBoxTablets1.Location = new System.Drawing.Point(124, 222);
+            this.TextBoxTablets1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBoxTablets1.Name = "TextBoxTablets1";
             this.TextBoxTablets1.PasswordChar = '\0';
             this.TextBoxTablets1.PlaceholderForeColor = System.Drawing.Color.Black;
             this.TextBoxTablets1.PlaceholderText = "";
             this.TextBoxTablets1.SelectedText = "";
-            this.TextBoxTablets1.Size = new System.Drawing.Size(222, 21);
+            this.TextBoxTablets1.Size = new System.Drawing.Size(296, 26);
             this.TextBoxTablets1.TabIndex = 23;
             // 
             // TextBoxTablets2
@@ -189,13 +193,14 @@
             this.TextBoxTablets2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TextBoxTablets2.ForeColor = System.Drawing.Color.Black;
             this.TextBoxTablets2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxTablets2.Location = new System.Drawing.Point(447, 179);
+            this.TextBoxTablets2.Location = new System.Drawing.Point(596, 220);
+            this.TextBoxTablets2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBoxTablets2.Name = "TextBoxTablets2";
             this.TextBoxTablets2.PasswordChar = '\0';
             this.TextBoxTablets2.PlaceholderForeColor = System.Drawing.Color.Black;
             this.TextBoxTablets2.PlaceholderText = "";
             this.TextBoxTablets2.SelectedText = "";
-            this.TextBoxTablets2.Size = new System.Drawing.Size(222, 21);
+            this.TextBoxTablets2.Size = new System.Drawing.Size(296, 26);
             this.TextBoxTablets2.TabIndex = 24;
             // 
             // TextBoxTablets3
@@ -214,13 +219,14 @@
             this.TextBoxTablets3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TextBoxTablets3.ForeColor = System.Drawing.Color.Black;
             this.TextBoxTablets3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxTablets3.Location = new System.Drawing.Point(790, 183);
+            this.TextBoxTablets3.Location = new System.Drawing.Point(1053, 225);
+            this.TextBoxTablets3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBoxTablets3.Name = "TextBoxTablets3";
             this.TextBoxTablets3.PasswordChar = '\0';
             this.TextBoxTablets3.PlaceholderForeColor = System.Drawing.Color.Black;
             this.TextBoxTablets3.PlaceholderText = "";
             this.TextBoxTablets3.SelectedText = "";
-            this.TextBoxTablets3.Size = new System.Drawing.Size(222, 21);
+            this.TextBoxTablets3.Size = new System.Drawing.Size(296, 26);
             this.TextBoxTablets3.TabIndex = 25;
             // 
             // labelPrecioAnteriorTablet1
@@ -229,9 +235,10 @@
             this.labelPrecioAnteriorTablet1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioAnteriorTablet1.Font = new System.Drawing.Font("Segoe UI Black", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPrecioAnteriorTablet1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(82)))), ((int)(((byte)(77)))));
-            this.labelPrecioAnteriorTablet1.Location = new System.Drawing.Point(102, 201);
+            this.labelPrecioAnteriorTablet1.Location = new System.Drawing.Point(136, 247);
+            this.labelPrecioAnteriorTablet1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPrecioAnteriorTablet1.Name = "labelPrecioAnteriorTablet1";
-            this.labelPrecioAnteriorTablet1.Size = new System.Drawing.Size(44, 12);
+            this.labelPrecioAnteriorTablet1.Size = new System.Drawing.Size(59, 15);
             this.labelPrecioAnteriorTablet1.TabIndex = 72;
             this.labelPrecioAnteriorTablet1.Text = "$738.990";
             // 
@@ -241,9 +248,10 @@
             this.labelPrecioAnteriorTablet2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioAnteriorTablet2.Font = new System.Drawing.Font("Segoe UI Black", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPrecioAnteriorTablet2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(82)))), ((int)(((byte)(77)))));
-            this.labelPrecioAnteriorTablet2.Location = new System.Drawing.Point(454, 200);
+            this.labelPrecioAnteriorTablet2.Location = new System.Drawing.Point(605, 246);
+            this.labelPrecioAnteriorTablet2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPrecioAnteriorTablet2.Name = "labelPrecioAnteriorTablet2";
-            this.labelPrecioAnteriorTablet2.Size = new System.Drawing.Size(45, 12);
+            this.labelPrecioAnteriorTablet2.Size = new System.Drawing.Size(60, 15);
             this.labelPrecioAnteriorTablet2.TabIndex = 73;
             this.labelPrecioAnteriorTablet2.Text = "$649.500";
             this.labelPrecioAnteriorTablet2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -254,9 +262,10 @@
             this.labelPrecioAnteriorTablet3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioAnteriorTablet3.Font = new System.Drawing.Font("Segoe UI Black", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPrecioAnteriorTablet3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(82)))), ((int)(((byte)(77)))));
-            this.labelPrecioAnteriorTablet3.Location = new System.Drawing.Point(799, 204);
+            this.labelPrecioAnteriorTablet3.Location = new System.Drawing.Point(1065, 251);
+            this.labelPrecioAnteriorTablet3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPrecioAnteriorTablet3.Name = "labelPrecioAnteriorTablet3";
-            this.labelPrecioAnteriorTablet3.Size = new System.Drawing.Size(43, 12);
+            this.labelPrecioAnteriorTablet3.Size = new System.Drawing.Size(59, 15);
             this.labelPrecioAnteriorTablet3.TabIndex = 74;
             this.labelPrecioAnteriorTablet3.Text = "$855.357";
             // 
@@ -265,9 +274,10 @@
             this.labelPrecioActualTablet1.AutoSize = true;
             this.labelPrecioActualTablet1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioActualTablet1.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrecioActualTablet1.Location = new System.Drawing.Point(98, 213);
+            this.labelPrecioActualTablet1.Location = new System.Drawing.Point(131, 262);
+            this.labelPrecioActualTablet1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPrecioActualTablet1.Name = "labelPrecioActualTablet1";
-            this.labelPrecioActualTablet1.Size = new System.Drawing.Size(68, 17);
+            this.labelPrecioActualTablet1.Size = new System.Drawing.Size(86, 23);
             this.labelPrecioActualTablet1.TabIndex = 75;
             this.labelPrecioActualTablet1.Text = "$701.954 ";
             // 
@@ -276,9 +286,10 @@
             this.labelPrecioActualTablet2.AutoSize = true;
             this.labelPrecioActualTablet2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioActualTablet2.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrecioActualTablet2.Location = new System.Drawing.Point(452, 212);
+            this.labelPrecioActualTablet2.Location = new System.Drawing.Point(603, 261);
+            this.labelPrecioActualTablet2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPrecioActualTablet2.Name = "labelPrecioActualTablet2";
-            this.labelPrecioActualTablet2.Size = new System.Drawing.Size(65, 17);
+            this.labelPrecioActualTablet2.Size = new System.Drawing.Size(82, 23);
             this.labelPrecioActualTablet2.TabIndex = 76;
             this.labelPrecioActualTablet2.Text = "$579.979";
             // 
@@ -287,9 +298,10 @@
             this.labelPrecioActualTablet3.AutoSize = true;
             this.labelPrecioActualTablet3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelPrecioActualTablet3.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrecioActualTablet3.Location = new System.Drawing.Point(797, 215);
+            this.labelPrecioActualTablet3.Location = new System.Drawing.Point(1063, 265);
+            this.labelPrecioActualTablet3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPrecioActualTablet3.Name = "labelPrecioActualTablet3";
-            this.labelPrecioActualTablet3.Size = new System.Drawing.Size(69, 17);
+            this.labelPrecioActualTablet3.Size = new System.Drawing.Size(87, 23);
             this.labelPrecioActualTablet3.TabIndex = 77;
             this.labelPrecioActualTablet3.Text = "$637.500 ";
             // 
@@ -299,9 +311,10 @@
             this.label5porcieento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label5porcieento.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5porcieento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label5porcieento.Location = new System.Drawing.Point(159, 213);
+            this.label5porcieento.Location = new System.Drawing.Point(212, 262);
+            this.label5porcieento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5porcieento.Name = "label5porcieento";
-            this.label5porcieento.Size = new System.Drawing.Size(63, 17);
+            this.label5porcieento.Size = new System.Drawing.Size(80, 23);
             this.label5porcieento.TabIndex = 78;
             this.label5porcieento.Text = " 5% OFF ";
             // 
@@ -311,9 +324,10 @@
             this.label15porciiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label15porciiento.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15porciiento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label15porciiento.Location = new System.Drawing.Point(524, 212);
+            this.label15porciiento.Location = new System.Drawing.Point(699, 261);
+            this.label15porciiento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15porciiento.Name = "label15porciiento";
-            this.label15porciiento.Size = new System.Drawing.Size(69, 17);
+            this.label15porciiento.Size = new System.Drawing.Size(88, 23);
             this.label15porciiento.TabIndex = 79;
             this.label15porciiento.Text = " 15% OFF ";
             // 
@@ -323,9 +337,10 @@
             this.label25pporciento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label25pporciento.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25pporciento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label25pporciento.Location = new System.Drawing.Point(871, 214);
+            this.label25pporciento.Location = new System.Drawing.Point(1161, 263);
+            this.label25pporciento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25pporciento.Name = "label25pporciento";
-            this.label25pporciento.Size = new System.Drawing.Size(70, 17);
+            this.label25pporciento.Size = new System.Drawing.Size(89, 23);
             this.label25pporciento.TabIndex = 80;
             this.label25pporciento.Text = " 25% OFF ";
             // 
@@ -335,9 +350,10 @@
             this.label12cuotasNotebooks1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label12cuotasNotebooks1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12cuotasNotebooks1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label12cuotasNotebooks1.Location = new System.Drawing.Point(97, 230);
+            this.label12cuotasNotebooks1.Location = new System.Drawing.Point(129, 283);
+            this.label12cuotasNotebooks1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12cuotasNotebooks1.Name = "label12cuotasNotebooks1";
-            this.label12cuotasNotebooks1.Size = new System.Drawing.Size(218, 13);
+            this.label12cuotasNotebooks1.Size = new System.Drawing.Size(275, 19);
             this.label12cuotasNotebooks1.TabIndex = 81;
             this.label12cuotasNotebooks1.Text = "Mismo precio en 12 cuotas de $149.999";
             // 
@@ -347,9 +363,10 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label1.Location = new System.Drawing.Point(449, 229);
+            this.label1.Location = new System.Drawing.Point(599, 282);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(209, 13);
+            this.label1.Size = new System.Drawing.Size(265, 19);
             this.label1.TabIndex = 82;
             this.label1.Text = "Mismo precio en 6 cuotas de $133.327";
             // 
@@ -359,9 +376,10 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.label2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.label2.Location = new System.Drawing.Point(796, 231);
+            this.label2.Location = new System.Drawing.Point(1061, 284);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(212, 13);
+            this.label2.Size = new System.Drawing.Size(269, 19);
             this.label2.TabIndex = 83;
             this.label2.Text = "Mismo precio en 6 cuotas de $146.550";
             // 
@@ -371,9 +389,10 @@
             this.labelmediosdepaago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelmediosdepaago.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelmediosdepaago.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelmediosdepaago.Location = new System.Drawing.Point(98, 243);
+            this.labelmediosdepaago.Location = new System.Drawing.Point(131, 299);
+            this.labelmediosdepaago.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelmediosdepaago.Name = "labelmediosdepaago";
-            this.labelmediosdepaago.Size = new System.Drawing.Size(132, 13);
+            this.labelmediosdepaago.Size = new System.Drawing.Size(169, 19);
             this.labelmediosdepaago.TabIndex = 84;
             this.labelmediosdepaago.Text = "Ver los medios de pago";
             // 
@@ -383,9 +402,10 @@
             this.labelmediosdeepago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelmediosdeepago.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelmediosdeepago.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelmediosdeepago.Location = new System.Drawing.Point(452, 242);
+            this.labelmediosdeepago.Location = new System.Drawing.Point(603, 298);
+            this.labelmediosdeepago.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelmediosdeepago.Name = "labelmediosdeepago";
-            this.labelmediosdeepago.Size = new System.Drawing.Size(132, 13);
+            this.labelmediosdeepago.Size = new System.Drawing.Size(169, 19);
             this.labelmediosdeepago.TabIndex = 85;
             this.labelmediosdeepago.Text = "Ver los medios de pago";
             // 
@@ -395,9 +415,10 @@
             this.labelmediossdepago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelmediossdepago.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelmediossdepago.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelmediossdepago.Location = new System.Drawing.Point(795, 244);
+            this.labelmediossdepago.Location = new System.Drawing.Point(1060, 300);
+            this.labelmediossdepago.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelmediossdepago.Name = "labelmediossdepago";
-            this.labelmediossdepago.Size = new System.Drawing.Size(132, 13);
+            this.labelmediossdepago.Size = new System.Drawing.Size(169, 19);
             this.labelmediossdepago.TabIndex = 86;
             this.labelmediossdepago.Text = "Ver los medios de pago";
             // 
@@ -407,9 +428,10 @@
             this.labellegagratisTablet2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labellegagratisTablet2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labellegagratisTablet2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.labellegagratisTablet2.Location = new System.Drawing.Point(451, 254);
+            this.labellegagratisTablet2.Location = new System.Drawing.Point(601, 313);
+            this.labellegagratisTablet2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labellegagratisTablet2.Name = "labellegagratisTablet2";
-            this.labellegagratisTablet2.Size = new System.Drawing.Size(71, 13);
+            this.labellegagratisTablet2.Size = new System.Drawing.Size(92, 19);
             this.labellegagratisTablet2.TabIndex = 87;
             this.labellegagratisTablet2.Text = "Llega gratis";
             // 
@@ -419,9 +441,10 @@
             this.labellegagratisTablet1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labellegagratisTablet1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labellegagratisTablet1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.labellegagratisTablet1.Location = new System.Drawing.Point(98, 254);
+            this.labellegagratisTablet1.Location = new System.Drawing.Point(131, 313);
+            this.labellegagratisTablet1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labellegagratisTablet1.Name = "labellegagratisTablet1";
-            this.labellegagratisTablet1.Size = new System.Drawing.Size(71, 13);
+            this.labellegagratisTablet1.Size = new System.Drawing.Size(92, 19);
             this.labellegagratisTablet1.TabIndex = 88;
             this.labellegagratisTablet1.Text = "Llega gratis";
             // 
@@ -431,9 +454,10 @@
             this.labellegagratisTablet3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labellegagratisTablet3.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labellegagratisTablet3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(49)))), ((int)(((byte)(248)))));
-            this.labellegagratisTablet3.Location = new System.Drawing.Point(795, 256);
+            this.labellegagratisTablet3.Location = new System.Drawing.Point(1060, 315);
+            this.labellegagratisTablet3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labellegagratisTablet3.Name = "labellegagratisTablet3";
-            this.labellegagratisTablet3.Size = new System.Drawing.Size(71, 13);
+            this.labellegagratisTablet3.Size = new System.Drawing.Size(92, 19);
             this.labellegagratisTablet3.TabIndex = 89;
             this.labellegagratisTablet3.Text = "Llega gratis";
             // 
@@ -443,9 +467,10 @@
             this.labeljuevesTablet2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labeljuevesTablet2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeljuevesTablet2.ForeColor = System.Drawing.Color.Black;
-            this.labeljuevesTablet2.Location = new System.Drawing.Point(521, 254);
+            this.labeljuevesTablet2.Location = new System.Drawing.Point(695, 313);
+            this.labeljuevesTablet2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labeljuevesTablet2.Name = "labeljuevesTablet2";
-            this.labeljuevesTablet2.Size = new System.Drawing.Size(69, 13);
+            this.labeljuevesTablet2.Size = new System.Drawing.Size(90, 19);
             this.labeljuevesTablet2.TabIndex = 90;
             this.labeljuevesTablet2.Text = "el miercoles";
             // 
@@ -455,9 +480,10 @@
             this.labeljuevesTablet3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labeljuevesTablet3.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeljuevesTablet3.ForeColor = System.Drawing.Color.Black;
-            this.labeljuevesTablet3.Location = new System.Drawing.Point(865, 256);
+            this.labeljuevesTablet3.Location = new System.Drawing.Point(1153, 315);
+            this.labeljuevesTablet3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labeljuevesTablet3.Name = "labeljuevesTablet3";
-            this.labeljuevesTablet3.Size = new System.Drawing.Size(47, 13);
+            this.labeljuevesTablet3.Size = new System.Drawing.Size(62, 19);
             this.labeljuevesTablet3.TabIndex = 91;
             this.labeljuevesTablet3.Text = "el lunes";
             // 
@@ -467,9 +493,10 @@
             this.labeljuevesTablet1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labeljuevesTablet1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeljuevesTablet1.ForeColor = System.Drawing.Color.Black;
-            this.labeljuevesTablet1.Location = new System.Drawing.Point(169, 254);
+            this.labeljuevesTablet1.Location = new System.Drawing.Point(225, 313);
+            this.labeljuevesTablet1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labeljuevesTablet1.Name = "labeljuevesTablet1";
-            this.labeljuevesTablet1.Size = new System.Drawing.Size(52, 13);
+            this.labeljuevesTablet1.Size = new System.Drawing.Size(69, 19);
             this.labeljuevesTablet1.TabIndex = 92;
             this.labeljuevesTablet1.Text = "el jueves";
             // 
@@ -479,9 +506,10 @@
             this.labelentregatablet2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelentregatablet2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelentregatablet2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelentregatablet2.Location = new System.Drawing.Point(488, 277);
+            this.labelentregatablet2.Location = new System.Drawing.Point(651, 341);
+            this.labelentregatablet2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelentregatablet2.Name = "labelentregatablet2";
-            this.labelentregatablet2.Size = new System.Drawing.Size(134, 13);
+            this.labelentregatablet2.Size = new System.Drawing.Size(172, 19);
             this.labelentregatablet2.TabIndex = 96;
             this.labelentregatablet2.Text = "Más formas de entrega";
             // 
@@ -491,9 +519,10 @@
             this.labelentregatablet3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelentregatablet3.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelentregatablet3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelentregatablet3.Location = new System.Drawing.Point(832, 280);
+            this.labelentregatablet3.Location = new System.Drawing.Point(1109, 345);
+            this.labelentregatablet3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelentregatablet3.Name = "labelentregatablet3";
-            this.labelentregatablet3.Size = new System.Drawing.Size(134, 13);
+            this.labelentregatablet3.Size = new System.Drawing.Size(172, 19);
             this.labelentregatablet3.TabIndex = 97;
             this.labelentregatablet3.Text = "Más formas de entrega";
             // 
@@ -503,9 +532,10 @@
             this.labelentregatablet1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelentregatablet1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelentregatablet1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(239)))), ((int)(((byte)(49)))));
-            this.labelentregatablet1.Location = new System.Drawing.Point(133, 277);
+            this.labelentregatablet1.Location = new System.Drawing.Point(177, 341);
+            this.labelentregatablet1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelentregatablet1.Name = "labelentregatablet1";
-            this.labelentregatablet1.Size = new System.Drawing.Size(134, 13);
+            this.labelentregatablet1.Size = new System.Drawing.Size(172, 19);
             this.labelentregatablet1.TabIndex = 98;
             this.labelentregatablet1.Text = "Más formas de entrega";
             // 
@@ -515,9 +545,10 @@
             this.labelstocktablet2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelstocktablet2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelstocktablet2.ForeColor = System.Drawing.Color.Black;
-            this.labelstocktablet2.Location = new System.Drawing.Point(449, 303);
+            this.labelstocktablet2.Location = new System.Drawing.Point(599, 373);
+            this.labelstocktablet2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelstocktablet2.Name = "labelstocktablet2";
-            this.labelstocktablet2.Size = new System.Drawing.Size(95, 13);
+            this.labelstocktablet2.Size = new System.Drawing.Size(121, 19);
             this.labelstocktablet2.TabIndex = 99;
             this.labelstocktablet2.Text = "Stock disponible";
             // 
@@ -527,9 +558,10 @@
             this.labelstocktablet1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelstocktablet1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelstocktablet1.ForeColor = System.Drawing.Color.Black;
-            this.labelstocktablet1.Location = new System.Drawing.Point(93, 304);
+            this.labelstocktablet1.Location = new System.Drawing.Point(124, 374);
+            this.labelstocktablet1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelstocktablet1.Name = "labelstocktablet1";
-            this.labelstocktablet1.Size = new System.Drawing.Size(95, 13);
+            this.labelstocktablet1.Size = new System.Drawing.Size(121, 19);
             this.labelstocktablet1.TabIndex = 100;
             this.labelstocktablet1.Text = "Stock disponible";
             // 
@@ -539,9 +571,10 @@
             this.labelstocktablet3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.labelstocktablet3.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelstocktablet3.ForeColor = System.Drawing.Color.Black;
-            this.labelstocktablet3.Location = new System.Drawing.Point(794, 304);
+            this.labelstocktablet3.Location = new System.Drawing.Point(1059, 374);
+            this.labelstocktablet3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelstocktablet3.Name = "labelstocktablet3";
-            this.labelstocktablet3.Size = new System.Drawing.Size(95, 13);
+            this.labelstocktablet3.Size = new System.Drawing.Size(121, 19);
             this.labelstocktablet3.TabIndex = 101;
             this.labelstocktablet3.Text = "Stock disponible";
             // 
@@ -556,9 +589,10 @@
             this.BtnComprarTablet2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarTablet2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarTablet2.ForeColor = System.Drawing.Color.White;
-            this.BtnComprarTablet2.Location = new System.Drawing.Point(465, 326);
+            this.BtnComprarTablet2.Location = new System.Drawing.Point(620, 401);
+            this.BtnComprarTablet2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnComprarTablet2.Name = "BtnComprarTablet2";
-            this.BtnComprarTablet2.Size = new System.Drawing.Size(174, 39);
+            this.BtnComprarTablet2.Size = new System.Drawing.Size(232, 48);
             this.BtnComprarTablet2.TabIndex = 102;
             this.BtnComprarTablet2.Text = "Comprar Ahora";
             // 
@@ -573,9 +607,10 @@
             this.BtnComprarTablet1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarTablet1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarTablet1.ForeColor = System.Drawing.Color.White;
-            this.BtnComprarTablet1.Location = new System.Drawing.Point(113, 327);
+            this.BtnComprarTablet1.Location = new System.Drawing.Point(151, 402);
+            this.BtnComprarTablet1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnComprarTablet1.Name = "BtnComprarTablet1";
-            this.BtnComprarTablet1.Size = new System.Drawing.Size(174, 38);
+            this.BtnComprarTablet1.Size = new System.Drawing.Size(232, 47);
             this.BtnComprarTablet1.TabIndex = 103;
             this.BtnComprarTablet1.Text = "Comprar Ahora";
             // 
@@ -590,9 +625,10 @@
             this.BtnComprarTablet3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarTablet3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarTablet3.ForeColor = System.Drawing.Color.White;
-            this.BtnComprarTablet3.Location = new System.Drawing.Point(814, 327);
+            this.BtnComprarTablet3.Location = new System.Drawing.Point(1085, 402);
+            this.BtnComprarTablet3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnComprarTablet3.Name = "BtnComprarTablet3";
-            this.BtnComprarTablet3.Size = new System.Drawing.Size(174, 38);
+            this.BtnComprarTablet3.Size = new System.Drawing.Size(232, 47);
             this.BtnComprarTablet3.TabIndex = 104;
             this.BtnComprarTablet3.Text = "Comprar Ahora";
             // 
@@ -607,11 +643,13 @@
             this.BtnAgregaralCarritoTablet3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.BtnAgregaralCarritoTablet3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAgregaralCarritoTablet3.ForeColor = System.Drawing.Color.Black;
-            this.BtnAgregaralCarritoTablet3.Location = new System.Drawing.Point(815, 368);
+            this.BtnAgregaralCarritoTablet3.Location = new System.Drawing.Point(1087, 453);
+            this.BtnAgregaralCarritoTablet3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnAgregaralCarritoTablet3.Name = "BtnAgregaralCarritoTablet3";
-            this.BtnAgregaralCarritoTablet3.Size = new System.Drawing.Size(174, 35);
+            this.BtnAgregaralCarritoTablet3.Size = new System.Drawing.Size(232, 43);
             this.BtnAgregaralCarritoTablet3.TabIndex = 106;
             this.BtnAgregaralCarritoTablet3.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoTablet3.Click += new System.EventHandler(this.BtnAgregaralCarritoTablet3_Click);
             // 
             // BtnAgregaralCarritoTablet1
             // 
@@ -624,11 +662,13 @@
             this.BtnAgregaralCarritoTablet1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.BtnAgregaralCarritoTablet1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAgregaralCarritoTablet1.ForeColor = System.Drawing.Color.Black;
-            this.BtnAgregaralCarritoTablet1.Location = new System.Drawing.Point(112, 366);
+            this.BtnAgregaralCarritoTablet1.Location = new System.Drawing.Point(149, 450);
+            this.BtnAgregaralCarritoTablet1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnAgregaralCarritoTablet1.Name = "BtnAgregaralCarritoTablet1";
-            this.BtnAgregaralCarritoTablet1.Size = new System.Drawing.Size(174, 33);
+            this.BtnAgregaralCarritoTablet1.Size = new System.Drawing.Size(232, 41);
             this.BtnAgregaralCarritoTablet1.TabIndex = 107;
             this.BtnAgregaralCarritoTablet1.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoTablet1.Click += new System.EventHandler(this.BtnAgregaralCarritoTablet1_Click);
             // 
             // BtnAgregaralCarritoTablet2
             // 
@@ -641,11 +681,13 @@
             this.BtnAgregaralCarritoTablet2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.BtnAgregaralCarritoTablet2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAgregaralCarritoTablet2.ForeColor = System.Drawing.Color.Black;
-            this.BtnAgregaralCarritoTablet2.Location = new System.Drawing.Point(465, 368);
+            this.BtnAgregaralCarritoTablet2.Location = new System.Drawing.Point(620, 453);
+            this.BtnAgregaralCarritoTablet2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnAgregaralCarritoTablet2.Name = "BtnAgregaralCarritoTablet2";
-            this.BtnAgregaralCarritoTablet2.Size = new System.Drawing.Size(174, 33);
+            this.BtnAgregaralCarritoTablet2.Size = new System.Drawing.Size(232, 41);
             this.BtnAgregaralCarritoTablet2.TabIndex = 105;
             this.BtnAgregaralCarritoTablet2.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoTablet2.Click += new System.EventHandler(this.BtnAgregaralCarritoTablet2_Click);
             // 
             // TextBoxstoTablet2
             // 
@@ -663,14 +705,14 @@
             this.TextBoxstoTablet2.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxstoTablet2.ForeColor = System.Drawing.Color.Black;
             this.TextBoxstoTablet2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxstoTablet2.Location = new System.Drawing.Point(542, 299);
-            this.TextBoxstoTablet2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TextBoxstoTablet2.Location = new System.Drawing.Point(723, 368);
+            this.TextBoxstoTablet2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TextBoxstoTablet2.Name = "TextBoxstoTablet2";
             this.TextBoxstoTablet2.PasswordChar = '\0';
             this.TextBoxstoTablet2.PlaceholderForeColor = System.Drawing.Color.Black;
             this.TextBoxstoTablet2.PlaceholderText = "";
             this.TextBoxstoTablet2.SelectedText = "";
-            this.TextBoxstoTablet2.Size = new System.Drawing.Size(143, 21);
+            this.TextBoxstoTablet2.Size = new System.Drawing.Size(191, 26);
             this.TextBoxstoTablet2.TabIndex = 108;
             // 
             // TextBoxstoTablet1
@@ -689,14 +731,14 @@
             this.TextBoxstoTablet1.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxstoTablet1.ForeColor = System.Drawing.Color.Black;
             this.TextBoxstoTablet1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxstoTablet1.Location = new System.Drawing.Point(188, 300);
-            this.TextBoxstoTablet1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TextBoxstoTablet1.Location = new System.Drawing.Point(251, 369);
+            this.TextBoxstoTablet1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TextBoxstoTablet1.Name = "TextBoxstoTablet1";
             this.TextBoxstoTablet1.PasswordChar = '\0';
             this.TextBoxstoTablet1.PlaceholderForeColor = System.Drawing.Color.Black;
             this.TextBoxstoTablet1.PlaceholderText = "";
             this.TextBoxstoTablet1.SelectedText = "";
-            this.TextBoxstoTablet1.Size = new System.Drawing.Size(143, 21);
+            this.TextBoxstoTablet1.Size = new System.Drawing.Size(191, 26);
             this.TextBoxstoTablet1.TabIndex = 109;
             // 
             // TextBoxstoTablet3
@@ -715,14 +757,14 @@
             this.TextBoxstoTablet3.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxstoTablet3.ForeColor = System.Drawing.Color.Black;
             this.TextBoxstoTablet3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxstoTablet3.Location = new System.Drawing.Point(887, 299);
-            this.TextBoxstoTablet3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TextBoxstoTablet3.Location = new System.Drawing.Point(1183, 368);
+            this.TextBoxstoTablet3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TextBoxstoTablet3.Name = "TextBoxstoTablet3";
             this.TextBoxstoTablet3.PasswordChar = '\0';
             this.TextBoxstoTablet3.PlaceholderForeColor = System.Drawing.Color.Black;
             this.TextBoxstoTablet3.PlaceholderText = "";
             this.TextBoxstoTablet3.SelectedText = "";
-            this.TextBoxstoTablet3.Size = new System.Drawing.Size(143, 21);
+            this.TextBoxstoTablet3.Size = new System.Drawing.Size(191, 26);
             this.TextBoxstoTablet3.TabIndex = 110;
             // 
             // PictureBoxMapa7
@@ -731,9 +773,10 @@
             this.PictureBoxMapa7.BorderRadius = 20;
             this.PictureBoxMapa7.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.mapa1;
             this.PictureBoxMapa7.ImageRotate = 0F;
-            this.PictureBoxMapa7.Location = new System.Drawing.Point(99, 268);
+            this.PictureBoxMapa7.Location = new System.Drawing.Point(132, 330);
+            this.PictureBoxMapa7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxMapa7.Name = "PictureBoxMapa7";
-            this.PictureBoxMapa7.Size = new System.Drawing.Size(31, 30);
+            this.PictureBoxMapa7.Size = new System.Drawing.Size(41, 37);
             this.PictureBoxMapa7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxMapa7.TabIndex = 95;
             this.PictureBoxMapa7.TabStop = false;
@@ -744,9 +787,10 @@
             this.PictureBoxMapa9.BorderRadius = 20;
             this.PictureBoxMapa9.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.mapa1;
             this.PictureBoxMapa9.ImageRotate = 0F;
-            this.PictureBoxMapa9.Location = new System.Drawing.Point(798, 271);
+            this.PictureBoxMapa9.Location = new System.Drawing.Point(1064, 334);
+            this.PictureBoxMapa9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxMapa9.Name = "PictureBoxMapa9";
-            this.PictureBoxMapa9.Size = new System.Drawing.Size(31, 30);
+            this.PictureBoxMapa9.Size = new System.Drawing.Size(41, 37);
             this.PictureBoxMapa9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxMapa9.TabIndex = 94;
             this.PictureBoxMapa9.TabStop = false;
@@ -757,9 +801,10 @@
             this.PictureBoxMapa8.BorderRadius = 20;
             this.PictureBoxMapa8.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.mapa1;
             this.PictureBoxMapa8.ImageRotate = 0F;
-            this.PictureBoxMapa8.Location = new System.Drawing.Point(453, 267);
+            this.PictureBoxMapa8.Location = new System.Drawing.Point(604, 329);
+            this.PictureBoxMapa8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxMapa8.Name = "PictureBoxMapa8";
-            this.PictureBoxMapa8.Size = new System.Drawing.Size(31, 30);
+            this.PictureBoxMapa8.Size = new System.Drawing.Size(41, 37);
             this.PictureBoxMapa8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxMapa8.TabIndex = 93;
             this.PictureBoxMapa8.TabStop = false;
@@ -769,10 +814,11 @@
             this.CirclePictureBoxCompartirTablets9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCompartirTablets9.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.compartir;
             this.CirclePictureBoxCompartirTablets9.ImageRotate = 0F;
-            this.CirclePictureBoxCompartirTablets9.Location = new System.Drawing.Point(994, 138);
+            this.CirclePictureBoxCompartirTablets9.Location = new System.Drawing.Point(1325, 170);
+            this.CirclePictureBoxCompartirTablets9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CirclePictureBoxCompartirTablets9.Name = "CirclePictureBoxCompartirTablets9";
             this.CirclePictureBoxCompartirTablets9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.CirclePictureBoxCompartirTablets9.Size = new System.Drawing.Size(38, 32);
+            this.CirclePictureBoxCompartirTablets9.Size = new System.Drawing.Size(51, 39);
             this.CirclePictureBoxCompartirTablets9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CirclePictureBoxCompartirTablets9.TabIndex = 71;
             this.CirclePictureBoxCompartirTablets9.TabStop = false;
@@ -782,10 +828,11 @@
             this.CirclePictureBoxCompartirTablets8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCompartirTablets8.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.compartir;
             this.CirclePictureBoxCompartirTablets8.ImageRotate = 0F;
-            this.CirclePictureBoxCompartirTablets8.Location = new System.Drawing.Point(650, 134);
+            this.CirclePictureBoxCompartirTablets8.Location = new System.Drawing.Point(867, 165);
+            this.CirclePictureBoxCompartirTablets8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CirclePictureBoxCompartirTablets8.Name = "CirclePictureBoxCompartirTablets8";
             this.CirclePictureBoxCompartirTablets8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.CirclePictureBoxCompartirTablets8.Size = new System.Drawing.Size(38, 32);
+            this.CirclePictureBoxCompartirTablets8.Size = new System.Drawing.Size(51, 39);
             this.CirclePictureBoxCompartirTablets8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CirclePictureBoxCompartirTablets8.TabIndex = 70;
             this.CirclePictureBoxCompartirTablets8.TabStop = false;
@@ -795,10 +842,11 @@
             this.CirclePictureBoxCompartirTablets7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCompartirTablets7.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.compartir;
             this.CirclePictureBoxCompartirTablets7.ImageRotate = 0F;
-            this.CirclePictureBoxCompartirTablets7.Location = new System.Drawing.Point(297, 131);
+            this.CirclePictureBoxCompartirTablets7.Location = new System.Drawing.Point(396, 161);
+            this.CirclePictureBoxCompartirTablets7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CirclePictureBoxCompartirTablets7.Name = "CirclePictureBoxCompartirTablets7";
             this.CirclePictureBoxCompartirTablets7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.CirclePictureBoxCompartirTablets7.Size = new System.Drawing.Size(38, 32);
+            this.CirclePictureBoxCompartirTablets7.Size = new System.Drawing.Size(51, 39);
             this.CirclePictureBoxCompartirTablets7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CirclePictureBoxCompartirTablets7.TabIndex = 69;
             this.CirclePictureBoxCompartirTablets7.TabStop = false;
@@ -808,10 +856,11 @@
             this.CirclePictureBoxCorazonCelu9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCorazonCelu9.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.corazon;
             this.CirclePictureBoxCorazonCelu9.ImageRotate = 0F;
-            this.CirclePictureBoxCorazonCelu9.Location = new System.Drawing.Point(996, 56);
+            this.CirclePictureBoxCorazonCelu9.Location = new System.Drawing.Point(1328, 69);
+            this.CirclePictureBoxCorazonCelu9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CirclePictureBoxCorazonCelu9.Name = "CirclePictureBoxCorazonCelu9";
             this.CirclePictureBoxCorazonCelu9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.CirclePictureBoxCorazonCelu9.Size = new System.Drawing.Size(38, 32);
+            this.CirclePictureBoxCorazonCelu9.Size = new System.Drawing.Size(51, 39);
             this.CirclePictureBoxCorazonCelu9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CirclePictureBoxCorazonCelu9.TabIndex = 68;
             this.CirclePictureBoxCorazonCelu9.TabStop = false;
@@ -821,10 +870,11 @@
             this.CirclePictureBoxCorazonCelu8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCorazonCelu8.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.corazon;
             this.CirclePictureBoxCorazonCelu8.ImageRotate = 0F;
-            this.CirclePictureBoxCorazonCelu8.Location = new System.Drawing.Point(650, 56);
+            this.CirclePictureBoxCorazonCelu8.Location = new System.Drawing.Point(867, 69);
+            this.CirclePictureBoxCorazonCelu8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CirclePictureBoxCorazonCelu8.Name = "CirclePictureBoxCorazonCelu8";
             this.CirclePictureBoxCorazonCelu8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.CirclePictureBoxCorazonCelu8.Size = new System.Drawing.Size(38, 32);
+            this.CirclePictureBoxCorazonCelu8.Size = new System.Drawing.Size(51, 39);
             this.CirclePictureBoxCorazonCelu8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CirclePictureBoxCorazonCelu8.TabIndex = 67;
             this.CirclePictureBoxCorazonCelu8.TabStop = false;
@@ -834,10 +884,11 @@
             this.CirclePictureBoxCorazonCelu7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.CirclePictureBoxCorazonCelu7.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.corazon;
             this.CirclePictureBoxCorazonCelu7.ImageRotate = 0F;
-            this.CirclePictureBoxCorazonCelu7.Location = new System.Drawing.Point(297, 54);
+            this.CirclePictureBoxCorazonCelu7.Location = new System.Drawing.Point(396, 66);
+            this.CirclePictureBoxCorazonCelu7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CirclePictureBoxCorazonCelu7.Name = "CirclePictureBoxCorazonCelu7";
             this.CirclePictureBoxCorazonCelu7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.CirclePictureBoxCorazonCelu7.Size = new System.Drawing.Size(38, 32);
+            this.CirclePictureBoxCorazonCelu7.Size = new System.Drawing.Size(51, 39);
             this.CirclePictureBoxCorazonCelu7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CirclePictureBoxCorazonCelu7.TabIndex = 66;
             this.CirclePictureBoxCorazonCelu7.TabStop = false;
@@ -847,9 +898,10 @@
             this.PictureBoxEstrellas8.BackColor = System.Drawing.Color.White;
             this.PictureBoxEstrellas8.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.hoteles_4_estrellas_napoles;
             this.PictureBoxEstrellas8.ImageRotate = 0F;
-            this.PictureBoxEstrellas8.Location = new System.Drawing.Point(821, 158);
+            this.PictureBoxEstrellas8.Location = new System.Drawing.Point(1095, 194);
+            this.PictureBoxEstrellas8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxEstrellas8.Name = "PictureBoxEstrellas8";
-            this.PictureBoxEstrellas8.Size = new System.Drawing.Size(166, 22);
+            this.PictureBoxEstrellas8.Size = new System.Drawing.Size(221, 27);
             this.PictureBoxEstrellas8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxEstrellas8.TabIndex = 22;
             this.PictureBoxEstrellas8.TabStop = false;
@@ -859,9 +911,10 @@
             this.PictureBoxEstrellas7.BackColor = System.Drawing.Color.White;
             this.PictureBoxEstrellas7.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.hoteles_4_estrellas_napoles;
             this.PictureBoxEstrellas7.ImageRotate = 0F;
-            this.PictureBoxEstrellas7.Location = new System.Drawing.Point(477, 154);
+            this.PictureBoxEstrellas7.Location = new System.Drawing.Point(636, 190);
+            this.PictureBoxEstrellas7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxEstrellas7.Name = "PictureBoxEstrellas7";
-            this.PictureBoxEstrellas7.Size = new System.Drawing.Size(166, 22);
+            this.PictureBoxEstrellas7.Size = new System.Drawing.Size(221, 27);
             this.PictureBoxEstrellas7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxEstrellas7.TabIndex = 21;
             this.PictureBoxEstrellas7.TabStop = false;
@@ -871,9 +924,10 @@
             this.PictureBoxEstrellas6.BackColor = System.Drawing.Color.White;
             this.PictureBoxEstrellas6.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.hoteles_4_estrellas_napoles;
             this.PictureBoxEstrellas6.ImageRotate = 0F;
-            this.PictureBoxEstrellas6.Location = new System.Drawing.Point(125, 154);
+            this.PictureBoxEstrellas6.Location = new System.Drawing.Point(167, 190);
+            this.PictureBoxEstrellas6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxEstrellas6.Name = "PictureBoxEstrellas6";
-            this.PictureBoxEstrellas6.Size = new System.Drawing.Size(166, 22);
+            this.PictureBoxEstrellas6.Size = new System.Drawing.Size(221, 27);
             this.PictureBoxEstrellas6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxEstrellas6.TabIndex = 20;
             this.PictureBoxEstrellas6.TabStop = false;
@@ -882,12 +936,13 @@
             // 
             this.PictureBoxTablet3.AutoRoundedCorners = true;
             this.PictureBoxTablet3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.PictureBoxTablet3.BorderRadius = 55;
+            this.PictureBoxTablet3.BorderRadius = 68;
             this.PictureBoxTablet3.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.tablets;
             this.PictureBoxTablet3.ImageRotate = 0F;
-            this.PictureBoxTablet3.Location = new System.Drawing.Point(781, 57);
+            this.PictureBoxTablet3.Location = new System.Drawing.Point(1041, 70);
+            this.PictureBoxTablet3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxTablet3.Name = "PictureBoxTablet3";
-            this.PictureBoxTablet3.Size = new System.Drawing.Size(243, 113);
+            this.PictureBoxTablet3.Size = new System.Drawing.Size(324, 139);
             this.PictureBoxTablet3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxTablet3.TabIndex = 19;
             this.PictureBoxTablet3.TabStop = false;
@@ -896,12 +951,13 @@
             // 
             this.PictureBoxTablet2.AutoRoundedCorners = true;
             this.PictureBoxTablet2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.PictureBoxTablet2.BorderRadius = 55;
+            this.PictureBoxTablet2.BorderRadius = 68;
             this.PictureBoxTablet2.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.asus_tables;
             this.PictureBoxTablet2.ImageRotate = 0F;
-            this.PictureBoxTablet2.Location = new System.Drawing.Point(437, 56);
+            this.PictureBoxTablet2.Location = new System.Drawing.Point(583, 69);
+            this.PictureBoxTablet2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxTablet2.Name = "PictureBoxTablet2";
-            this.PictureBoxTablet2.Size = new System.Drawing.Size(243, 113);
+            this.PictureBoxTablet2.Size = new System.Drawing.Size(324, 139);
             this.PictureBoxTablet2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxTablet2.TabIndex = 18;
             this.PictureBoxTablet2.TabStop = false;
@@ -910,12 +966,13 @@
             // 
             this.PictureBoxTablet1.AutoRoundedCorners = true;
             this.PictureBoxTablet1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.PictureBoxTablet1.BorderRadius = 55;
+            this.PictureBoxTablet1.BorderRadius = 68;
             this.PictureBoxTablet1.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.tablest_asus;
             this.PictureBoxTablet1.ImageRotate = 0F;
-            this.PictureBoxTablet1.Location = new System.Drawing.Point(84, 53);
+            this.PictureBoxTablet1.Location = new System.Drawing.Point(112, 65);
+            this.PictureBoxTablet1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxTablet1.Name = "PictureBoxTablet1";
-            this.PictureBoxTablet1.Size = new System.Drawing.Size(243, 113);
+            this.PictureBoxTablet1.Size = new System.Drawing.Size(324, 139);
             this.PictureBoxTablet1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxTablet1.TabIndex = 17;
             this.PictureBoxTablet1.TabStop = false;
@@ -925,9 +982,10 @@
             this.PictureBoxTablets3.BorderRadius = 25;
             this.PictureBoxTablets3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.PictureBoxTablets3.ImageRotate = 0F;
-            this.PictureBoxTablets3.Location = new System.Drawing.Point(749, 4);
+            this.PictureBoxTablets3.Location = new System.Drawing.Point(999, 5);
+            this.PictureBoxTablets3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxTablets3.Name = "PictureBoxTablets3";
-            this.PictureBoxTablets3.Size = new System.Drawing.Size(307, 411);
+            this.PictureBoxTablets3.Size = new System.Drawing.Size(409, 506);
             this.PictureBoxTablets3.TabIndex = 13;
             this.PictureBoxTablets3.TabStop = false;
             // 
@@ -936,9 +994,10 @@
             this.PictureBoxTablets2.BorderRadius = 25;
             this.PictureBoxTablets2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.PictureBoxTablets2.ImageRotate = 0F;
-            this.PictureBoxTablets2.Location = new System.Drawing.Point(407, 4);
+            this.PictureBoxTablets2.Location = new System.Drawing.Point(543, 5);
+            this.PictureBoxTablets2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxTablets2.Name = "PictureBoxTablets2";
-            this.PictureBoxTablets2.Size = new System.Drawing.Size(307, 411);
+            this.PictureBoxTablets2.Size = new System.Drawing.Size(409, 506);
             this.PictureBoxTablets2.TabIndex = 12;
             this.PictureBoxTablets2.TabStop = false;
             // 
@@ -947,9 +1006,10 @@
             this.PictureBoxTablets1.BorderRadius = 25;
             this.PictureBoxTablets1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.PictureBoxTablets1.ImageRotate = 0F;
-            this.PictureBoxTablets1.Location = new System.Drawing.Point(61, 4);
+            this.PictureBoxTablets1.Location = new System.Drawing.Point(81, 5);
+            this.PictureBoxTablets1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxTablets1.Name = "PictureBoxTablets1";
-            this.PictureBoxTablets1.Size = new System.Drawing.Size(303, 411);
+            this.PictureBoxTablets1.Size = new System.Drawing.Size(404, 506);
             this.PictureBoxTablets1.TabIndex = 11;
             this.PictureBoxTablets1.TabStop = false;
             // 
@@ -958,9 +1018,10 @@
             this.PictureBoxTabletsInferior.BorderRadius = 25;
             this.PictureBoxTabletsInferior.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.tablets_samsung1;
             this.PictureBoxTabletsInferior.ImageRotate = 0F;
-            this.PictureBoxTabletsInferior.Location = new System.Drawing.Point(5, 421);
+            this.PictureBoxTabletsInferior.Location = new System.Drawing.Point(7, 518);
+            this.PictureBoxTabletsInferior.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBoxTabletsInferior.Name = "PictureBoxTabletsInferior";
-            this.PictureBoxTabletsInferior.Size = new System.Drawing.Size(989, 127);
+            this.PictureBoxTabletsInferior.Size = new System.Drawing.Size(1319, 156);
             this.PictureBoxTabletsInferior.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxTabletsInferior.TabIndex = 10;
             this.PictureBoxTabletsInferior.TabStop = false;
@@ -975,20 +1036,21 @@
             this.BtnVolverTablets.FillColor = System.Drawing.Color.RosyBrown;
             this.BtnVolverTablets.Font = new System.Drawing.Font("Segoe UI Black", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVolverTablets.ForeColor = System.Drawing.Color.Black;
-            this.BtnVolverTablets.Location = new System.Drawing.Point(1003, 452);
+            this.BtnVolverTablets.Location = new System.Drawing.Point(1337, 556);
+            this.BtnVolverTablets.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnVolverTablets.Name = "BtnVolverTablets";
             this.BtnVolverTablets.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.BtnVolverTablets.Size = new System.Drawing.Size(89, 58);
+            this.BtnVolverTablets.Size = new System.Drawing.Size(119, 71);
             this.BtnVolverTablets.TabIndex = 112;
             this.BtnVolverTablets.Text = "VOLVER";
             this.BtnVolverTablets.Click += new System.EventHandler(this.BtnVolverTablets_Click_1);
             // 
             // FormTablets
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.ClientSize = new System.Drawing.Size(1104, 551);
+            this.ClientSize = new System.Drawing.Size(1472, 678);
             this.Controls.Add(this.BtnVolverTablets);
             this.Controls.Add(this.TextBoxstoTablet3);
             this.Controls.Add(this.TextBoxstoTablet1);
@@ -1052,6 +1114,7 @@
             this.Controls.Add(this.PictureBoxTablets1);
             this.Controls.Add(this.PictureBoxTabletsInferior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormTablets";
             this.Text = "FormTablets";
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxMapa7)).EndInit();
