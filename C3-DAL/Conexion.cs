@@ -103,7 +103,22 @@ namespace C3_DAL
             conexion.Close();
             return listProductos;
         }
+        public void EditarProducto(Productos producto)
+        {
+            conexion.Open();
+            comando.CommandText = "UPDATE Productos SET Marca = @marca, Modelo = @modelo, Precio = @precio, Stock = @stock, IdCategoria = @idCategoria WHERE IdProducto = @IdProducto";
 
+            comando.Parameters.Clear();
+            comando.Parameters.AddWithValue("@IdProducto", producto.IdProducto);
+            comando.Parameters.AddWithValue("@marca", producto.Marca);
+            comando.Parameters.AddWithValue("@modelo", producto.Modelo);
+            comando.Parameters.AddWithValue("@precio", producto.Precio);
+            comando.Parameters.AddWithValue("@stock", producto.Stock);
+            comando.Parameters.AddWithValue("@idCategoria", producto.IdCategoria);
+
+            comando.ExecuteNonQuery();
+            conexion.Close();
+        }
         // METODO PARA AGREGAR PRODUCTOS
         public void AgregarProducto(Productos producto)
         {
@@ -144,7 +159,65 @@ namespace C3_DAL
             comando.CommandText = "DELETE FROM Productos WHERE IdProducto = @IdProducto";
 
             comando.ExecuteNonQuery();
-            comando.Clone();
+            conexion.Close();
+        }
+        public List<Productos> BuscarProductos(string marca)
+        {
+            List<Productos> listProductos = new List<Productos>();
+            conexion.Open();
+            comando.CommandText = "SELECT * FROM Productos WHERE Marca = '"+marca+"'";
+
+            lector = comando.ExecuteReader();
+            while (lector.Read())
+            {
+                Productos producto = new Productos();
+                producto.IdProducto = lector.GetInt32(0);
+                producto.Marca = lector.GetString(1);
+                producto.Modelo = lector.GetString(2);
+                producto.Precio = lector.GetDecimal(3);
+                producto.Stock = lector.GetInt32(4);
+                producto.IdCategoria = lector.GetInt32(5);
+
+                listProductos.Add(producto);
+            }
+            conexion.Close();
+            return listProductos;
+        }
+        public List<Productos> FiltrarProductos(int categoria, string orden)
+        {
+            List<Productos> listProductos = new List<Productos>();
+
+            conexion.Open();
+
+            comando.Parameters.Clear();
+            comando.Parameters.AddWithValue("@IdCategoria", categoria);
+            if (orden == "Menor")
+            {
+                comando.CommandText = "SELECT * FROM Productos WHERE IdCategoria = @IdCategoria ORDER BY Precio ASC";
+            }
+            else if (orden == "Mayor")
+            {
+                comando.CommandText = "SELECT * FROM Productos WHERE IdCategoria = @IdCategoria ORDER BY Precio DESC";
+            }
+            else
+            {
+                comando.CommandText = "SELECT * FROM Productos WHERE IdCategoria = @IdCategoria";
+            }
+            lector = comando.ExecuteReader();
+            while (lector.Read())
+            {
+                Productos producto = new Productos();
+                producto.IdProducto = lector.GetInt32(0);
+                producto.Marca = lector.GetString(1);
+                producto.Modelo = lector.GetString(2);
+                producto.Precio = lector.GetDecimal(3);
+                producto.Stock = lector.GetInt32(4);
+                producto.IdCategoria = lector.GetInt32(5);
+
+                listProductos.Add(producto);
+            }
+            conexion.Close();
+            return listProductos;
         }
     }
 }
