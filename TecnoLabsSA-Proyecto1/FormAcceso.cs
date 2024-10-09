@@ -35,7 +35,7 @@ namespace TecnoLabsSA_Proyecto1
         //Realizamos click en el Boton "Administrador"
         private void BntIconoAdministrador_Click(object sender, EventArgs e)
         {
-            if (ContenedorAdministrador.Visible)
+            /*if (ContenedorAdministrador.Visible)
             {
                 volverAVistaPrincipal();
             }
@@ -43,14 +43,17 @@ namespace TecnoLabsSA_Proyecto1
             {
                 panelRegistroCliente.Visible = false;
                 ContenedorAdministrador.Visible = true;
-            }
+            }*/
+            ContenedorAdministrador.Visible = !ContenedorAdministrador.Visible;
+            panelRegistroCliente.Visible = false;
+            panelSesionCliente.Visible = false;
 
         }
 
         //Realizamos click en el Boton "Cliente"
         private void BtnCliente_Click(object sender, EventArgs e)
         {
-            if (panelRegistroCliente.Visible)
+            /*if (panelRegistroCliente.Visible)
             {
                 volverAVistaPrincipal();
             }
@@ -58,7 +61,10 @@ namespace TecnoLabsSA_Proyecto1
             {
                 ContenedorAdministrador.Visible = false;
                 panelRegistroCliente.Visible = true;
-            }
+            }*/
+            panelSesionCliente.Visible = !panelSesionCliente.Visible;
+            panelRegistroCliente.Visible = false;
+            ContenedorAdministrador.Visible = false;
             
         }
 
@@ -82,11 +88,15 @@ namespace TecnoLabsSA_Proyecto1
         private void label2_Click(object sender, EventArgs e)
         {
             panelRegistroCliente.Visible = !panelRegistroCliente.Visible;
+            panelSesionCliente.Visible = false;
+            ContenedorAdministrador.Visible = false;
         }
 
         private void IngresaCliente_Click(object sender, EventArgs e)
         {
             panelSesionCliente.Visible = !panelSesionCliente.Visible;
+            panelRegistroCliente.Visible = false;
+            ContenedorAdministrador.Visible = false;
         }
     }
 }

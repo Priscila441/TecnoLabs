@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using C4_ENTIDADES;
+using System.Text.RegularExpressions;
 
 namespace C3_DAL
 {
@@ -218,6 +219,25 @@ namespace C3_DAL
             }
             conexion.Close();
             return listProductos;
+        }
+        public (int Id_Persona, int Id_Cliente) ValidarUsuario(string email)
+        {
+            conexion.Open();
+            int Id_Persona = 0;
+            int Id_Cliente = 0;
+
+            comando.Parameters.Clear();
+            comando.Parameters.AddWithValue("@Email", email);
+
+            comando.CommandText = "SELECT p.idPersona, c.idCliente FROM Persona p " + "JOIN Clientes c ON p.idPersona = c.idPersona WHERE p.Email = @Email";
+            lector = comando.ExecuteReader();
+            if (lector.Read())
+            {
+                Id_Persona = lector.GetInt32(0);
+                Id_Cliente = lector.GetInt32(1);
+            }
+            conexion.Close();
+            return (Id_Persona, Id_Cliente);
         }
     }
 }
