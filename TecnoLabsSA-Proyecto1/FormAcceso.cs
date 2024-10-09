@@ -1,4 +1,6 @@
-﻿using System;
+﻿using C2_BLL;
+using C4_ENTIDADES;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,7 @@ namespace TecnoLabsSA_Proyecto1
 {
     public partial class FormAcceso : Form
     {
+        CN_Productos CnProductos = new CN_Productos();
         public FormAcceso()
         {
             InitializeComponent();
@@ -97,6 +100,42 @@ namespace TecnoLabsSA_Proyecto1
             panelSesionCliente.Visible = !panelSesionCliente.Visible;
             panelRegistroCliente.Visible = false;
             ContenedorAdministrador.Visible = false;
+        }
+
+        private void btnInicioSesionCliente_Click(object sender, EventArgs e)
+        {
+            bool esValido = CnProductos.VerificarUsuario(txtEmailClienteInicio.Text);
+            if (esValido == true)
+            {
+                MessageBox.Show("Sesión iniciada correctamente");
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("Email o contraseña incorrectos", "Error de acceso");
+            }
+        }
+
+        private void BtnRegistrarCliente_Click(object sender, EventArgs e)
+        {
+            Clientes persona = new Clientes();
+            persona.Nombre = txtNombreCliente.Text;
+            persona.Apellido = txtApellido.Text;
+            persona.Edad = int.Parse(txtEdad.Text);
+            persona.Email = txtEmailRegistro.Text;
+            persona.Direccion = txtDireccion.Text;
+
+            bool esRegistrado = CnProductos.NuevoRegistro(persona);
+            if (esRegistrado == true)
+            {
+                
+                MessageBox.Show($"Felicitaciones {GestorCompra.Instancia.PersonaActual.Nombre}, se registró exitosamente!", "Registro exitoso");
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("No se pudo completar el registro. Por favor, verifica los datos e inténtalo de nuevo.", "Registro fallido");
+            }
         }
     }
 }

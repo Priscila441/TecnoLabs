@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using C4_ENTIDADES;
 using System.Text.RegularExpressions;
+using System.ComponentModel.Design;
 
 namespace C3_DAL
 {
@@ -166,7 +167,7 @@ namespace C3_DAL
         {
             List<Productos> listProductos = new List<Productos>();
             conexion.Open();
-            comando.CommandText = "SELECT * FROM Productos WHERE Marca = '"+marca+"'";
+            comando.CommandText = "SELECT * FROM Productos WHERE Marca = '" + marca + "'";
 
             lector = comando.ExecuteReader();
             while (lector.Read())
@@ -220,8 +221,9 @@ namespace C3_DAL
             conexion.Close();
             return listProductos;
         }
-        public (int Id_Persona, int Id_Cliente) ValidarUsuario(string email)
+        public Clientes ValidarUsuario(string email)
         {
+            Clientes cliente = new Clientes();
             conexion.Open();
             int Id_Persona = 0;
             int Id_Cliente = 0;
@@ -229,15 +231,73 @@ namespace C3_DAL
             comando.Parameters.Clear();
             comando.Parameters.AddWithValue("@Email", email);
 
-            comando.CommandText = "SELECT p.idPersona, c.idCliente FROM Persona p " + "JOIN Clientes c ON p.idPersona = c.idPersona WHERE p.Email = @Email";
+            comando.CommandText = "SELECT p.Id AS idPersona, c.IdCliente AS idCliente FROM Persona p JOIN Clientes c ON p.Id = c.IdPersona WHERE p.Email = @Email";
             lector = comando.ExecuteReader();
             if (lector.Read())
             {
                 Id_Persona = lector.GetInt32(0);
                 Id_Cliente = lector.GetInt32(1);
             }
+            cliente.IdCliente = Id_Cliente;
+            cliente.IdPersona = Id_Persona;
             conexion.Close();
-            return (Id_Persona, Id_Cliente);
+            return cliente;
         }
+        public Clientes RegistrarUsuario(Clientes cliente)
+        {
+            Clientes nuevoUsuario = new Clientes();
+            int Id_Persona = 0;
+            int Id_Cliente = 0;
+
+            conexion.Open();
+
+            string queryPersona = "INSERT INTO Persona (Nombre, Apellido, Edad, Direccion, Email) OUTPUT INSERTED.Id VALUES (@nombre, @apellido, @edad, @direccion, @email)";
+            string queryCliente = "INSERT INTO Clientes (IdPersona, TipoCliente, Descuento) OUTPUT INSERTED.IdCliente VALUES (@idPersona, @tipoCliente, @descuento)";
+
+            SqlCommand comando = new SqlCommand(queryPersona, conexion);
+
+            comando.Parameters.Clear();
+            comando.Parameters.AddWithValue("@nombre", cliente.Nombre);
+            comando.Parameters.AddWithValue("@apellido", cliente.Apellido);
+            comando.Parameters.AddWithValue("@edad", cliente.Edad);
+            comando.Parameters.AddWithValue("@direccion", cliente.Direccion);
+            comando.Parameters.AddWithValue("@email", cliente.Email);
+
+            SqlTransaction transaccion = conexion.BeginTransaction();
+
+            try
+            {
+                comando.Transaction = transaccion;
+
+                Id_Persona = (int)comando.ExecuteScalar();
+                SqlCommand comandoCliente = new SqlCommand(queryCliente, conexion);
+                comandoCliente.Transaction = transaccion;
+
+                comandoCliente.Parameters.AddWithValue("@idPersona", Id_Persona);
+                comandoCliente.Parameters.AddWithValue("@tipoCliente", cliente.TipoCliente);
+                comandoCliente.Parameters.AddWithValue("@descuento", cliente.Descuento);
+
+                
+                Id_Cliente = (int)comandoCliente.ExecuteScalar();
+                transaccion.Commit();
+            }
+            catch (Exception ex)
+            {
+                transaccion.Rollback();
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+
+            
+            cliente.IdPersona = Id_Persona;
+            cliente.IdCliente = Id_Cliente;
+            nuevoUsuario = cliente;
+
+            return nuevoUsuario;
+        }
+
     }
 }

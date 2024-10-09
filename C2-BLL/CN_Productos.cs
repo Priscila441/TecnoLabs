@@ -65,5 +65,39 @@ namespace C2_BLL
             }
             else return null;
         }
+        public bool VerificarUsuario(string email)
+        {
+            Clientes cliente = new Clientes();
+            cliente = conexion.ValidarUsuario(email);
+            
+            if (cliente.IdPersona != 0 && cliente.IdCliente != 0)
+            {
+                cliente.TipoCliente = "Regular";
+                cliente.Descuento = 10;
+
+                GestorCompra.Instancia.AsignarCliente(cliente);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool NuevoRegistro(Clientes cliente)
+        {
+            cliente.TipoCliente = "Regular";
+            cliente.Descuento = 10;
+            cliente = conexion.RegistrarUsuario(cliente);
+            if (cliente.IdPersona != 0 && cliente.IdCliente != 0)
+            {
+                GestorCompra.Instancia.AsignarPersona(cliente);
+                GestorCompra.Instancia.AsignarCliente(cliente);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
