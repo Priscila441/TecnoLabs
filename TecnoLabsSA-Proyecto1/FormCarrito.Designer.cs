@@ -53,10 +53,9 @@
             this.labelAdministrador.AutoSize = true;
             this.labelAdministrador.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAdministrador.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(104)))), ((int)(((byte)(150)))));
-            this.labelAdministrador.Location = new System.Drawing.Point(344, 32);
-            this.labelAdministrador.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelAdministrador.Location = new System.Drawing.Point(258, 26);
             this.labelAdministrador.Name = "labelAdministrador";
-            this.labelAdministrador.Size = new System.Drawing.Size(313, 37);
+            this.labelAdministrador.Size = new System.Drawing.Size(244, 30);
             this.labelAdministrador.TabIndex = 11;
             this.labelAdministrador.Text = "CARRITO DE COMPRAS";
             // 
@@ -71,10 +70,9 @@
             this.BtnComprarPagar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarPagar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarPagar.ForeColor = System.Drawing.Color.White;
-            this.BtnComprarPagar.Location = new System.Drawing.Point(1032, 474);
-            this.BtnComprarPagar.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnComprarPagar.Location = new System.Drawing.Point(774, 385);
             this.BtnComprarPagar.Name = "BtnComprarPagar";
-            this.BtnComprarPagar.Size = new System.Drawing.Size(203, 39);
+            this.BtnComprarPagar.Size = new System.Drawing.Size(152, 32);
             this.BtnComprarPagar.TabIndex = 102;
             this.BtnComprarPagar.Text = "Pagar";
             // 
@@ -83,10 +81,9 @@
             this.PictureBoxItemsCarrito.BorderRadius = 25;
             this.PictureBoxItemsCarrito.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.Carrito_de_compras;
             this.PictureBoxItemsCarrito.ImageRotate = 0F;
-            this.PictureBoxItemsCarrito.Location = new System.Drawing.Point(124, 97);
-            this.PictureBoxItemsCarrito.Margin = new System.Windows.Forms.Padding(4);
+            this.PictureBoxItemsCarrito.Location = new System.Drawing.Point(93, 79);
             this.PictureBoxItemsCarrito.Name = "PictureBoxItemsCarrito";
-            this.PictureBoxItemsCarrito.Size = new System.Drawing.Size(1160, 52);
+            this.PictureBoxItemsCarrito.Size = new System.Drawing.Size(870, 42);
             this.PictureBoxItemsCarrito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxItemsCarrito.TabIndex = 13;
             this.PictureBoxItemsCarrito.TabStop = false;
@@ -96,10 +93,9 @@
             this.PictureBoxCarrito.BorderRadius = 20;
             this.PictureBoxCarrito.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.carrito1;
             this.PictureBoxCarrito.ImageRotate = 0F;
-            this.PictureBoxCarrito.Location = new System.Drawing.Point(12, 2);
-            this.PictureBoxCarrito.Margin = new System.Windows.Forms.Padding(4);
+            this.PictureBoxCarrito.Location = new System.Drawing.Point(9, 2);
             this.PictureBoxCarrito.Name = "PictureBoxCarrito";
-            this.PictureBoxCarrito.Size = new System.Drawing.Size(321, 92);
+            this.PictureBoxCarrito.Size = new System.Drawing.Size(241, 75);
             this.PictureBoxCarrito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxCarrito.TabIndex = 10;
             this.PictureBoxCarrito.TabStop = false;
@@ -109,10 +105,9 @@
             this.PictureBoxCarritoInferior.BorderRadius = 25;
             this.PictureBoxCarritoInferior.Image = global::TecnoLabsSA_Proyecto1.Properties.Resources.PARODI_PROMOS;
             this.PictureBoxCarritoInferior.ImageRotate = 0F;
-            this.PictureBoxCarritoInferior.Location = new System.Drawing.Point(12, 518);
-            this.PictureBoxCarritoInferior.Margin = new System.Windows.Forms.Padding(4);
+            this.PictureBoxCarritoInferior.Location = new System.Drawing.Point(9, 421);
             this.PictureBoxCarritoInferior.Name = "PictureBoxCarritoInferior";
-            this.PictureBoxCarritoInferior.Size = new System.Drawing.Size(1315, 155);
+            this.PictureBoxCarritoInferior.Size = new System.Drawing.Size(986, 126);
             this.PictureBoxCarritoInferior.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxCarritoInferior.TabIndex = 9;
             this.PictureBoxCarritoInferior.TabStop = false;
@@ -127,11 +122,10 @@
             this.BtnVolverInicio.FillColor = System.Drawing.Color.RosyBrown;
             this.BtnVolverInicio.Font = new System.Drawing.Font("Segoe UI Black", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVolverInicio.ForeColor = System.Drawing.Color.Black;
-            this.BtnVolverInicio.Location = new System.Drawing.Point(1335, 564);
-            this.BtnVolverInicio.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnVolverInicio.Location = new System.Drawing.Point(1001, 458);
             this.BtnVolverInicio.Name = "BtnVolverInicio";
             this.BtnVolverInicio.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.BtnVolverInicio.Size = new System.Drawing.Size(119, 71);
+            this.BtnVolverInicio.Size = new System.Drawing.Size(89, 58);
             this.BtnVolverInicio.TabIndex = 112;
             this.BtnVolverInicio.Text = "VOLVER";
             this.BtnVolverInicio.Click += new System.EventHandler(this.BtnVolverInicio_Click);
@@ -141,9 +135,10 @@
             this.labelTotal.AutoSize = true;
             this.labelTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTotal.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelTotal.Location = new System.Drawing.Point(657, 480);
+            this.labelTotal.Location = new System.Drawing.Point(493, 390);
+            this.labelTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTotal.Name = "labelTotal";
-            this.labelTotal.Size = new System.Drawing.Size(0, 29);
+            this.labelTotal.Size = new System.Drawing.Size(0, 24);
             this.labelTotal.TabIndex = 113;
             // 
             // btnActualizar
@@ -159,10 +154,9 @@
             this.btnActualizar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.btnActualizar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizar.ForeColor = System.Drawing.Color.Black;
-            this.btnActualizar.Location = new System.Drawing.Point(423, 470);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnActualizar.Location = new System.Drawing.Point(317, 382);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(213, 39);
+            this.btnActualizar.Size = new System.Drawing.Size(160, 32);
             this.btnActualizar.TabIndex = 114;
             this.btnActualizar.Text = "Calcular Total";
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
@@ -180,10 +174,9 @@
             this.BtnRegresar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.BtnRegresar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRegresar.ForeColor = System.Drawing.Color.Black;
-            this.BtnRegresar.Location = new System.Drawing.Point(162, 470);
-            this.BtnRegresar.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnRegresar.Location = new System.Drawing.Point(122, 382);
             this.BtnRegresar.Name = "BtnRegresar";
-            this.BtnRegresar.Size = new System.Drawing.Size(213, 39);
+            this.BtnRegresar.Size = new System.Drawing.Size(160, 32);
             this.BtnRegresar.TabIndex = 104;
             this.BtnRegresar.Text = "Regresar";
             // 
@@ -200,10 +193,9 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(162, 180);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Button1.Location = new System.Drawing.Point(122, 146);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(213, 39);
+            this.guna2Button1.Size = new System.Drawing.Size(160, 32);
             this.guna2Button1.TabIndex = 115;
             this.guna2Button1.Text = "Quitar Producto";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -211,12 +203,12 @@
             // dgvCarrito
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvCarrito.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvCarrito.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(111)))), ((int)(((byte)(158)))));
-            this.dgvCarrito.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -227,24 +219,23 @@
             this.dgvCarrito.Cursor = System.Windows.Forms.Cursors.Hand;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvCarrito.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvCarrito.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
-            this.dgvCarrito.Location = new System.Drawing.Point(423, 153);
-            this.dgvCarrito.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvCarrito.Location = new System.Drawing.Point(317, 124);
             this.dgvCarrito.Name = "dgvCarrito";
             this.dgvCarrito.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dgvCarrito.RowHeadersVisible = false;
             this.dgvCarrito.RowHeadersWidth = 51;
-            this.dgvCarrito.Size = new System.Drawing.Size(823, 313);
+            this.dgvCarrito.Size = new System.Drawing.Size(617, 254);
             this.dgvCarrito.TabIndex = 109;
             this.dgvCarrito.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Dark;
             this.dgvCarrito.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
-            this.dgvCarrito.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgvCarrito.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvCarrito.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dgvCarrito.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dgvCarrito.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
@@ -252,14 +243,14 @@
             this.dgvCarrito.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
             this.dgvCarrito.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
             this.dgvCarrito.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dgvCarrito.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvCarrito.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvCarrito.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dgvCarrito.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dgvCarrito.ThemeStyle.HeaderStyle.Height = 30;
             this.dgvCarrito.ThemeStyle.ReadOnly = false;
             this.dgvCarrito.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
             this.dgvCarrito.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvCarrito.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvCarrito.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvCarrito.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
             this.dgvCarrito.ThemeStyle.RowsStyle.Height = 22;
             this.dgvCarrito.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
@@ -267,10 +258,10 @@
             // 
             // FormCarrito
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.ClientSize = new System.Drawing.Size(1472, 678);
+            this.ClientSize = new System.Drawing.Size(1035, 551);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.labelTotal);
@@ -283,7 +274,6 @@
             this.Controls.Add(this.PictureBoxCarrito);
             this.Controls.Add(this.PictureBoxCarritoInferior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormCarrito";
             this.Text = "FormCarrito";
             this.Load += new System.EventHandler(this.FormCarrito_Load);
