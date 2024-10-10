@@ -25,4 +25,3 @@ publish/
 **/obj/Debug/
 *.pdb
 *.dll
-/path/to/documentlayout.json
