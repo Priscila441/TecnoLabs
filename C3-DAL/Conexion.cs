@@ -15,7 +15,7 @@ namespace C3_DAL
         SqlConnection conexion;
         SqlCommand comando;
         SqlDataReader lector;
-
+                                                 //Acuerdense de cambiar la ruta
         private string connectionString = "Data Source =PHOENIX\\MSSQLSERVER01; Initial Catalog =PracticoGrupal; Integrated Security =sspi";
 
         public Conexion()
