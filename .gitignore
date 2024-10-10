@@ -25,3 +25,5 @@ publish/
 /TecnoLabsSA-Proyecto1/obj/Debug/DesignTimeResolveAssemblyReferences.cache
 /.vs/TecnoLabsSA-Proyecto1/FileContentIndex/efb6ab62-ea7c-454c-9e63-2f8700a45245.vsidx
 
+/.vs/TecnoLabsSA-Proyecto1/v17/DocumentLayout.json
+/.gitignore
