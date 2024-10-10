@@ -57,15 +57,25 @@
             this.BntIconoAdministrador = new FontAwesome.Sharp.IconButton();
             this.BtnCliente = new FontAwesome.Sharp.IconButton();
             this.ContenedorAdministrador = new Guna.UI2.WinForms.Guna2Panel();
-            this.ContenedorCliente = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelRegistroCliente = new Guna.UI2.WinForms.Guna2Panel();
+            this.txtMetodoPago = new System.Windows.Forms.ComboBox();
+            this.txtEdad = new Guna.UI2.WinForms.Guna2TextBox();
             this.IngresaCliente = new System.Windows.Forms.Label();
             this.YatienescuantaCliente = new System.Windows.Forms.Label();
             this.BtnRegistrarCliente = new Guna.UI2.WinForms.Guna2Button();
-            this.TextBoxApellidoCliente = new Guna.UI2.WinForms.Guna2TextBox();
-            this.TextBoxNombreCliente = new Guna.UI2.WinForms.Guna2TextBox();
-            this.TextBoxContraseñaCliente = new Guna.UI2.WinForms.Guna2TextBox();
-            this.TextBoxEmailCliente = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtApellido = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtNombreCliente = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtDireccion = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtEmailRegistro = new Guna.UI2.WinForms.Guna2TextBox();
             this.labelIniciarSesionCliente = new System.Windows.Forms.Label();
+            this.panelSesionCliente = new Guna.UI2.WinForms.Guna2Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtContraseñaClienteInicio = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtEmailClienteInicio = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnInicioSesionCliente = new Guna.UI2.WinForms.Guna2Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.BtnVolverAdmin = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panelSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxSale30)).BeginInit();
@@ -78,7 +88,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOctagonal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxMotorola)).BeginInit();
             this.ContenedorAdministrador.SuspendLayout();
-            this.ContenedorCliente.SuspendLayout();
+            this.panelRegistroCliente.SuspendLayout();
+            this.panelSesionCliente.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSuperior
@@ -144,6 +155,7 @@
             this.TextBoxBuscador.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TextBoxBuscador.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxBuscador.Location = new System.Drawing.Point(23, 13);
+            this.TextBoxBuscador.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxBuscador.Name = "TextBoxBuscador";
             this.TextBoxBuscador.PasswordChar = '\0';
             this.TextBoxBuscador.PlaceholderText = "                                         Buscar Productos";
@@ -410,7 +422,7 @@
             this.TextBoxContraseñaAdmin.PlaceholderText = "    Contraseña";
             this.TextBoxContraseñaAdmin.SelectedText = "";
             this.TextBoxContraseñaAdmin.Size = new System.Drawing.Size(277, 31);
-            this.TextBoxContraseñaAdmin.TabIndex = 11;
+            this.TextBoxContraseñaAdmin.TabIndex = 8;
             // 
             // TextBoxEmailAdmin
             // 
@@ -436,7 +448,7 @@
             this.TextBoxEmailAdmin.PlaceholderText = "    Email";
             this.TextBoxEmailAdmin.SelectedText = "";
             this.TextBoxEmailAdmin.Size = new System.Drawing.Size(277, 31);
-            this.TextBoxEmailAdmin.TabIndex = 13;
+            this.TextBoxEmailAdmin.TabIndex = 7;
             // 
             // labelIniciarSesionAministrador
             // 
@@ -496,45 +508,91 @@
             this.ContenedorAdministrador.Controls.Add(this.BtnIniciarSesionAdmin);
             this.ContenedorAdministrador.Controls.Add(this.labelNotienescuentaaAdmin);
             this.ContenedorAdministrador.Controls.Add(this.labelOlvidastetuContraseñaAdmin);
-            this.ContenedorAdministrador.Location = new System.Drawing.Point(294, 16);
+            this.ContenedorAdministrador.Location = new System.Drawing.Point(291, 13);
             this.ContenedorAdministrador.Name = "ContenedorAdministrador";
             this.ContenedorAdministrador.Size = new System.Drawing.Size(500, 368);
             this.ContenedorAdministrador.TabIndex = 18;
             this.ContenedorAdministrador.Visible = false;
             // 
-            // ContenedorCliente
+            // panelRegistroCliente
             // 
-            this.ContenedorCliente.Controls.Add(this.IngresaCliente);
-            this.ContenedorCliente.Controls.Add(this.YatienescuantaCliente);
-            this.ContenedorCliente.Controls.Add(this.BtnRegistrarCliente);
-            this.ContenedorCliente.Controls.Add(this.TextBoxApellidoCliente);
-            this.ContenedorCliente.Controls.Add(this.TextBoxNombreCliente);
-            this.ContenedorCliente.Controls.Add(this.TextBoxContraseñaCliente);
-            this.ContenedorCliente.Controls.Add(this.TextBoxEmailCliente);
-            this.ContenedorCliente.Controls.Add(this.labelIniciarSesionCliente);
-            this.ContenedorCliente.Location = new System.Drawing.Point(294, 16);
-            this.ContenedorCliente.Name = "ContenedorCliente";
-            this.ContenedorCliente.Size = new System.Drawing.Size(483, 368);
-            this.ContenedorCliente.TabIndex = 19;
-            this.ContenedorCliente.Visible = false;
+            this.panelRegistroCliente.Controls.Add(this.txtMetodoPago);
+            this.panelRegistroCliente.Controls.Add(this.txtEdad);
+            this.panelRegistroCliente.Controls.Add(this.IngresaCliente);
+            this.panelRegistroCliente.Controls.Add(this.YatienescuantaCliente);
+            this.panelRegistroCliente.Controls.Add(this.BtnRegistrarCliente);
+            this.panelRegistroCliente.Controls.Add(this.txtApellido);
+            this.panelRegistroCliente.Controls.Add(this.txtNombreCliente);
+            this.panelRegistroCliente.Controls.Add(this.txtDireccion);
+            this.panelRegistroCliente.Controls.Add(this.txtEmailRegistro);
+            this.panelRegistroCliente.Controls.Add(this.labelIniciarSesionCliente);
+            this.panelRegistroCliente.Location = new System.Drawing.Point(288, 16);
+            this.panelRegistroCliente.Name = "panelRegistroCliente";
+            this.panelRegistroCliente.Size = new System.Drawing.Size(483, 368);
+            this.panelRegistroCliente.TabIndex = 19;
+            this.panelRegistroCliente.Visible = false;
+            // 
+            // txtMetodoPago
+            // 
+            this.txtMetodoPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtMetodoPago.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txtMetodoPago.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtMetodoPago.FormattingEnabled = true;
+            this.txtMetodoPago.Items.AddRange(new object[] {
+            "Tarjeta de crédito",
+            "Tarjeta de débito",
+            "PayPal",
+            "Apple Pay",
+            "Google Pay"});
+            this.txtMetodoPago.Location = new System.Drawing.Point(110, 235);
+            this.txtMetodoPago.Name = "txtMetodoPago";
+            this.txtMetodoPago.Size = new System.Drawing.Size(278, 31);
+            this.txtMetodoPago.TabIndex = 6;
+            // 
+            // txtEdad
+            // 
+            this.txtEdad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEdad.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEdad.BorderRadius = 10;
+            this.txtEdad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtEdad.DefaultText = "";
+            this.txtEdad.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtEdad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtEdad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtEdad.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtEdad.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEdad.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtEdad.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEdad.ForeColor = System.Drawing.Color.Black;
+            this.txtEdad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtEdad.Location = new System.Drawing.Point(110, 130);
+            this.txtEdad.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.PasswordChar = '\0';
+            this.txtEdad.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtEdad.PlaceholderText = "    Edad";
+            this.txtEdad.SelectedText = "";
+            this.txtEdad.Size = new System.Drawing.Size(278, 31);
+            this.txtEdad.TabIndex = 3;
             // 
             // IngresaCliente
             // 
             this.IngresaCliente.AutoSize = true;
             this.IngresaCliente.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IngresaCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(104)))), ((int)(((byte)(150)))));
-            this.IngresaCliente.Location = new System.Drawing.Point(270, 314);
+            this.IngresaCliente.Location = new System.Drawing.Point(267, 326);
             this.IngresaCliente.Name = "IngresaCliente";
             this.IngresaCliente.Size = new System.Drawing.Size(99, 23);
             this.IngresaCliente.TabIndex = 19;
             this.IngresaCliente.Text = "INGRESA";
+            this.IngresaCliente.Click += new System.EventHandler(this.IngresaCliente_Click);
             // 
             // YatienescuantaCliente
             // 
             this.YatienescuantaCliente.AutoSize = true;
             this.YatienescuantaCliente.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.YatienescuantaCliente.ForeColor = System.Drawing.Color.White;
-            this.YatienescuantaCliente.Location = new System.Drawing.Point(124, 314);
+            this.YatienescuantaCliente.Location = new System.Drawing.Point(121, 326);
             this.YatienescuantaCliente.Name = "YatienescuantaCliente";
             this.YatienescuantaCliente.Size = new System.Drawing.Size(149, 23);
             this.YatienescuantaCliente.TabIndex = 18;
@@ -549,115 +607,116 @@
             this.BtnRegistrarCliente.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(36)))), ((int)(((byte)(77)))));
             this.BtnRegistrarCliente.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRegistrarCliente.ForeColor = System.Drawing.Color.White;
-            this.BtnRegistrarCliente.Location = new System.Drawing.Point(110, 259);
+            this.BtnRegistrarCliente.Location = new System.Drawing.Point(110, 272);
             this.BtnRegistrarCliente.Name = "BtnRegistrarCliente";
             this.BtnRegistrarCliente.Size = new System.Drawing.Size(278, 40);
             this.BtnRegistrarCliente.TabIndex = 15;
             this.BtnRegistrarCliente.Text = "Registrate";
+            this.BtnRegistrarCliente.Click += new System.EventHandler(this.BtnRegistrarCliente_Click);
             // 
-            // TextBoxApellidoCliente
+            // txtApellido
             // 
-            this.TextBoxApellidoCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxApellidoCliente.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxApellidoCliente.BorderRadius = 10;
-            this.TextBoxApellidoCliente.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TextBoxApellidoCliente.DefaultText = "    Apellido";
-            this.TextBoxApellidoCliente.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TextBoxApellidoCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TextBoxApellidoCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxApellidoCliente.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxApellidoCliente.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxApellidoCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxApellidoCliente.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBoxApellidoCliente.ForeColor = System.Drawing.Color.Black;
-            this.TextBoxApellidoCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxApellidoCliente.Location = new System.Drawing.Point(110, 204);
-            this.TextBoxApellidoCliente.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.TextBoxApellidoCliente.Name = "TextBoxApellidoCliente";
-            this.TextBoxApellidoCliente.PasswordChar = '\0';
-            this.TextBoxApellidoCliente.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TextBoxApellidoCliente.PlaceholderText = "    Contraseña";
-            this.TextBoxApellidoCliente.SelectedText = "";
-            this.TextBoxApellidoCliente.Size = new System.Drawing.Size(277, 31);
-            this.TextBoxApellidoCliente.TabIndex = 17;
+            this.txtApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtApellido.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtApellido.BorderRadius = 10;
+            this.txtApellido.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtApellido.DefaultText = "";
+            this.txtApellido.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtApellido.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtApellido.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtApellido.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtApellido.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtApellido.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtApellido.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellido.ForeColor = System.Drawing.Color.Black;
+            this.txtApellido.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtApellido.Location = new System.Drawing.Point(110, 95);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.PasswordChar = '\0';
+            this.txtApellido.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtApellido.PlaceholderText = "    Apellido";
+            this.txtApellido.SelectedText = "";
+            this.txtApellido.Size = new System.Drawing.Size(278, 31);
+            this.txtApellido.TabIndex = 2;
             // 
-            // TextBoxNombreCliente
+            // txtNombreCliente
             // 
-            this.TextBoxNombreCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxNombreCliente.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxNombreCliente.BorderRadius = 10;
-            this.TextBoxNombreCliente.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TextBoxNombreCliente.DefaultText = "    Nombre";
-            this.TextBoxNombreCliente.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TextBoxNombreCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TextBoxNombreCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxNombreCliente.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxNombreCliente.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxNombreCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxNombreCliente.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBoxNombreCliente.ForeColor = System.Drawing.Color.Black;
-            this.TextBoxNombreCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxNombreCliente.Location = new System.Drawing.Point(110, 153);
-            this.TextBoxNombreCliente.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.TextBoxNombreCliente.Name = "TextBoxNombreCliente";
-            this.TextBoxNombreCliente.PasswordChar = '\0';
-            this.TextBoxNombreCliente.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TextBoxNombreCliente.PlaceholderText = "    Contraseña";
-            this.TextBoxNombreCliente.SelectedText = "";
-            this.TextBoxNombreCliente.Size = new System.Drawing.Size(277, 31);
-            this.TextBoxNombreCliente.TabIndex = 16;
+            this.txtNombreCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtNombreCliente.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtNombreCliente.BorderRadius = 10;
+            this.txtNombreCliente.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNombreCliente.DefaultText = "";
+            this.txtNombreCliente.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtNombreCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtNombreCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtNombreCliente.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtNombreCliente.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtNombreCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNombreCliente.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreCliente.ForeColor = System.Drawing.Color.Black;
+            this.txtNombreCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNombreCliente.Location = new System.Drawing.Point(110, 60);
+            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtNombreCliente.Name = "txtNombreCliente";
+            this.txtNombreCliente.PasswordChar = '\0';
+            this.txtNombreCliente.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtNombreCliente.PlaceholderText = "    Nombre";
+            this.txtNombreCliente.SelectedText = "";
+            this.txtNombreCliente.Size = new System.Drawing.Size(278, 31);
+            this.txtNombreCliente.TabIndex = 1;
             // 
-            // TextBoxContraseñaCliente
+            // txtDireccion
             // 
-            this.TextBoxContraseñaCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxContraseñaCliente.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxContraseñaCliente.BorderRadius = 10;
-            this.TextBoxContraseñaCliente.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TextBoxContraseñaCliente.DefaultText = "";
-            this.TextBoxContraseñaCliente.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TextBoxContraseñaCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TextBoxContraseñaCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxContraseñaCliente.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxContraseñaCliente.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxContraseñaCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxContraseñaCliente.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBoxContraseñaCliente.ForeColor = System.Drawing.Color.Black;
-            this.TextBoxContraseñaCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxContraseñaCliente.Location = new System.Drawing.Point(110, 112);
-            this.TextBoxContraseñaCliente.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.TextBoxContraseñaCliente.Name = "TextBoxContraseñaCliente";
-            this.TextBoxContraseñaCliente.PasswordChar = '\0';
-            this.TextBoxContraseñaCliente.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TextBoxContraseñaCliente.PlaceholderText = "    Contraseña";
-            this.TextBoxContraseñaCliente.SelectedText = "";
-            this.TextBoxContraseñaCliente.Size = new System.Drawing.Size(277, 31);
-            this.TextBoxContraseñaCliente.TabIndex = 15;
+            this.txtDireccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtDireccion.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtDireccion.BorderRadius = 10;
+            this.txtDireccion.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtDireccion.DefaultText = "";
+            this.txtDireccion.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtDireccion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtDireccion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDireccion.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDireccion.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtDireccion.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDireccion.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDireccion.ForeColor = System.Drawing.Color.Black;
+            this.txtDireccion.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDireccion.Location = new System.Drawing.Point(110, 200);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.PasswordChar = '\0';
+            this.txtDireccion.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtDireccion.PlaceholderText = "    Dirección";
+            this.txtDireccion.SelectedText = "";
+            this.txtDireccion.Size = new System.Drawing.Size(278, 31);
+            this.txtDireccion.TabIndex = 5;
             // 
-            // TextBoxEmailCliente
+            // txtEmailRegistro
             // 
-            this.TextBoxEmailCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxEmailCliente.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxEmailCliente.BorderRadius = 10;
-            this.TextBoxEmailCliente.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TextBoxEmailCliente.DefaultText = "";
-            this.TextBoxEmailCliente.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TextBoxEmailCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TextBoxEmailCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxEmailCliente.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TextBoxEmailCliente.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.TextBoxEmailCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxEmailCliente.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBoxEmailCliente.ForeColor = System.Drawing.Color.Black;
-            this.TextBoxEmailCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxEmailCliente.Location = new System.Drawing.Point(110, 71);
-            this.TextBoxEmailCliente.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.TextBoxEmailCliente.Name = "TextBoxEmailCliente";
-            this.TextBoxEmailCliente.PasswordChar = '\0';
-            this.TextBoxEmailCliente.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TextBoxEmailCliente.PlaceholderText = "    Email";
-            this.TextBoxEmailCliente.SelectedText = "";
-            this.TextBoxEmailCliente.Size = new System.Drawing.Size(277, 31);
-            this.TextBoxEmailCliente.TabIndex = 15;
+            this.txtEmailRegistro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEmailRegistro.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEmailRegistro.BorderRadius = 10;
+            this.txtEmailRegistro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtEmailRegistro.DefaultText = "";
+            this.txtEmailRegistro.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtEmailRegistro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtEmailRegistro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtEmailRegistro.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtEmailRegistro.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEmailRegistro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtEmailRegistro.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmailRegistro.ForeColor = System.Drawing.Color.Black;
+            this.txtEmailRegistro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtEmailRegistro.Location = new System.Drawing.Point(110, 165);
+            this.txtEmailRegistro.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtEmailRegistro.Name = "txtEmailRegistro";
+            this.txtEmailRegistro.PasswordChar = '\0';
+            this.txtEmailRegistro.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtEmailRegistro.PlaceholderText = "    Email";
+            this.txtEmailRegistro.SelectedText = "";
+            this.txtEmailRegistro.Size = new System.Drawing.Size(278, 31);
+            this.txtEmailRegistro.TabIndex = 4;
             // 
             // labelIniciarSesionCliente
             // 
@@ -669,6 +728,135 @@
             this.labelIniciarSesionCliente.Size = new System.Drawing.Size(306, 44);
             this.labelIniciarSesionCliente.TabIndex = 15;
             this.labelIniciarSesionCliente.Text = "Registro del Cliente";
+            // 
+            // panelSesionCliente
+            // 
+            this.panelSesionCliente.Controls.Add(this.label1);
+            this.panelSesionCliente.Controls.Add(this.txtContraseñaClienteInicio);
+            this.panelSesionCliente.Controls.Add(this.txtEmailClienteInicio);
+            this.panelSesionCliente.Controls.Add(this.label2);
+            this.panelSesionCliente.Controls.Add(this.btnInicioSesionCliente);
+            this.panelSesionCliente.Controls.Add(this.label3);
+            this.panelSesionCliente.Controls.Add(this.label4);
+            this.panelSesionCliente.Location = new System.Drawing.Point(288, 16);
+            this.panelSesionCliente.Name = "panelSesionCliente";
+            this.panelSesionCliente.Size = new System.Drawing.Size(500, 368);
+            this.panelSesionCliente.TabIndex = 20;
+            this.panelSesionCliente.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Script MT Bold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(78, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(289, 44);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "       Iniciar Sesion";
+            // 
+            // txtContraseñaClienteInicio
+            // 
+            this.txtContraseñaClienteInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtContraseñaClienteInicio.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtContraseñaClienteInicio.BorderRadius = 10;
+            this.txtContraseñaClienteInicio.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtContraseñaClienteInicio.DefaultText = "";
+            this.txtContraseñaClienteInicio.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtContraseñaClienteInicio.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtContraseñaClienteInicio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtContraseñaClienteInicio.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtContraseñaClienteInicio.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtContraseñaClienteInicio.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtContraseñaClienteInicio.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseñaClienteInicio.ForeColor = System.Drawing.Color.Black;
+            this.txtContraseñaClienteInicio.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtContraseñaClienteInicio.Location = new System.Drawing.Point(104, 134);
+            this.txtContraseñaClienteInicio.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtContraseñaClienteInicio.Name = "txtContraseñaClienteInicio";
+            this.txtContraseñaClienteInicio.PasswordChar = '*';
+            this.txtContraseñaClienteInicio.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtContraseñaClienteInicio.PlaceholderText = "    Contraseña";
+            this.txtContraseñaClienteInicio.SelectedText = "";
+            this.txtContraseñaClienteInicio.Size = new System.Drawing.Size(277, 31);
+            this.txtContraseñaClienteInicio.TabIndex = 11;
+            // 
+            // txtEmailClienteInicio
+            // 
+            this.txtEmailClienteInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEmailClienteInicio.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEmailClienteInicio.BorderRadius = 10;
+            this.txtEmailClienteInicio.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtEmailClienteInicio.DefaultText = "";
+            this.txtEmailClienteInicio.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtEmailClienteInicio.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtEmailClienteInicio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtEmailClienteInicio.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtEmailClienteInicio.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEmailClienteInicio.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtEmailClienteInicio.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmailClienteInicio.ForeColor = System.Drawing.Color.Black;
+            this.txtEmailClienteInicio.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtEmailClienteInicio.Location = new System.Drawing.Point(106, 83);
+            this.txtEmailClienteInicio.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtEmailClienteInicio.Name = "txtEmailClienteInicio";
+            this.txtEmailClienteInicio.PasswordChar = '\0';
+            this.txtEmailClienteInicio.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtEmailClienteInicio.PlaceholderText = "    Email";
+            this.txtEmailClienteInicio.SelectedText = "";
+            this.txtEmailClienteInicio.Size = new System.Drawing.Size(277, 31);
+            this.txtEmailClienteInicio.TabIndex = 13;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(104)))), ((int)(((byte)(150)))));
+            this.label2.Location = new System.Drawing.Point(250, 302);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(133, 23);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "REGISTRATE";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // btnInicioSesionCliente
+            // 
+            this.btnInicioSesionCliente.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnInicioSesionCliente.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnInicioSesionCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnInicioSesionCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnInicioSesionCliente.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(36)))), ((int)(((byte)(77)))));
+            this.btnInicioSesionCliente.Font = new System.Drawing.Font("Script MT Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicioSesionCliente.ForeColor = System.Drawing.Color.White;
+            this.btnInicioSesionCliente.Location = new System.Drawing.Point(103, 235);
+            this.btnInicioSesionCliente.Name = "btnInicioSesionCliente";
+            this.btnInicioSesionCliente.Size = new System.Drawing.Size(278, 40);
+            this.btnInicioSesionCliente.TabIndex = 9;
+            this.btnInicioSesionCliente.Text = "Iniciar sesion";
+            this.btnInicioSesionCliente.Click += new System.EventHandler(this.btnInicioSesionCliente_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(95, 302);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(150, 23);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "¿No tienes cuenta?";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(136, 176);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(202, 23);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "¿Olvidaste tu contraseña?";
             // 
             // BtnVolverAdmin
             // 
@@ -693,15 +881,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.ClientSize = new System.Drawing.Size(1104, 551);
-            this.Controls.Add(this.BtnVolverAdmin);
+            this.ClientSize = new System.Drawing.Size(1035, 551);
             this.Controls.Add(this.ContenedorAdministrador);
+            this.Controls.Add(this.panelRegistroCliente);
+            this.Controls.Add(this.panelSesionCliente);
+            this.Controls.Add(this.BtnVolverAdmin);
             this.Controls.Add(this.BtnCliente);
             this.Controls.Add(this.BntIconoAdministrador);
             this.Controls.Add(this.PictureBoxMotorola);
             this.Controls.Add(this.panelMenuCategorias);
             this.Controls.Add(this.panelSuperior);
-            this.Controls.Add(this.ContenedorCliente);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimizeBox = false;
             this.Name = "FormAcceso";
@@ -720,8 +909,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxMotorola)).EndInit();
             this.ContenedorAdministrador.ResumeLayout(false);
             this.ContenedorAdministrador.PerformLayout();
-            this.ContenedorCliente.ResumeLayout(false);
-            this.ContenedorCliente.PerformLayout();
+            this.panelRegistroCliente.ResumeLayout(false);
+            this.panelRegistroCliente.PerformLayout();
+            this.panelSesionCliente.ResumeLayout(false);
+            this.panelSesionCliente.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -756,15 +947,25 @@
         private FontAwesome.Sharp.IconButton BntIconoAdministrador;
         private FontAwesome.Sharp.IconButton BtnCliente;
         private Guna.UI2.WinForms.Guna2Panel ContenedorAdministrador;
-        private Guna.UI2.WinForms.Guna2Panel ContenedorCliente;
+        private Guna.UI2.WinForms.Guna2Panel panelRegistroCliente;
         private System.Windows.Forms.Label labelIniciarSesionCliente;
         private System.Windows.Forms.Label YatienescuantaCliente;
         private Guna.UI2.WinForms.Guna2Button BtnRegistrarCliente;
-        private Guna.UI2.WinForms.Guna2TextBox TextBoxApellidoCliente;
-        private Guna.UI2.WinForms.Guna2TextBox TextBoxNombreCliente;
-        private Guna.UI2.WinForms.Guna2TextBox TextBoxContraseñaCliente;
-        private Guna.UI2.WinForms.Guna2TextBox TextBoxEmailCliente;
+        private Guna.UI2.WinForms.Guna2TextBox txtApellido;
+        private Guna.UI2.WinForms.Guna2TextBox txtNombreCliente;
+        private Guna.UI2.WinForms.Guna2TextBox txtDireccion;
+        private Guna.UI2.WinForms.Guna2TextBox txtEmailRegistro;
         private System.Windows.Forms.Label IngresaCliente;
         private Guna.UI2.WinForms.Guna2CircleButton BtnVolverAdmin;
+        private Guna.UI2.WinForms.Guna2Panel panelSesionCliente;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2TextBox txtContraseñaClienteInicio;
+        private Guna.UI2.WinForms.Guna2TextBox txtEmailClienteInicio;
+        private System.Windows.Forms.Label label2;
+        private Guna.UI2.WinForms.Guna2Button btnInicioSesionCliente;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private Guna.UI2.WinForms.Guna2TextBox txtEdad;
+        private System.Windows.Forms.ComboBox txtMetodoPago;
     }
 }

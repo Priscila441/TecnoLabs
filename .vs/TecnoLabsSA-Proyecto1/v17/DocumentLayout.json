@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rocio\\Music\\TecnoLabs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|c:\\users\\rocio\\music\\tecnolabs\\tecnolabssa-proyecto1\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\formadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D5F057-06EF-45BB-82BE-7608E0CE885F}|C3-DAL\\C3-DAL.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\c3-dal\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D5F057-06EF-45BB-82BE-7608E0CE885F}|C3-DAL\\C3-DAL.csproj|solutionrelative:c3-dal\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\formadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99967145-E32B-4CDE-A79C-98A112EFE0F7}|C2-BLL\\C2-BLL.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\c2-bll\\cn_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99967145-E32B-4CDE-A79C-98A112EFE0F7}|C2-BLL\\C2-BLL.csproj|solutionrelative:c2-bll\\cn_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\formacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\formtablets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formtablets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\formtablets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formtablets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\formnotebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formnotebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\formnotebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formnotebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\formcelulares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formcelulares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\tecnolabssa-proyecto1\\formcelulares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C8BC2C9-53FB-453C-BEA2-377B08C5514C}|TecnoLabsSA-Proyecto1\\C1-UI.csproj|solutionrelative:tecnolabssa-proyecto1\\formcelulares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52E0DEA0-9CE2-4FFC-9E9B-4021B0331B9F}|C4-ENTIDADES\\C4-ENTIDAD.csproj|C:\\Users\\Rocio\\Music\\TecnoLabs\\c4-entidades\\carritocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52E0DEA0-9CE2-4FFC-9E9B-4021B0331B9F}|C4-ENTIDADES\\C4-ENTIDAD.csproj|solutionrelative:c4-entidades\\carritocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormTablets.cs",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormTablets.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormTablets.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormTablets.cs",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormTablets.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAtwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:20:40.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormTablets.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormTablets.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormTablets.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormTablets.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormTablets.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:20:15.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormNotebooks.cs",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormNotebooks.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormNotebooks.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormNotebooks.cs",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormNotebooks.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAtwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:20:06.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormNotebooks.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormNotebooks.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormNotebooks.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormNotebooks.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormNotebooks.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:19:33.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormCelulares.cs",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormCelulares.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormCelulares.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormCelulares.cs",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormCelulares.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAApwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:17:26.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormCelulares.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormCelulares.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormCelulares.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormCelulares.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormCelulares.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:16:37.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAdministrador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormAdministrador.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormAdministrador.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormAdministrador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormAdministrador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:08:54.165Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormAcceso.cs",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormAcceso.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormAcceso.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormAcceso.cs",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormAcceso.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAgwIQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:06:29.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormCarrito.cs",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormCarrito.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormCarrito.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormCarrito.cs",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormCarrito.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAewNAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:06:13.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormCarrito.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormCarrito.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormCarrito.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormCarrito.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormCarrito.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T00:19:02.593Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CarritoCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\C4-ENTIDADES\\CarritoCompra.cs",
+              "RelativeDocumentMoniker": "C4-ENTIDADES\\CarritoCompra.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\C4-ENTIDADES\\CarritoCompra.cs",
+              "RelativeToolTip": "C4-ENTIDADES\\CarritoCompra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T22:58:17.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAdministrador.cs",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormAdministrador.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormAdministrador.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormAdministrador.cs",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormAdministrador.cs",
+              "ViewState": "AgIAACEBAAAAAAAAAAAswD4BAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T20:36:25.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\C3-DAL\\Conexion.cs",
+              "RelativeDocumentMoniker": "C3-DAL\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\C3-DAL\\Conexion.cs",
+              "RelativeToolTip": "C3-DAL\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T20:34:06.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CN_Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\C2-BLL\\CN_Productos.cs",
+              "RelativeDocumentMoniker": "C2-BLL\\CN_Productos.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\C2-BLL\\CN_Productos.cs",
+              "RelativeToolTip": "C2-BLL\\CN_Productos.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAewDgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T20:34:02.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormInicio.cs",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormInicio.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormInicio.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormInicio.cs",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormInicio.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAADwv2UAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T20:29:28.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormInicio.cs",
+              "RelativeDocumentMoniker": "TecnoLabsSA-Proyecto1\\FormInicio.cs",
+              "ToolTip": "C:\\Users\\Rocio\\Music\\TecnoLabs\\TecnoLabsSA-Proyecto1\\FormInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TecnoLabsSA-Proyecto1\\FormInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T20:29:26.506Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

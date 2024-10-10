@@ -164,6 +164,7 @@
             this.TextBoxCelular1.ForeColor = System.Drawing.Color.Black;
             this.TextBoxCelular1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxCelular1.Location = new System.Drawing.Point(84, 179);
+            this.TextBoxCelular1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxCelular1.Name = "TextBoxCelular1";
             this.TextBoxCelular1.PasswordChar = '\0';
             this.TextBoxCelular1.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -189,6 +190,7 @@
             this.TextBoxCelular2.ForeColor = System.Drawing.Color.Black;
             this.TextBoxCelular2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxCelular2.Location = new System.Drawing.Point(427, 164);
+            this.TextBoxCelular2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxCelular2.Name = "TextBoxCelular2";
             this.TextBoxCelular2.PasswordChar = '\0';
             this.TextBoxCelular2.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -214,6 +216,7 @@
             this.TextBoxCelular3.ForeColor = System.Drawing.Color.Black;
             this.TextBoxCelular3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxCelular3.Location = new System.Drawing.Point(780, 169);
+            this.TextBoxCelular3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxCelular3.Name = "TextBoxCelular3";
             this.TextBoxCelular3.PasswordChar = '\0';
             this.TextBoxCelular3.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -551,6 +554,7 @@
             this.BtnComprarCelu2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.BtnComprarCelu2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.BtnComprarCelu2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnComprarCelu2.Enabled = false;
             this.BtnComprarCelu2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarCelu2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarCelu2.ForeColor = System.Drawing.Color.White;
@@ -568,6 +572,7 @@
             this.BtnComprarCelu1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.BtnComprarCelu1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.BtnComprarCelu1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnComprarCelu1.Enabled = false;
             this.BtnComprarCelu1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarCelu1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarCelu1.ForeColor = System.Drawing.Color.White;
@@ -585,6 +590,7 @@
             this.BtnComprarCelu3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.BtnComprarCelu3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.BtnComprarCelu3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnComprarCelu3.Enabled = false;
             this.BtnComprarCelu3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarCelu3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarCelu3.ForeColor = System.Drawing.Color.White;
@@ -610,6 +616,7 @@
             this.BtnAgregaralCarritoCelu2.Size = new System.Drawing.Size(174, 39);
             this.BtnAgregaralCarritoCelu2.TabIndex = 103;
             this.BtnAgregaralCarritoCelu2.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoCelu2.Click += new System.EventHandler(this.BtnAgregaralCarritoCelu2_Click);
             // 
             // BtnAgregaralCarritoCelu1
             // 
@@ -627,6 +634,7 @@
             this.BtnAgregaralCarritoCelu1.Size = new System.Drawing.Size(174, 39);
             this.BtnAgregaralCarritoCelu1.TabIndex = 104;
             this.BtnAgregaralCarritoCelu1.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoCelu1.Click += new System.EventHandler(this.BtnAgregaralCarritoCelu1_Click);
             // 
             // BtnAgregaralCarritoCelu3
             // 
@@ -644,6 +652,7 @@
             this.BtnAgregaralCarritoCelu3.Size = new System.Drawing.Size(174, 39);
             this.BtnAgregaralCarritoCelu3.TabIndex = 105;
             this.BtnAgregaralCarritoCelu3.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoCelu3.Click += new System.EventHandler(this.BtnAgregaralCarritoCelu3_Click);
             // 
             // TextBoxstocelu3
             // 
@@ -986,7 +995,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.ClientSize = new System.Drawing.Size(1104, 551);
+            this.ClientSize = new System.Drawing.Size(1035, 551);
             this.Controls.Add(this.BtnVolverCelu);
             this.Controls.Add(this.TextBoxstockCelu1);
             this.Controls.Add(this.TextBoxstocelu3);

@@ -128,6 +128,7 @@
             this.TextBoxNotebooks1.ForeColor = System.Drawing.Color.Black;
             this.TextBoxNotebooks1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxNotebooks1.Location = new System.Drawing.Point(89, 172);
+            this.TextBoxNotebooks1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxNotebooks1.Name = "TextBoxNotebooks1";
             this.TextBoxNotebooks1.PasswordChar = '\0';
             this.TextBoxNotebooks1.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -274,6 +275,7 @@
             this.BtnAgregaralCarritoNote1.Size = new System.Drawing.Size(174, 37);
             this.BtnAgregaralCarritoNote1.TabIndex = 25;
             this.BtnAgregaralCarritoNote1.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoNote1.Click += new System.EventHandler(this.BtnAgregaralCarritoNote1_Click);
             // 
             // BtnComprarNotebooks1
             // 
@@ -283,6 +285,7 @@
             this.BtnComprarNotebooks1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.BtnComprarNotebooks1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.BtnComprarNotebooks1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnComprarNotebooks1.Enabled = false;
             this.BtnComprarNotebooks1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarNotebooks1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarNotebooks1.ForeColor = System.Drawing.Color.White;
@@ -321,6 +324,7 @@
             this.TextBoxNotebooks2.ForeColor = System.Drawing.Color.Black;
             this.TextBoxNotebooks2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxNotebooks2.Location = new System.Drawing.Point(454, 171);
+            this.TextBoxNotebooks2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxNotebooks2.Name = "TextBoxNotebooks2";
             this.TextBoxNotebooks2.PasswordChar = '\0';
             this.TextBoxNotebooks2.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -470,6 +474,7 @@
             this.BtnComprarNotebooks2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.BtnComprarNotebooks2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.BtnComprarNotebooks2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnComprarNotebooks2.Enabled = false;
             this.BtnComprarNotebooks2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarNotebooks2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarNotebooks2.ForeColor = System.Drawing.Color.White;
@@ -495,6 +500,7 @@
             this.BtnAgregaralCarritoNote2.Size = new System.Drawing.Size(174, 37);
             this.BtnAgregaralCarritoNote2.TabIndex = 45;
             this.BtnAgregaralCarritoNote2.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoNote2.Click += new System.EventHandler(this.BtnAgregaralCarritoNote2_Click);
             // 
             // labelDescripcionNotebooks3
             // 
@@ -525,6 +531,7 @@
             this.TextBoxNotebooks3.ForeColor = System.Drawing.Color.Black;
             this.TextBoxNotebooks3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxNotebooks3.Location = new System.Drawing.Point(794, 174);
+            this.TextBoxNotebooks3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxNotebooks3.Name = "TextBoxNotebooks3";
             this.TextBoxNotebooks3.PasswordChar = '\0';
             this.TextBoxNotebooks3.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -674,6 +681,7 @@
             this.BtnComprarNotebooks3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.BtnComprarNotebooks3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.BtnComprarNotebooks3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnComprarNotebooks3.Enabled = false;
             this.BtnComprarNotebooks3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarNotebooks3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarNotebooks3.ForeColor = System.Drawing.Color.White;
@@ -699,6 +707,7 @@
             this.BtnAgregaralCarritoNote3.Size = new System.Drawing.Size(174, 37);
             this.BtnAgregaralCarritoNote3.TabIndex = 62;
             this.BtnAgregaralCarritoNote3.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoNote3.Click += new System.EventHandler(this.BtnAgregaralCarritoNote3_Click);
             // 
             // CirclePictureBoxCompartirNote1
             // 
@@ -987,7 +996,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.ClientSize = new System.Drawing.Size(1104, 551);
+            this.ClientSize = new System.Drawing.Size(1035, 551);
             this.Controls.Add(this.BtnVolverNotebooks);
             this.Controls.Add(this.CirclePictureBoxCompartirNote3);
             this.Controls.Add(this.CirclePictureBoxCompartirNote2);

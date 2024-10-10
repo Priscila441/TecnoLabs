@@ -44,9 +44,11 @@
     <Compile Include="ActualizarProductoDTO.cs" />
     <Compile Include="Administradores.cs" />
     <Compile Include="Carrito.cs" />
+    <Compile Include="CarritoCompra.cs" />
     <Compile Include="CarritoProducto.cs" />
     <Compile Include="CategoriasProductos.cs" />
     <Compile Include="Clientes.cs" />
+    <Compile Include="GestorCompra.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="ProductoDto.cs" />
     <Compile Include="Productos.cs" />

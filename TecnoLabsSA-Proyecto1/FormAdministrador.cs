@@ -61,42 +61,51 @@ namespace TecnoLabsSA_Proyecto1
         //Realizo click en el boton agregar para que me habra el contenedor de "Agregar"
         private void BtnAgregarProduct_Click(object sender, EventArgs e)
         {
-            if (GroupBoxDatosDelProducto.Visible)
+            /*if (GroupBoxDatosDelProducto.Visible)
             {
                 volverAVistaPrincipal(); // Si el panel ya está visible, vuelve a la vista principal
             }
             else
             {
                 MostrarPanelAgregar(); // Muestra solo el panel de agregar
-            }
+            }*/
+            panelAgregar.Visible = !panelAgregar.Visible;
+            panelBuscar.Visible = false;
+            panelEditar.Visible = false;
 
         }
 
         //Realizo click en el boton Editar para que me habra el contenedor de "Editar"
         private void BtnEditarProduct_Click(object sender, EventArgs e)
         {
-            if (GroupBoxEditarEliminar.Visible)
+            /*if (GroupBoxEditarEliminar.Visible)
             {
                 volverAVistaPrincipal();
             }
             else
             {
                 MostrarPanelEditar();
-            }
+            }*/
+            panelEditar.Visible = !panelEditar.Visible;
+            panelAgregar.Visible = false;
+            panelBuscar.Visible = false;
 
         }
         //Realizo click en el boton Buscar para que me habra el contenedor de "Buscar"
         private void BtnBuscarProduct_Click(object sender, EventArgs e)
         {
 
-            if (GroupBoxBuscarProducto.Visible)
+            /*if (GroupBoxBuscarProducto.Visible)
             {
                 volverAVistaPrincipal();
             }
             else
             {
                 MostrarPanelBuscar();
-            }
+            }*/
+            panelBuscar.Visible = !panelBuscar.Visible;
+            panelAgregar.Visible = false;
+            panelEditar.Visible = false;
         }
         public void Cargar()
         {
@@ -209,11 +218,8 @@ namespace TecnoLabsSA_Proyecto1
                     MessageBox.Show(ex.Message);
                 }
             }
-        }
-
-        private void FormAdministrador_Load(object sender, EventArgs e)
-        {
-
+            LimpiarCampos();
+            btnGuardar.Enabled = false;
         }
 
         private void dgvProductos_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -228,16 +234,34 @@ namespace TecnoLabsSA_Proyecto1
         {
             Productos producto = new Productos();
 
-            producto.IdProducto = int.Parse(dgvProductos.CurrentRow.Cells["IdProducto"].Value.ToString());
-            producto.Marca = texMarca.Text;
-            producto.Modelo = texModelo.Text;
-            producto.Precio = decimal.Parse(texPrecio.Text);
-            producto.Stock = int.Parse(texStock.Text);
-            producto.IdCategoria = int.Parse(cmbIdCategoria.Text);
+            try
+            {
+                producto.IdProducto = int.Parse(dgvProductos.CurrentRow.Cells["IdProducto"].Value.ToString());
+                producto.Marca = texMarca.Text;
+                producto.Modelo = texModelo.Text;
+                producto.Precio = decimal.Parse(texPrecio.Text);
+                producto.Stock = int.Parse(texStock.Text);
+                producto.IdCategoria = int.Parse(cmbIdCategoria.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Verifique que los campos contengan el tipo de dato esperado", "Error de tipeo");
+                MessageBox.Show(ex.Message, "Error");
+            }
 
             return producto;
         }
+        public void DesactivarCampos()
+        {
+            texMarca.Enabled = false;
+            texModelo.Enabled = false;
+            texPrecio.Enabled = false;
+            texStock.Enabled = false;
+            cmbIdCategoria.Enabled = false;
 
+            BtnGuardarProducto.Enabled = false;
+            btnEliminarProducto.Enabled = false;
+        }
         private void BtnGuardarProducto_Click(object sender, EventArgs e)
         {
             try
@@ -253,6 +277,8 @@ namespace TecnoLabsSA_Proyecto1
                 MessageBox.Show("Error de conexión con la base de datos", "ERROR");
                 MessageBox.Show(ex.Message);
             }
+            LimpiarCamposEditar();
+            DesactivarCampos();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -281,7 +307,8 @@ namespace TecnoLabsSA_Proyecto1
 
                 MessageBox.Show("Registro eliminado correctamente");
                 Cargar();
-
+                LimpiarCamposEditar();
+                DesactivarCampos();
             }
         }
 
@@ -289,14 +316,25 @@ namespace TecnoLabsSA_Proyecto1
         {
             try
             {
-                dgvProductos.DataSource = CnProductos.Buscar(txtBuscarProducto.Text);
+                dgvProductos.DataSource = null;
+                List<Productos> productos = CnProductos.Buscar(txtBuscarProducto.Text);
 
-                dgvProductos.Columns["IdProducto"].DisplayIndex = 0;
-                dgvProductos.Columns["Marca"].DisplayIndex = 1;
-                dgvProductos.Columns["Modelo"].DisplayIndex = 2;
-                dgvProductos.Columns["Precio"].DisplayIndex = 3;
-                dgvProductos.Columns["Stock"].DisplayIndex = 4;
-                dgvProductos.Columns["IdCategoria"].DisplayIndex = 5;
+                if (productos == null || productos.Count == 0)
+                {
+                    MessageBox.Show("No se encontraron resultados para la búsqueda", "Resultado de búsqueda");
+                }
+                else
+                {
+                     // Si hay resultados, se muestran en el DataGridView
+                    dgvProductos.DataSource = productos;
+
+                    dgvProductos.Columns["IdProducto"].DisplayIndex = 0;
+                    dgvProductos.Columns["Marca"].DisplayIndex = 1;
+                    dgvProductos.Columns["Modelo"].DisplayIndex = 2;
+                    dgvProductos.Columns["Precio"].DisplayIndex = 3;
+                    dgvProductos.Columns["Stock"].DisplayIndex = 4;
+                    dgvProductos.Columns["IdCategoria"].DisplayIndex = 5;
+                }
             }
             catch (Exception ex)
             {
@@ -308,6 +346,8 @@ namespace TecnoLabsSA_Proyecto1
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
             gbxFiltros.Visible = !gbxFiltros.Visible;
+            txtFiltroOrden.Text = "";
+            txtFiltroCategoria.Text = "";
         }
 
         private void btnAplicarFiltros_Click(object sender, EventArgs e)
@@ -330,6 +370,29 @@ namespace TecnoLabsSA_Proyecto1
             {
                 MessageBox.Show("Error de conexión con la base de datos", "ERROR");
                 MessageBox.Show(ex.Message);
+            }
+        }
+        public void LimpiarDataGrid()
+        {
+            dgvProductos.DataSource = null;
+            dgvProductos.Rows.Clear();
+            dgvProductos.Columns.Clear();
+        }
+        private void btnCancelarBuscar_Click(object sender, EventArgs e)
+        {
+            txtBuscarProducto.Text = "";
+            LimpiarDataGrid();
+        }
+
+        private void txtFiltroCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (txtFiltroCategoria.SelectedIndex != -1 || txtFiltroOrden.SelectedIndex != -1)
+            {
+                btnAplicarFiltros.Enabled = true;
+            }
+            else
+            {
+                btnAplicarFiltros.Enabled = false;
             }
         }
     }

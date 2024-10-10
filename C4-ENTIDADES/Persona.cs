@@ -34,6 +34,10 @@ namespace C4_ENTIDADES
                 else throw new ArgumentException("El email debe ser valido");
             } 
         }
+        protected Persona()
+        {
+            
+        }
         public Persona(int Id, int edad, int dni, string nombre, string apellido, string direccion, string email)
         {
             this.ID = Id;

@@ -165,6 +165,7 @@
             this.TextBoxTablets1.ForeColor = System.Drawing.Color.Black;
             this.TextBoxTablets1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxTablets1.Location = new System.Drawing.Point(93, 180);
+            this.TextBoxTablets1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxTablets1.Name = "TextBoxTablets1";
             this.TextBoxTablets1.PasswordChar = '\0';
             this.TextBoxTablets1.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -190,6 +191,7 @@
             this.TextBoxTablets2.ForeColor = System.Drawing.Color.Black;
             this.TextBoxTablets2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxTablets2.Location = new System.Drawing.Point(447, 179);
+            this.TextBoxTablets2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxTablets2.Name = "TextBoxTablets2";
             this.TextBoxTablets2.PasswordChar = '\0';
             this.TextBoxTablets2.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -215,6 +217,7 @@
             this.TextBoxTablets3.ForeColor = System.Drawing.Color.Black;
             this.TextBoxTablets3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxTablets3.Location = new System.Drawing.Point(790, 183);
+            this.TextBoxTablets3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxTablets3.Name = "TextBoxTablets3";
             this.TextBoxTablets3.PasswordChar = '\0';
             this.TextBoxTablets3.PlaceholderForeColor = System.Drawing.Color.Black;
@@ -553,6 +556,7 @@
             this.BtnComprarTablet2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.BtnComprarTablet2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.BtnComprarTablet2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnComprarTablet2.Enabled = false;
             this.BtnComprarTablet2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarTablet2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarTablet2.ForeColor = System.Drawing.Color.White;
@@ -570,6 +574,7 @@
             this.BtnComprarTablet1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.BtnComprarTablet1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.BtnComprarTablet1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnComprarTablet1.Enabled = false;
             this.BtnComprarTablet1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarTablet1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarTablet1.ForeColor = System.Drawing.Color.White;
@@ -587,6 +592,7 @@
             this.BtnComprarTablet3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.BtnComprarTablet3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.BtnComprarTablet3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnComprarTablet3.Enabled = false;
             this.BtnComprarTablet3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(25)))), ((int)(((byte)(71)))));
             this.BtnComprarTablet3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnComprarTablet3.ForeColor = System.Drawing.Color.White;
@@ -612,6 +618,7 @@
             this.BtnAgregaralCarritoTablet3.Size = new System.Drawing.Size(174, 35);
             this.BtnAgregaralCarritoTablet3.TabIndex = 106;
             this.BtnAgregaralCarritoTablet3.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoTablet3.Click += new System.EventHandler(this.BtnAgregaralCarritoTablet3_Click);
             // 
             // BtnAgregaralCarritoTablet1
             // 
@@ -629,6 +636,7 @@
             this.BtnAgregaralCarritoTablet1.Size = new System.Drawing.Size(174, 33);
             this.BtnAgregaralCarritoTablet1.TabIndex = 107;
             this.BtnAgregaralCarritoTablet1.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoTablet1.Click += new System.EventHandler(this.BtnAgregaralCarritoTablet1_Click);
             // 
             // BtnAgregaralCarritoTablet2
             // 
@@ -646,6 +654,7 @@
             this.BtnAgregaralCarritoTablet2.Size = new System.Drawing.Size(174, 33);
             this.BtnAgregaralCarritoTablet2.TabIndex = 105;
             this.BtnAgregaralCarritoTablet2.Text = "Agregar al Carrito";
+            this.BtnAgregaralCarritoTablet2.Click += new System.EventHandler(this.BtnAgregaralCarritoTablet2_Click);
             // 
             // TextBoxstoTablet2
             // 
@@ -988,7 +997,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(2)))), ((int)(((byte)(36)))));
-            this.ClientSize = new System.Drawing.Size(1104, 551);
+            this.ClientSize = new System.Drawing.Size(1035, 551);
             this.Controls.Add(this.BtnVolverTablets);
             this.Controls.Add(this.TextBoxstoTablet3);
             this.Controls.Add(this.TextBoxstoTablet1);
