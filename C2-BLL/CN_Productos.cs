@@ -99,5 +99,14 @@ namespace C2_BLL
                 return false;
             }
         }
+        public int RealizarCompra(string metodoPago)
+        {
+            int idCompra = 0;
+            Clientes cliente = new Clientes();
+            cliente.IdCliente = GestorCompra.Instancia.ClienteActual.IdCliente;
+
+            idCompra = conexion.CrearCompra(cliente, metodoPago);
+            return idCompra;
+        }
     }
 }

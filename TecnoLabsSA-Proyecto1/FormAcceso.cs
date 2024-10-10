@@ -119,11 +119,19 @@ namespace TecnoLabsSA_Proyecto1
         private void BtnRegistrarCliente_Click(object sender, EventArgs e)
         {
             Clientes persona = new Clientes();
-            persona.Nombre = txtNombreCliente.Text;
-            persona.Apellido = txtApellido.Text;
-            persona.Edad = int.Parse(txtEdad.Text);
-            persona.Email = txtEmailRegistro.Text;
-            persona.Direccion = txtDireccion.Text;
+            try
+            {
+                persona.Nombre = txtNombreCliente.Text;
+                persona.Apellido = txtApellido.Text;
+                persona.Edad = int.Parse(txtEdad.Text);
+                persona.Email = txtEmailRegistro.Text;
+                persona.Direccion = txtDireccion.Text;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Verifique que los campos contengan el tipo de dato esperado", "Error de tipeo");
+                MessageBox.Show(ex.Message, "Error");
+            }
 
             bool esRegistrado = CnProductos.NuevoRegistro(persona);
             if (esRegistrado == true)

@@ -166,23 +166,36 @@ namespace C3_DAL
         public List<Productos> BuscarProductos(string marca)
         {
             List<Productos> listProductos = new List<Productos>();
-            conexion.Open();
-            comando.CommandText = "SELECT * FROM Productos WHERE Marca = '" + marca + "'";
-
-            lector = comando.ExecuteReader();
-            while (lector.Read())
+            try
             {
-                Productos producto = new Productos();
-                producto.IdProducto = lector.GetInt32(0);
-                producto.Marca = lector.GetString(1);
-                producto.Modelo = lector.GetString(2);
-                producto.Precio = lector.GetDecimal(3);
-                producto.Stock = lector.GetInt32(4);
-                producto.IdCategoria = lector.GetInt32(5);
+                conexion.Open();
+                comando.Parameters.Clear();
+                comando.Parameters.AddWithValue("@marca", "%" + marca + "%");
+                comando.CommandText = "SELECT * FROM Productos WHERE Marca LIKE @marca";
 
-                listProductos.Add(producto);
+                lector = comando.ExecuteReader();
+                while (lector.Read())
+                {
+                    Productos producto = new Productos();
+                    producto.IdProducto = lector.GetInt32(0);
+                    producto.Marca = lector.GetString(1);
+                    producto.Modelo = lector.GetString(2);
+                    producto.Precio = lector.GetDecimal(3);
+                    producto.Stock = lector.GetInt32(4);
+                    producto.IdCategoria = lector.GetInt32(5);
+
+                    listProductos.Add(producto);
+                }
             }
-            conexion.Close();
+            catch (Exception ex)
+            {
+                throw new Exception("Error al buscar productos: " + ex.Message);
+            }
+            finally
+            {
+                conexion.Close();
+            }
+
             return listProductos;
         }
         public List<Productos> FiltrarProductos(int categoria, string orden)
@@ -284,7 +297,7 @@ namespace C3_DAL
             catch (Exception ex)
             {
                 transaccion.Rollback();
-                throw ex;
+               //trow ex;
             }
             finally
             {
@@ -298,6 +311,63 @@ namespace C3_DAL
 
             return nuevoUsuario;
         }
+        public int CrearCompra(Clientes cliente, string metodoPago)
+        {
+            int idCarrito = 0;
+            int idCompra = 0;
 
+            conexion.Open();
+            SqlTransaction transaccion = conexion.BeginTransaction();
+            try
+            {
+                comando = new SqlCommand("INSERT INTO Carrito (IdCliente, MetodoPago) OUTPUT INSERTED.IdCarrito VALUES (@idCliente, @metodoPago)", conexion, transaccion);
+                comando.Parameters.Clear();
+                comando.Parameters.AddWithValue("@idCliente", cliente.IdCliente);
+                comando.Parameters.AddWithValue("@metodoPago", metodoPago);
+
+                idCarrito = (int)comando.ExecuteScalar();
+
+                comando = new SqlCommand("INSERT INTO Compra (IdCarrito, IdCliente, MetodoPago) OUTPUT INSERTED.IdCompra VALUES (@idCarrito, @idCliente, @metodoPago)", conexion, transaccion);
+                comando.Parameters.Clear();
+                comando.Parameters.AddWithValue("@idCarrito", idCarrito);
+                comando.Parameters.AddWithValue("@idCliente", cliente.IdCliente);
+                comando.Parameters.AddWithValue("@metodoPago", metodoPago);
+
+                idCompra = (int)comando.ExecuteScalar();
+
+                /*List<Productos> listProductos = CarritoCompra.Instancia.listProductos;
+                if (listProductos != null && listProductos.Count > 0)  // Verificar si hay productos en la lista
+                {
+                    foreach (Productos producto in listProductos)
+                    {
+                        comando = new SqlCommand("INSERT INTO CarritoProducto (IdCarrito, IdProducto, Cantidad, Precio) VALUES (@idCarrito, @idProducto, @cantidad, @precio)", conexion, transaccion);
+                        comando.Parameters.Clear();
+                        comando.Parameters.AddWithValue("@idCarrito", idCarrito);
+                        comando.Parameters.AddWithValue("@idProducto", producto.IdProducto);
+                        comando.Parameters.AddWithValue("@cantidad", 1);
+                        comando.Parameters.AddWithValue("@precio", producto.Precio);
+
+                        comando.ExecuteNonQuery();
+                    }
+                }
+                else
+                {
+                    throw new Exception("No hay productos en el carrito.");
+                }*/
+                transaccion.Commit();
+            }
+            catch (Exception ex)
+            {
+                transaccion.Rollback();
+                
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+
+            return idCompra;
+        }
     }
 }

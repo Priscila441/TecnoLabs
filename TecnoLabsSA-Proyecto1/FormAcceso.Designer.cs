@@ -58,6 +58,8 @@
             this.BtnCliente = new FontAwesome.Sharp.IconButton();
             this.ContenedorAdministrador = new Guna.UI2.WinForms.Guna2Panel();
             this.panelRegistroCliente = new Guna.UI2.WinForms.Guna2Panel();
+            this.txtMetodoPago = new System.Windows.Forms.ComboBox();
+            this.txtEdad = new Guna.UI2.WinForms.Guna2TextBox();
             this.IngresaCliente = new System.Windows.Forms.Label();
             this.YatienescuantaCliente = new System.Windows.Forms.Label();
             this.BtnRegistrarCliente = new Guna.UI2.WinForms.Guna2Button();
@@ -75,8 +77,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.BtnVolverAdmin = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.txtEdad = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtMetodoPago = new System.Windows.Forms.ComboBox();
             this.panelSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxSale30)).BeginInit();
             this.panelMenuCategorias.SuspendLayout();
@@ -531,7 +531,49 @@
             this.panelRegistroCliente.Size = new System.Drawing.Size(483, 368);
             this.panelRegistroCliente.TabIndex = 19;
             this.panelRegistroCliente.Visible = false;
-            
+            // 
+            // txtMetodoPago
+            // 
+            this.txtMetodoPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtMetodoPago.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txtMetodoPago.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtMetodoPago.FormattingEnabled = true;
+            this.txtMetodoPago.Items.AddRange(new object[] {
+            "Tarjeta de crédito",
+            "Tarjeta de débito",
+            "PayPal",
+            "Apple Pay",
+            "Google Pay"});
+            this.txtMetodoPago.Location = new System.Drawing.Point(110, 235);
+            this.txtMetodoPago.Name = "txtMetodoPago";
+            this.txtMetodoPago.Size = new System.Drawing.Size(278, 31);
+            this.txtMetodoPago.TabIndex = 6;
+            // 
+            // txtEdad
+            // 
+            this.txtEdad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEdad.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEdad.BorderRadius = 10;
+            this.txtEdad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtEdad.DefaultText = "";
+            this.txtEdad.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtEdad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtEdad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtEdad.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtEdad.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
+            this.txtEdad.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtEdad.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEdad.ForeColor = System.Drawing.Color.Black;
+            this.txtEdad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtEdad.Location = new System.Drawing.Point(110, 130);
+            this.txtEdad.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.PasswordChar = '\0';
+            this.txtEdad.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtEdad.PlaceholderText = "    Edad";
+            this.txtEdad.SelectedText = "";
+            this.txtEdad.Size = new System.Drawing.Size(278, 31);
+            this.txtEdad.TabIndex = 3;
             // 
             // IngresaCliente
             // 
@@ -604,7 +646,7 @@
             this.txtNombreCliente.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
             this.txtNombreCliente.BorderRadius = 10;
             this.txtNombreCliente.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNombreCliente.DefaultText = "    Nombre";
+            this.txtNombreCliente.DefaultText = "";
             this.txtNombreCliente.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtNombreCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtNombreCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -619,7 +661,7 @@
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.PasswordChar = '\0';
             this.txtNombreCliente.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.txtNombreCliente.PlaceholderText = "    Contraseña";
+            this.txtNombreCliente.PlaceholderText = "    Nombre";
             this.txtNombreCliente.SelectedText = "";
             this.txtNombreCliente.Size = new System.Drawing.Size(278, 31);
             this.txtNombreCliente.TabIndex = 1;
@@ -833,49 +875,6 @@
             this.BtnVolverAdmin.TabIndex = 19;
             this.BtnVolverAdmin.Text = "VOLVER";
             this.BtnVolverAdmin.Click += new System.EventHandler(this.BtnVolverAdmin_Click);
-            // 
-            // txtEdad
-            // 
-            this.txtEdad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.txtEdad.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.txtEdad.BorderRadius = 10;
-            this.txtEdad.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtEdad.DefaultText = "";
-            this.txtEdad.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtEdad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtEdad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtEdad.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtEdad.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.txtEdad.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEdad.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEdad.ForeColor = System.Drawing.Color.Black;
-            this.txtEdad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEdad.Location = new System.Drawing.Point(110, 130);
-            this.txtEdad.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.txtEdad.Name = "txtEdad";
-            this.txtEdad.PasswordChar = '\0';
-            this.txtEdad.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.txtEdad.PlaceholderText = "    Edad";
-            this.txtEdad.SelectedText = "";
-            this.txtEdad.Size = new System.Drawing.Size(278, 31);
-            this.txtEdad.TabIndex = 3;
-            // 
-            // txtMetodoPago
-            // 
-            this.txtMetodoPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(171)))), ((int)(((byte)(140)))));
-            this.txtMetodoPago.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.txtMetodoPago.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.txtMetodoPago.FormattingEnabled = true;
-            this.txtMetodoPago.Items.AddRange(new object[] {
-            "Tarjeta de crédito",
-            "Tarjeta de débito",
-            "PayPal",
-            "Apple Pay",
-            "Google Pay"});
-            this.txtMetodoPago.Location = new System.Drawing.Point(110, 235);
-            this.txtMetodoPago.Name = "txtMetodoPago";
-            this.txtMetodoPago.Size = new System.Drawing.Size(278, 31);
-            this.txtMetodoPago.TabIndex = 6;
             // 
             // FormAcceso
             // 

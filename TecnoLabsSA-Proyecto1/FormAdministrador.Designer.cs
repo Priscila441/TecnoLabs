@@ -54,6 +54,7 @@
             this.BtnEditarProduct = new Guna.UI2.WinForms.Guna2Button();
             this.btnMostrarProductos = new Guna.UI2.WinForms.Guna2Button();
             this.GroupBoxBuscarProducto = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.btnCancelarBuscar = new Guna.UI2.WinForms.Guna2Button();
             this.txtBuscarProducto = new Guna.UI2.WinForms.Guna2TextBox();
             this.BtnBuscarProducto = new Guna.UI2.WinForms.Guna2Button();
             this.labelBuscarProducto = new System.Windows.Forms.Label();
@@ -80,7 +81,6 @@
             this.txtFiltroCategoria = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.btnFiltrar = new Guna.UI2.WinForms.Guna2Button();
-            this.btnCancelarBuscar = new Guna.UI2.WinForms.Guna2Button();
             this.panelEditar = new System.Windows.Forms.Panel();
             this.panelBuscar = new System.Windows.Forms.Panel();
             this.panelAgregar = new System.Windows.Forms.Panel();
@@ -541,6 +541,25 @@
             this.GroupBoxBuscarProducto.TabIndex = 16;
             this.GroupBoxBuscarProducto.Text = "Buscar Producto";
             // 
+            // btnCancelarBuscar
+            // 
+            this.btnCancelarBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(111)))), ((int)(((byte)(158)))));
+            this.btnCancelarBuscar.BorderRadius = 15;
+            this.btnCancelarBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelarBuscar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCancelarBuscar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCancelarBuscar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCancelarBuscar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCancelarBuscar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(36)))), ((int)(((byte)(76)))));
+            this.btnCancelarBuscar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarBuscar.ForeColor = System.Drawing.Color.White;
+            this.btnCancelarBuscar.Location = new System.Drawing.Point(696, 74);
+            this.btnCancelarBuscar.Name = "btnCancelarBuscar";
+            this.btnCancelarBuscar.Size = new System.Drawing.Size(148, 32);
+            this.btnCancelarBuscar.TabIndex = 15;
+            this.btnCancelarBuscar.Text = "Cancelar";
+            this.btnCancelarBuscar.Click += new System.EventHandler(this.btnCancelarBuscar_Click);
+            // 
             // txtBuscarProducto
             // 
             this.txtBuscarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(111)))), ((int)(((byte)(158)))));
@@ -899,6 +918,7 @@
             this.btnAplicarFiltros.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAplicarFiltros.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnAplicarFiltros.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAplicarFiltros.Enabled = false;
             this.btnAplicarFiltros.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(36)))), ((int)(((byte)(76)))));
             this.btnAplicarFiltros.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAplicarFiltros.ForeColor = System.Drawing.Color.White;
@@ -948,6 +968,7 @@
             this.txtFiltroCategoria.Name = "txtFiltroCategoria";
             this.txtFiltroCategoria.Size = new System.Drawing.Size(148, 25);
             this.txtFiltroCategoria.TabIndex = 13;
+            this.txtFiltroCategoria.SelectedIndexChanged += new System.EventHandler(this.txtFiltroCategoria_SelectedIndexChanged);
             // 
             // label11
             // 
@@ -978,25 +999,6 @@
             this.btnFiltrar.TabIndex = 30;
             this.btnFiltrar.Text = "Filtrar Productos";
             this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
-            // 
-            // btnCancelarBuscar
-            // 
-            this.btnCancelarBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(111)))), ((int)(((byte)(158)))));
-            this.btnCancelarBuscar.BorderRadius = 15;
-            this.btnCancelarBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelarBuscar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCancelarBuscar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCancelarBuscar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCancelarBuscar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCancelarBuscar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(36)))), ((int)(((byte)(76)))));
-            this.btnCancelarBuscar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnCancelarBuscar.Location = new System.Drawing.Point(696, 74);
-            this.btnCancelarBuscar.Name = "btnCancelarBuscar";
-            this.btnCancelarBuscar.Size = new System.Drawing.Size(148, 32);
-            this.btnCancelarBuscar.TabIndex = 15;
-            this.btnCancelarBuscar.Text = "Cancelar";
-            this.btnCancelarBuscar.Click += new System.EventHandler(this.btnCancelarBuscar_Click);
             // 
             // panelEditar
             // 

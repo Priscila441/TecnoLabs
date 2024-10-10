@@ -234,12 +234,20 @@ namespace TecnoLabsSA_Proyecto1
         {
             Productos producto = new Productos();
 
-            producto.IdProducto = int.Parse(dgvProductos.CurrentRow.Cells["IdProducto"].Value.ToString());
-            producto.Marca = texMarca.Text;
-            producto.Modelo = texModelo.Text;
-            producto.Precio = decimal.Parse(texPrecio.Text);
-            producto.Stock = int.Parse(texStock.Text);
-            producto.IdCategoria = int.Parse(cmbIdCategoria.Text);
+            try
+            {
+                producto.IdProducto = int.Parse(dgvProductos.CurrentRow.Cells["IdProducto"].Value.ToString());
+                producto.Marca = texMarca.Text;
+                producto.Modelo = texModelo.Text;
+                producto.Precio = decimal.Parse(texPrecio.Text);
+                producto.Stock = int.Parse(texStock.Text);
+                producto.IdCategoria = int.Parse(cmbIdCategoria.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Verifique que los campos contengan el tipo de dato esperado", "Error de tipeo");
+                MessageBox.Show(ex.Message, "Error");
+            }
 
             return producto;
         }
@@ -308,14 +316,25 @@ namespace TecnoLabsSA_Proyecto1
         {
             try
             {
-                dgvProductos.DataSource = CnProductos.Buscar(txtBuscarProducto.Text);
+                dgvProductos.DataSource = null;
+                List<Productos> productos = CnProductos.Buscar(txtBuscarProducto.Text);
 
-                dgvProductos.Columns["IdProducto"].DisplayIndex = 0;
-                dgvProductos.Columns["Marca"].DisplayIndex = 1;
-                dgvProductos.Columns["Modelo"].DisplayIndex = 2;
-                dgvProductos.Columns["Precio"].DisplayIndex = 3;
-                dgvProductos.Columns["Stock"].DisplayIndex = 4;
-                dgvProductos.Columns["IdCategoria"].DisplayIndex = 5;
+                if (productos == null || productos.Count == 0)
+                {
+                    MessageBox.Show("No se encontraron resultados para la búsqueda", "Resultado de búsqueda");
+                }
+                else
+                {
+                     // Si hay resultados, se muestran en el DataGridView
+                    dgvProductos.DataSource = productos;
+
+                    dgvProductos.Columns["IdProducto"].DisplayIndex = 0;
+                    dgvProductos.Columns["Marca"].DisplayIndex = 1;
+                    dgvProductos.Columns["Modelo"].DisplayIndex = 2;
+                    dgvProductos.Columns["Precio"].DisplayIndex = 3;
+                    dgvProductos.Columns["Stock"].DisplayIndex = 4;
+                    dgvProductos.Columns["IdCategoria"].DisplayIndex = 5;
+                }
             }
             catch (Exception ex)
             {
@@ -327,6 +346,8 @@ namespace TecnoLabsSA_Proyecto1
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
             gbxFiltros.Visible = !gbxFiltros.Visible;
+            txtFiltroOrden.Text = "";
+            txtFiltroCategoria.Text = "";
         }
 
         private void btnAplicarFiltros_Click(object sender, EventArgs e)
@@ -361,6 +382,18 @@ namespace TecnoLabsSA_Proyecto1
         {
             txtBuscarProducto.Text = "";
             LimpiarDataGrid();
+        }
+
+        private void txtFiltroCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (txtFiltroCategoria.SelectedIndex != -1 || txtFiltroOrden.SelectedIndex != -1)
+            {
+                btnAplicarFiltros.Enabled = true;
+            }
+            else
+            {
+                btnAplicarFiltros.Enabled = false;
+            }
         }
     }
 }
