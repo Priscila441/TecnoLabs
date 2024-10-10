@@ -20,5 +20,8 @@ publish/
 # Archivos temporales generados
 *.tmp
 *.AssemblyReference.cache
+# Ignorar archivos de depuración
+**/bin/Debug/
+**/obj/Debug/
 *.pdb
 *.dll

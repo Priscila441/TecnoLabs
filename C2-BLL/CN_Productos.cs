@@ -31,5 +31,39 @@ namespace C2_BLL
             }
             else return null;
         }
+        public void Editar(Productos producto)
+        {
+            if (producto == null) stringBuilder.Append("Proporcione valores válidos");
+
+            if (stringBuilder.Length == 0)
+            {
+                conexion.EditarProducto(producto);
+            }
+        }
+        public void Eliminar(Productos producto)
+        {
+            if (producto == null) stringBuilder.Append("Proporcione valores válidos");
+
+            if (stringBuilder.Length == 0)
+            {
+                conexion.EliminarProducto(producto);
+            }
+        }
+        public List<Productos> Buscar(string marca)
+        {
+            if (conexion.BuscarProductos(marca).Count > 0)
+            {
+                return conexion.BuscarProductos(marca);
+            }
+            else return null;
+        }
+        public List<Productos> AplicarFiltros(int categoria, string orden)
+        {
+            if (conexion.FiltrarProductos(categoria, orden).Count > 0)
+            {
+                return conexion.FiltrarProductos(categoria, orden);
+            }
+            else return null;
+        }
     }
 }

@@ -86,12 +86,14 @@ namespace TecnoLabsSA_Proyecto1
         private void BntIconoNotebooks_Click(object sender, EventArgs e)
         {
             AbrirFrmEnPanel(new FormNotebooks());
+            panelNotebooks.Visible = !panelNotebooks.Visible;
         }
 
         //Realizamos Click en el Boton "Tablets" y nos abre en el contenedor el form de "Tablets"
         private void BntIconoTablets_Click(object sender, EventArgs e)
         {
             AbrirFrmEnPanel(new FormTablets());
+            panelTablets.Visible = !panelTablets.Visible;
         }
 
         //Realizamos click para cerrar la App
@@ -103,27 +105,29 @@ namespace TecnoLabsSA_Proyecto1
         private void BtnCarritoo_Click(object sender, EventArgs e)
         {
             AbrirFrmEnPanel(new FormCarrito());
+            PanelCarrito.Visible = !PanelCarrito.Visible;
         }
         //Realizamos Click en el Boton "Accede a tu cuenta y nos abre en el contenedor el form de Acceso
         private void BntIconoAcceder_Click_1(object sender, EventArgs e)
         {
             // Limpiar solo si hay controles de FormAcceso
-            /*if (panelPrincipal.Controls.Count > 0)
+            if (panelPrincipal.Controls.Count > 0)
                 panelPrincipal.Controls.Clear();
 
             FormAcceso formAcceso = new FormAcceso();
             formAcceso.TopLevel = false;
             formAcceso.Dock = DockStyle.Fill;
             panelPrincipal.Controls.Add(formAcceso);
-            formAcceso.Show();*/
+            formAcceso.Show();
             SubPanelAdministrador.Visible = !SubPanelAdministrador.Visible;
-            AbrirFrmEnPanel(new FormAcceso());
+            
 
         }
         //Realizamos Click en el Boton "Celular" y nos abre en el contenedor el form de "Celular"
         private void BntIconoCelular_Click(object sender, EventArgs e)
         {
             AbrirFrmEnPanel(new FormCelulares());
+            panelCelular.Visible = !panelCelular.Visible;
         }
     }
 }

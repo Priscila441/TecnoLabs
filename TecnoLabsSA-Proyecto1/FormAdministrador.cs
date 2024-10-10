@@ -125,11 +125,11 @@ namespace TecnoLabsSA_Proyecto1
         {
             int idCategoria = 0;
 
-            if (cmbText == "Celular") idCategoria = 1;
+            if (cmbText == "Celulares") idCategoria = 1;
 
-            if (cmbText == "Tablet") idCategoria = 2;
+            if (cmbText == "Tablets") idCategoria = 2;
 
-            if (cmbText == "Notebook") idCategoria = 3;
+            if (cmbText == "Notebooks") idCategoria = 3;
 
             return idCategoria;
         }
@@ -140,6 +140,25 @@ namespace TecnoLabsSA_Proyecto1
             txtPrecio.Text = "";
             txtStock.Text = "";
             cmbCategoria.Text = "";
+        }
+        public void LimpiarCamposEditar()
+        {
+            texMarca.Text = "";
+            texModelo.Text = "";
+            texPrecio.Text = "";
+            texStock.Text = "";
+            cmbIdCategoria.Text = "";
+        }
+        public void ActivarCampos()
+        {
+            texMarca.Enabled = true;
+            texModelo.Enabled = true;
+            texPrecio.Enabled = true;
+            texStock.Enabled = true;
+            cmbIdCategoria.Enabled = true;
+
+            BtnGuardarProducto.Enabled = true;
+            btnEliminarProducto.Enabled = true;
         }
         public bool ComprobarCampos()
         {
@@ -189,6 +208,128 @@ namespace TecnoLabsSA_Proyecto1
                     MessageBox.Show("Error de conexión con la base de datos", "ERROR");
                     MessageBox.Show(ex.Message);
                 }
+            }
+        }
+
+        private void FormAdministrador_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvProductos_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            texMarca.Text = dgvProductos.CurrentRow.Cells["Marca"].Value.ToString();
+            texModelo.Text = dgvProductos.CurrentRow.Cells["Modelo"].Value.ToString();
+            texPrecio.Text = dgvProductos.CurrentRow.Cells["Precio"].Value.ToString();
+            texStock.Text = dgvProductos.CurrentRow.Cells["Stock"].Value.ToString();
+            cmbIdCategoria.Text = dgvProductos.CurrentRow.Cells["IdCategoria"].Value.ToString();
+        }
+        public Productos ObtenerProducto()
+        {
+            Productos producto = new Productos();
+
+            producto.IdProducto = int.Parse(dgvProductos.CurrentRow.Cells["IdProducto"].Value.ToString());
+            producto.Marca = texMarca.Text;
+            producto.Modelo = texModelo.Text;
+            producto.Precio = decimal.Parse(texPrecio.Text);
+            producto.Stock = int.Parse(texStock.Text);
+            producto.IdCategoria = int.Parse(cmbIdCategoria.Text);
+
+            return producto;
+        }
+
+        private void BtnGuardarProducto_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Productos producto = new Productos();
+                producto = ObtenerProducto();
+                CnProductos.Editar(producto);
+                LimpiarCamposEditar();
+                Cargar();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error de conexión con la base de datos", "ERROR");
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            LimpiarCampos();
+        }
+
+        private void BtnCancelarProducto_Click(object sender, EventArgs e)
+        {
+            LimpiarCamposEditar();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            ActivarCampos();
+        }
+
+        private void btnEliminarProducto_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Quieres eliminar este Producto?", "Confirmar de Eliminación", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                Productos producto = new Productos();
+                producto = ObtenerProducto();
+
+                CnProductos.Eliminar(producto);
+
+                MessageBox.Show("Registro eliminado correctamente");
+                Cargar();
+
+            }
+        }
+
+        private void BtnBuscarProducto_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                dgvProductos.DataSource = CnProductos.Buscar(txtBuscarProducto.Text);
+
+                dgvProductos.Columns["IdProducto"].DisplayIndex = 0;
+                dgvProductos.Columns["Marca"].DisplayIndex = 1;
+                dgvProductos.Columns["Modelo"].DisplayIndex = 2;
+                dgvProductos.Columns["Precio"].DisplayIndex = 3;
+                dgvProductos.Columns["Stock"].DisplayIndex = 4;
+                dgvProductos.Columns["IdCategoria"].DisplayIndex = 5;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error de conexión con la base de datos", "ERROR");
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnFiltrar_Click(object sender, EventArgs e)
+        {
+            gbxFiltros.Visible = !gbxFiltros.Visible;
+        }
+
+        private void btnAplicarFiltros_Click(object sender, EventArgs e)
+        {
+            int idCategoria = ObtenerIdCategoria(txtFiltroCategoria.Text);
+            string orden = txtFiltroOrden.Text;
+
+            try
+            {
+                dgvProductos.DataSource = CnProductos.AplicarFiltros(idCategoria, orden);
+
+                dgvProductos.Columns["IdProducto"].DisplayIndex = 0;
+                dgvProductos.Columns["Marca"].DisplayIndex = 1;
+                dgvProductos.Columns["Modelo"].DisplayIndex = 2;
+                dgvProductos.Columns["Precio"].DisplayIndex = 3;
+                dgvProductos.Columns["Stock"].DisplayIndex = 4;
+                dgvProductos.Columns["IdCategoria"].DisplayIndex = 5;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error de conexión con la base de datos", "ERROR");
+                MessageBox.Show(ex.Message);
             }
         }
     }

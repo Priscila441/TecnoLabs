@@ -4,8 +4,6 @@
 # Ignorar binarios compilados
 bin/
 obj/
-/obj/
-
 
 # Archivos de publicación
 publish/
@@ -19,9 +17,11 @@ publish/
 
 # Archivos temporales generados
 *.tmp
-*.AssemblyReference.cache
-*.pdb
-*.dll
+
+# Ignorar binarios y objetos compilados
+**/bin/
+**/obj/
+/TecnoLabsSA-Proyecto1/obj/Debug/C1-UI.csproj.AssemblyReference.cache
 /TecnoLabsSA-Proyecto1/obj/Debug/DesignTimeResolveAssemblyReferences.cache
-/.vs/TecnoLabsSA-Proyecto1/v17/DocumentLayout.json
-/.vs/TecnoLabsSA-Proyecto1/v17/DocumentLayout.backup.json
+/.vs/TecnoLabsSA-Proyecto1/FileContentIndex/efb6ab62-ea7c-454c-9e63-2f8700a45245.vsidx
+
